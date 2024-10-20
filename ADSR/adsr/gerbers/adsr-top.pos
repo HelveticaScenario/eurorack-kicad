@@ -1,0 +1,61 @@
+### Footprint positions - created on 2024-09-03T20:53:36-0400 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref          Val                 Package                                                 PosX       PosY       Rot  Side
+Attack         1M                  Alpha9mmPot                                          60.9000   -67.8125    0.0000  top
+Attenuverter   100k                Alpha9mmPot                                          79.1000  -128.3000    0.0000  top
+C1             10n                 C_Disc_D5.0mm_W2.5mm_P5.00mm                         96.2600  -132.1900  -90.0000  top
+C2             4.7u                C_Disc_D5.0mm_W2.5mm_P5.00mm                         74.9000   -79.0500    0.0000  top
+C3             10n                 C_Disc_D5.0mm_W2.5mm_P5.00mm                         85.1000   -68.4500    0.0000  top
+C4             2.2u                C_Disc_D5.0mm_W2.5mm_P5.00mm                         88.1000   -84.8000    0.0000  top
+C5             100n                C_Disc_D5.0mm_W2.5mm_P5.00mm                         88.2300   -89.6875    0.0000  top
+C6             100n                C_Disc_D5.0mm_W2.5mm_P5.00mm                         88.2300   -94.5750    0.0000  top
+C7             100n                C_Disc_D5.0mm_W2.5mm_P5.00mm                         88.2300   -99.4625    0.0000  top
+C8             100n                C_Disc_D5.0mm_W2.5mm_P5.00mm                         88.2000  -104.3500    0.0000  top
+C9             2.2u                C_Disc_D5.0mm_W2.5mm_P5.00mm                         96.3500   -84.8000    0.0000  top
+C10            100n                C_Disc_D5.0mm_W2.5mm_P5.00mm                         96.4000   -89.6625    0.0000  top
+C11            100n                C_Disc_D5.0mm_W2.5mm_P5.00mm                         96.4000   -94.5250    0.0000  top
+C12            100n                C_Disc_D5.0mm_W2.5mm_P5.00mm                         96.4000   -99.3875    0.0000  top
+C13            100n                C_Disc_D5.0mm_W2.5mm_P5.00mm                         96.4000  -104.2500    0.0000  top
+D1             1N4148              D_DO-35_SOD27_P7.62mm_Horizontal                     99.5700  -150.5000    0.0000  top
+D2             1N4148              D_DO-35_SOD27_P7.62mm_Horizontal                    105.2800  -132.9100   90.0000  top
+D3             1N4148              D_DO-35_SOD27_P7.62mm_Horizontal                     94.2500  -127.4600   90.0000  top
+D4             1N4148              D_DO-35_SOD27_P7.62mm_Horizontal                     76.0000   -72.9100   90.0000  top
+D5             1N4148              D_DO-35_SOD27_P7.62mm_Horizontal                     77.4500   -94.0100   90.0000  top
+D6             1N4148              D_DO-35_SOD27_P7.62mm_Horizontal                     91.5600  -109.2400    0.0000  top
+Decay          1M                  Alpha9mmPot                                          60.9000   -87.9750    0.0000  top
+Input          PJ301M-12           PJ301M-12                                            60.9000  -158.7000    0.0000  top
+Output         PJ301M-12           PJ301M-12                                            79.1000  -158.7000    0.0000  top
+Q1             BC547               TO-92_Inline                                        103.1000  -144.8400  180.0000  top
+Q2             BC547               TO-92_Inline                                        103.0200  -138.4900  180.0000  top
+Q3             BC547               TO-92_Inline                                        106.5300  -120.5000  180.0000  top
+R1             4.7k                R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    97.1300  -145.7400  180.0000  top
+R2             4.7k                R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    97.1300  -140.9500  180.0000  top
+R3             4.7k                R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal   106.6800  -115.1000  180.0000  top
+R4             4.7k                R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    72.7700  -101.5500    0.0000  top
+R5             220                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    72.5500   -95.4800   90.0000  top
+R6             220                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    70.4500   -74.3800   90.0000  top
+R7             220                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    89.6500  -128.6300   90.0000  top
+R8             10k                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    97.2800  -150.5000  180.0000  top
+R9             22k                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal   107.6600  -146.9200   90.0000  top
+R10            10k                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal   100.7600  -135.1200   90.0000  top
+R11            100k                R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    89.4700  -164.7000    0.0000  top
+R12            100k                R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    89.1700  -159.7000    0.0000  top
+R13            68k                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    70.1500  -142.9900  -90.0000  top
+R14            10k                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    70.1500  -156.8200  -90.0000  top
+Release        1M                  Alpha9mmPot                                          60.9000  -128.3000    0.0000  top
+Sustain        10k                 Alpha9mmPot                                          60.9000  -108.1375    0.0000  top
+TP1            InputThreshold      TestPoint_Loop_D2.50mm_Drill1.0mm                    52.7500  -143.4500    0.0000  top
+TP2            Reset               TestPoint_Loop_D2.50mm_Drill1.0mm                    82.6000   -61.0500    0.0000  top
+TP3            Trigger             TestPoint_Loop_D2.50mm_Drill1.0mm                    87.0625   -61.0500    0.0000  top
+TP4            Out                 TestPoint_Loop_D2.50mm_Drill1.0mm                    91.5250   -61.0500    0.0000  top
+TP5            Threshold           TestPoint_Loop_D2.50mm_Drill1.0mm                    95.9875   -61.0500    0.0000  top
+TP6            Discharge           TestPoint_Loop_D2.50mm_Drill1.0mm                   100.4500   -61.0500    0.0000  top
+TP7            BeforeAttenuverter  TestPoint_Loop_D2.50mm_Drill1.0mm                    87.6500  -112.7000    0.0000  top
+TP8            AfterAttenuverter   TestPoint_Loop_D2.50mm_Drill1.0mm                   103.3500  -164.7500    0.0000  top
+U1             ICM7555xP           DIP-8_W7.62mm                                        84.1300   -72.3800    0.0000  top
+U2             LM358               DIP794W45P254L959H508Q8                              78.9800  -111.1900    0.0000  top
+U3             LM358               DIP794W45P254L959H508Q8                              79.2500  -144.7000    0.0000  top
+U4             LM358               DIP794W45P254L959H508Q8                              60.8000  -144.7000    0.0000  top
+## End

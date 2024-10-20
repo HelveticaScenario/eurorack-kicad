@@ -1,0 +1,7 @@
+### Footprint positions - created on 2024-09-03T20:53:36-0400 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val           Package                               PosX       PosY       Rot  Side
+Power1    EURO_PWR_2x5  PinHeader_2x05_P2.54mm_Vertical   100.2000   -69.5900  180.0000  bottom
+## End

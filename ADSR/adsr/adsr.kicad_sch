@@ -2545,6 +2545,12 @@
 		(uuid "e5f080fd-2e8a-44b2-aaa3-56fe84c274c7")
 	)
 	(junction
+		(at 82.55 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea8300b0-5d0c-485c-955d-52dde995f485")
+	)
+	(junction
 		(at 210.82 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3212,16 +3218,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 167.64) (xy 87.63 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824d841f-96b8-45d4-99d1-e7bd4a80e052")
-	)
-	(wire
-		(pts
 			(xy 69.85 171.45) (xy 74.93 171.45)
 		)
 		(stroke
@@ -3572,6 +3568,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 167.64) (xy 82.55 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3837a82-12f6-44e9-9ee2-218e9921e77f")
+	)
+	(wire
+		(pts
 			(xy 237.49 81.28) (xy 237.49 92.71)
 		)
 		(stroke
@@ -3609,6 +3615,16 @@
 			(type default)
 		)
 		(uuid "c9706df0-9251-4517-80ed-da3081204589")
+	)
+	(wire
+		(pts
+			(xy 87.63 167.64) (xy 82.55 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca631e4a-2321-4369-b8ec-c484ad75223e")
 	)
 	(wire
 		(pts
@@ -4282,7 +4298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01718484-3202-48d0-93ed-e8d54a0496af")
-		(property "Reference" "J3"
+		(property "Reference" "Power1"
 			(at 248.92 27.94 0)
 			(effects
 				(font
@@ -4298,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 248.92 39.37 0)
 			(effects
 				(font
@@ -4357,7 +4373,7 @@
 		(instances
 			(project ""
 				(path "/1ccaf6b8-14b3-446f-93e3-cfa1876ea6b7"
-					(reference "J3")
+					(reference "Power1")
 					(unit 1)
 				)
 			)
@@ -4457,7 +4473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM358PE3:DIP794W45P254L959H508Q8"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -4593,7 +4609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "178d767f-81e3-44f2-8bd8-5a06ed3cde21")
-		(property "Reference" "SustainPotentiometer1"
+		(property "Reference" "Sustain1"
 			(at 102.87 123.1899 0)
 			(effects
 				(font
@@ -4650,7 +4666,7 @@
 		(instances
 			(project "adsr"
 				(path "/1ccaf6b8-14b3-446f-93e3-cfa1876ea6b7"
-					(reference "SustainPotentiometer1")
+					(reference "Sustain1")
 					(unit 1)
 				)
 			)
@@ -5036,7 +5052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 106.68 167.3352 0)
 			(effects
 				(font
@@ -5155,7 +5171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a488870-24de-4de4-ba01-77f7df65912b")
-		(property "Reference" "ReleasePotentiometer1"
+		(property "Reference" "Release1"
 			(at 120.65 76.2 90)
 			(effects
 				(font
@@ -5210,7 +5226,7 @@
 		(instances
 			(project ""
 				(path "/1ccaf6b8-14b3-446f-93e3-cfa1876ea6b7"
-					(reference "ReleasePotentiometer1")
+					(reference "Release1")
 					(unit 1)
 				)
 			)
@@ -5242,7 +5258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 91.44 169.418 90)
 			(effects
 				(font
@@ -5310,7 +5326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 205.74 94.488 90)
 			(effects
 				(font
@@ -5377,7 +5393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM358PE3:DIP794W45P254L959H508Q8"
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -5607,7 +5623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 188.9252 130.81 0)
 			(effects
 				(font
@@ -5677,7 +5693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 38.862 185.42 90)
 			(effects
 				(font
@@ -5879,7 +5895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 211.7852 144.78 0)
 			(effects
 				(font
@@ -5949,7 +5965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 223.2152 144.78 0)
 			(effects
 				(font
@@ -6016,7 +6032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 27.94 50.4952 0)
 			(effects
 				(font
@@ -6086,7 +6102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 200.3552 130.81 0)
 			(effects
 				(font
@@ -6154,7 +6170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 107.95 91.948 90)
 			(effects
 				(font
@@ -6224,7 +6240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 71.628 167.64 90)
 			(effects
 				(font
@@ -6436,7 +6452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 80.772 160.02 90)
 			(effects
 				(font
@@ -6504,7 +6520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 194.31 83.058 90)
 			(effects
 				(font
@@ -6705,7 +6721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM358PE3:DIP794W45P254L959H508Q8"
 			(at 62.23 127 0)
 			(effects
 				(font
@@ -6916,7 +6932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 146.3548 90.17 0)
 			(effects
 				(font
@@ -6968,7 +6984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "614cd712-a757-4717-bcf4-b2f460475cb4")
-		(property "Reference" "J2"
+		(property "Reference" "Output1"
 			(at 273.05 83.1849 0)
 			(effects
 				(font
@@ -7024,7 +7040,7 @@
 		(instances
 			(project "adsr"
 				(path "/1ccaf6b8-14b3-446f-93e3-cfa1876ea6b7"
-					(reference "J2")
+					(reference "Output1")
 					(unit 1)
 				)
 			)
@@ -7209,7 +7225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 118.11 173.228 90)
 			(effects
 				(font
@@ -7279,7 +7295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 188.9252 144.78 0)
 			(effects
 				(font
@@ -7349,7 +7365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM358PE3:DIP794W45P254L959H508Q8"
 			(at 275.59 133.35 0)
 			(effects
 				(font
@@ -7377,28 +7393,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "88d170b8-c45b-4d9c-93f7-3b2c2dc30831")
+			(uuid "88d170b8-c45b-4d9c-93f7-3b2c2dc30832")
 		)
 		(pin "2"
-			(uuid "854cb9da-7078-4f05-a9f8-5abf0357dbb4")
+			(uuid "854cb9da-7078-4f05-a9f8-5abf0357dbb5")
 		)
 		(pin "3"
-			(uuid "22b76f5e-37a8-4d14-8d77-a90226a69a68")
+			(uuid "22b76f5e-37a8-4d14-8d77-a90226a69a69")
 		)
 		(pin "5"
-			(uuid "4b847bef-5f68-4921-88a8-a8e0ec0b67e5")
+			(uuid "4b847bef-5f68-4921-88a8-a8e0ec0b67e6")
 		)
 		(pin "6"
-			(uuid "2130361c-b0d4-4dcf-a5c0-a9f2790f18dd")
+			(uuid "2130361c-b0d4-4dcf-a5c0-a9f2790f18de")
 		)
 		(pin "7"
-			(uuid "52d6f102-8205-45ad-93df-a5feba976e15")
+			(uuid "52d6f102-8205-45ad-93df-a5feba976e16")
 		)
 		(pin "8"
-			(uuid "213ac584-0b61-4b9e-b399-9790da4dd6f1")
+			(uuid "213ac584-0b61-4b9e-b399-9790da4dd6f2")
 		)
 		(pin "4"
-			(uuid "3b59cfef-256d-4427-8591-da5c6cdca8b2")
+			(uuid "3b59cfef-256d-4427-8591-da5c6cdca8b3")
 		)
 		(instances
 			(project ""
@@ -7503,7 +7519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 127.762 161.29 90)
 			(effects
 				(font
@@ -8009,7 +8025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM358PE3:DIP794W45P254L959H508Q8"
 			(at 166.37 92.71 0)
 			(effects
 				(font
@@ -8163,7 +8179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 211.7852 130.81 0)
 			(effects
 				(font
@@ -8233,7 +8249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 38.862 177.8 90)
 			(effects
 				(font
@@ -8351,7 +8367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93fe48bb-6576-455c-8e8f-11340342a428")
-		(property "Reference" "AttackPotentiometer1"
+		(property "Reference" "Attack1"
 			(at 120.65 93.98 90)
 			(effects
 				(font
@@ -8406,7 +8422,7 @@
 		(instances
 			(project "adsr"
 				(path "/1ccaf6b8-14b3-446f-93e3-cfa1876ea6b7"
-					(reference "AttackPotentiometer1")
+					(reference "Attack1")
 					(unit 1)
 				)
 			)
@@ -8440,7 +8456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 103.632 115.57 90)
 			(effects
 				(font
@@ -8558,7 +8574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ce879bb-ced0-4ba6-ae2e-ca3c929c70e9")
-		(property "Reference" "AttenuverterPotentiometer1"
+		(property "Reference" "Attenuverter1"
 			(at 171.45 74.9299 0)
 			(effects
 				(font
@@ -8615,7 +8631,7 @@
 		(instances
 			(project "adsr"
 				(path "/1ccaf6b8-14b3-446f-93e3-cfa1876ea6b7"
-					(reference "AttenuverterPotentiometer1")
+					(reference "Attenuverter1")
 					(unit 1)
 				)
 			)
@@ -8649,7 +8665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 200.3552 144.78 0)
 			(effects
 				(font
@@ -8910,7 +8926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c29e66e8-60aa-4c81-a72c-b18806b8fae4")
-		(property "Reference" "J1"
+		(property "Reference" "Input1"
 			(at 27.305 101.6 0)
 			(effects
 				(font
@@ -8964,7 +8980,7 @@
 		(instances
 			(project ""
 				(path "/1ccaf6b8-14b3-446f-93e3-cfa1876ea6b7"
-					(reference "J1")
+					(reference "Input1")
 					(unit 1)
 				)
 			)
@@ -9063,7 +9079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM358PE3:DIP794W45P254L959H508Q8"
 			(at 229.87 81.28 0)
 			(effects
 				(font
@@ -9133,7 +9149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c781c849-bc4e-42f2-a46e-1e39535a12b2")
-		(property "Reference" "DecayPotentiometer1"
+		(property "Reference" "Decay1"
 			(at 139.7 119.3799 0)
 			(effects
 				(font
@@ -9190,7 +9206,7 @@
 		(instances
 			(project "adsr"
 				(path "/1ccaf6b8-14b3-446f-93e3-cfa1876ea6b7"
-					(reference "DecayPotentiometer1")
+					(reference "Decay1")
 					(unit 1)
 				)
 			)
@@ -9224,7 +9240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM358PE3:DIP794W45P254L959H508Q8"
 			(at 251.46 133.35 0)
 			(effects
 				(font
@@ -9464,7 +9480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 176.2252 130.81 0)
 			(effects
 				(font
@@ -9687,7 +9703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 101.092 156.21 90)
 			(effects
 				(font
@@ -9822,7 +9838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 176.2252 144.78 0)
 			(effects
 				(font
@@ -9892,7 +9908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 223.2152 130.81 0)
 			(effects
 				(font
@@ -9960,7 +9976,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM358PE3:DIP794W45P254L959H508Q8"
 			(at 119.38 127 0)
 			(effects
 				(font
@@ -10112,7 +10128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 107.95 74.168 90)
 			(effects
 				(font
@@ -10246,7 +10262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM358PE3:DIP794W45P254L959H508Q8"
 			(at 62.23 153.67 0)
 			(effects
 				(font
@@ -10274,28 +10290,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "88d170b8-c45b-4d9c-93f7-3b2c2dc30831")
+			(uuid "88d170b8-c45b-4d9c-93f7-3b2c2dc30833")
 		)
 		(pin "2"
-			(uuid "854cb9da-7078-4f05-a9f8-5abf0357dbb4")
+			(uuid "854cb9da-7078-4f05-a9f8-5abf0357dbb6")
 		)
 		(pin "3"
-			(uuid "22b76f5e-37a8-4d14-8d77-a90226a69a68")
+			(uuid "22b76f5e-37a8-4d14-8d77-a90226a69a6a")
 		)
 		(pin "5"
-			(uuid "4b847bef-5f68-4921-88a8-a8e0ec0b67e5")
+			(uuid "4b847bef-5f68-4921-88a8-a8e0ec0b67e7")
 		)
 		(pin "6"
-			(uuid "2130361c-b0d4-4dcf-a5c0-a9f2790f18dd")
+			(uuid "2130361c-b0d4-4dcf-a5c0-a9f2790f18df")
 		)
 		(pin "7"
-			(uuid "52d6f102-8205-45ad-93df-a5feba976e15")
+			(uuid "52d6f102-8205-45ad-93df-a5feba976e17")
 		)
 		(pin "8"
-			(uuid "213ac584-0b61-4b9e-b399-9790da4dd6f1")
+			(uuid "213ac584-0b61-4b9e-b399-9790da4dd6f3")
 		)
 		(pin "4"
-			(uuid "3b59cfef-256d-4427-8591-da5c6cdca8b2")
+			(uuid "3b59cfef-256d-4427-8591-da5c6cdca8b4")
 		)
 		(instances
 			(project ""
@@ -10599,7 +10615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 135.382 130.81 90)
 			(effects
 				(font
