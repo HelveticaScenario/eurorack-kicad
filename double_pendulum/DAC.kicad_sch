@@ -2796,7 +2796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
 			(at 205.74 33.02 0)
 			(effects
 				(font
@@ -2969,7 +2969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
 			(at 205.74 59.69 0)
 			(effects
 				(font
@@ -3146,7 +3146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
 			(at 204.47 82.55 0)
 			(effects
 				(font
@@ -4094,7 +4094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
 			(at 204.47 109.22 0)
 			(effects
 				(font
