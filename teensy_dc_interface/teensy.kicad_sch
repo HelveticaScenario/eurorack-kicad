@@ -1271,6 +1271,238 @@
 			)
 		)
 	)
+	(no_connect
+		(at 110.49 53.34)
+		(uuid "0eee1986-d311-49db-8bbe-65e85015a723")
+	)
+	(no_connect
+		(at 110.49 58.42)
+		(uuid "2e3e0cc6-ec45-4b45-bcb7-9f986020db26")
+	)
+	(no_connect
+		(at 110.49 50.8)
+		(uuid "32138ab9-a09f-4e49-84bc-1b68a27f8730")
+	)
+	(no_connect
+		(at 110.49 66.04)
+		(uuid "4af2eb63-1f25-4535-b51d-d1e2874c46f2")
+	)
+	(no_connect
+		(at 110.49 55.88)
+		(uuid "aab79e66-fcea-40ef-91bb-43c09e3fda97")
+	)
+	(no_connect
+		(at 110.49 60.96)
+		(uuid "b45ad1a7-8752-400f-8148-864c58d7180e")
+	)
+	(no_connect
+		(at 110.49 68.58)
+		(uuid "d3495e8f-3a18-42f8-9853-9a0dfeb3e23b")
+	)
+	(no_connect
+		(at 110.49 63.5)
+		(uuid "e94afe22-7fa7-4f92-87bb-68b5f30cf48d")
+	)
+	(global_label "6_OUT1D"
+		(shape bidirectional)
+		(at 54.61 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bcec5c6-6ce8-4866-8cef-42ae0fbd5a7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDTI1/DSDR1"
+		(shape input)
+		(at 54.61 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ce73f7e-dd03-45a2-a63b-e44446108708")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA/CDTI/TDM0"
+		(shape bidirectional)
+		(at 54.61 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3428d36d-b734-4b92-b7c4-45a91fe5a63b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "32_OUT1B"
+		(shape bidirectional)
+		(at 110.49 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68d26e0e-55b9-4790-942d-d883b070d321")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCLK"
+		(shape input)
+		(at 110.49 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70a0aa51-d7c0-458a-a859-2d80d21d62c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "9_OUT1C"
+		(shape bidirectional)
+		(at 54.61 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99b929d9-4c3e-4d0c-a7a5-7ae46fd48daa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BICK/DCLK"
+		(shape input)
+		(at 54.61 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b379c29f-c9ed-474c-9f30-ce3429d0ba22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL/CCLK/TDM1"
+		(shape input)
+		(at 54.61 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c01d7183-9e3d-40b9-90c1-a3a5b828dcf8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LRCK/DSDL1"
+		(shape input)
+		(at 54.61 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c900c370-a577-4f8a-a151-b8f47f190da6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PDN"
+		(shape input)
+		(at 54.61 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8a0a5eb-49c0-4e22-a596-e61ee0223f55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "4ms_Power-symbol:+3.3V")
 		(at 110.49 109.22 270)
@@ -1691,139 +1923,6 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/cc1bffa6-65b3-47b9-9487-c9fe2212650d"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 110.49 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3f76459-d06d-4422-b5e7-64f744d104c0")
-		(property "Reference" "#PWR038"
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b20053de-f253-440b-87cd-c8637b2e90fe")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/cc1bffa6-65b3-47b9-9487-c9fe2212650d"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 54.61 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da0f63c2-465b-4eed-b72b-8e2c40c9fe0e")
-		(property "Reference" "#PWR037"
-			(at 48.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "092fe4a6-7742-411c-8fec-67cd953d7029")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/cc1bffa6-65b3-47b9-9487-c9fe2212650d"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)

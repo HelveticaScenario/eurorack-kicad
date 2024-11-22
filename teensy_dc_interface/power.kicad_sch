@@ -4832,12 +4832,6 @@
 		(uuid "03815c47-a771-4d83-9cf6-6231e3321e1b")
 	)
 	(junction
-		(at 38.1 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "070892f0-bfca-4b1b-88ed-7044f182725a")
-	)
-	(junction
 		(at 35.56 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10982,72 +10976,6 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 38.1 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb73800c-0203-4655-a8b1-78b27b3e32a7")
-		(property "Reference" "#PWR042"
-			(at 44.45 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 30.4801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "add4af7b-6ffd-4fd3-9530-b22fe68bebd7")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)

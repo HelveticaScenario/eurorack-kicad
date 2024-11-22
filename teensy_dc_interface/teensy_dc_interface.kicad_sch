@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 20.32 166.37)
-		(size 58.42 24.13)
+		(at 26.67 73.66)
+		(size 38.1 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +18,7 @@
 		)
 		(uuid "1f5c8041-45d6-4a64-aa15-1c1752531f41")
 		(property "Sheetname" "Power"
-			(at 20.32 165.6584 0)
+			(at 26.67 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 20.32 191.0846 0)
+			(at 26.67 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,8 +44,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 163.83)
-		(size 66.04 26.67)
+		(at 80.01 73.66)
+		(size 39.37 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +56,7 @@
 		)
 		(uuid "479e54ad-9621-45c1-9486-782bedef5f46")
 		(property "Sheetname" "Outs"
-			(at 93.98 163.1184 0)
+			(at 80.01 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "outs.kicad_sch"
-			(at 93.98 191.0846 0)
+			(at 80.01 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,8 +82,8 @@
 		)
 	)
 	(sheet
-		(at 27.94 119.38)
-		(size 53.34 22.86)
+		(at 80.01 30.48)
+		(size 39.37 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -94,7 +94,7 @@
 		)
 		(uuid "6394447c-ab31-4b0c-8b06-b5f80e645276")
 		(property "Sheetname" "DAC"
-			(at 27.94 118.6684 0)
+			(at 80.01 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "dac.kicad_sch"
-			(at 27.94 142.8246 0)
+			(at 80.01 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +120,7 @@
 		)
 	)
 	(sheet
-		(at 130.81 82.55)
+		(at 26.67 30.48)
 		(size 39.37 27.94)
 		(fields_autoplaced yes)
 		(stroke
@@ -132,7 +132,7 @@
 		)
 		(uuid "cc1bffa6-65b3-47b9-9487-c9fe2212650d")
 		(property "Sheetname" "Teensy"
-			(at 130.81 81.8384 0)
+			(at 26.67 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "teensy.kicad_sch"
-			(at 130.81 111.0746 0)
+			(at 26.67 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
