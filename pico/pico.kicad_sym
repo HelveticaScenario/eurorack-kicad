@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "Teensy4.0 No SMD"
+	(symbol "pico"
 		(pin_names
 			(offset 1.016)
 		)
@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 23.622 0)
+			(at -20.32 44.069 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,8 +18,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Teensy4.0 No SMD"
-			(at -12.7 -27.94 0)
+		(property "Value" "pico"
+			(at -20.32 -45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DEV-15583:MODULE_DEV-15583"
+		(property "Footprint" "SC0915:MODULE_SC0915"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "SparkFun Electronics"
+		(property "MF" "Raspberry Pi"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.87mm"
+		(property "Description_1" "\n                        \n                            Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915\n                        \n"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95,7 +95,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DEV-15583/SparkFun+Electronics/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=eda"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115,7 +115,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DEV-15583/SparkFun+Electronics/view-part/?ref=snap"
+		(property "PARTREV" "1.9"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125,7 +125,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "DEV-15583"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=snap"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135,7 +135,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\nRT1062 Teensy 4.0 series ARM® Cortex®-M7 MPU Embedded Evaluation Board\n"
+		(property "MP" "SC0915"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Pi Supply"
 			(at 0 0 0)
 			(effects
 				(font
@@ -155,7 +165,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Sparkfun"
+		(property "SNAPEDA_PN" "SC0915"
 			(at 0 0 0)
 			(effects
 				(font
@@ -165,12 +175,12 @@
 				(hide yes)
 			)
 		)
-		(symbol "Teensy4.0 No SMD_0_0"
+		(symbol "pico_0_0"
 			(rectangle
-				(start -12.7 -25.4)
-				(end 12.7 22.86)
+				(start -20.32 -43.18)
+				(end 20.32 43.18)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -178,27 +188,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 17.78 0)
+				(at -25.4 20.32 0)
 				(length 5.08)
-				(name "0"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "0"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 15.24 0)
-				(length 5.08)
-				(name "1"
+				(name "GP0"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -214,9 +206,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -7.62 0)
+				(at -25.4 2.54 0)
 				(length 5.08)
-				(name "10"
+				(name "GP7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -232,9 +224,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -10.16 0)
+				(at -25.4 0 0)
 				(length 5.08)
-				(name "11"
+				(name "GP8"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -250,9 +242,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -12.7 0)
+				(at -25.4 -2.54 0)
 				(length 5.08)
-				(name "12"
+				(name "GP9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -267,10 +259,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 -12.7 180)
+			(pin power_in line
+				(at 25.4 -40.64 180)
 				(length 5.08)
-				(name "13"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -286,9 +278,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -10.16 180)
+				(at -25.4 -5.08 0)
 				(length 5.08)
-				(name "14"
+				(name "GP10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -304,9 +296,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -7.62 180)
+				(at -25.4 -7.62 0)
 				(length 5.08)
-				(name "15"
+				(name "GP11"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -322,9 +314,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -5.08 180)
+				(at -25.4 -10.16 0)
 				(length 5.08)
-				(name "16"
+				(name "GP12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -340,9 +332,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -2.54 180)
+				(at 25.4 20.32 180)
 				(length 5.08)
-				(name "17"
+				(name "GP13"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -357,10 +349,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 0 180)
+			(pin power_in line
+				(at 25.4 -40.64 180)
 				(length 5.08)
-				(name "18"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -376,9 +368,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 2.54 180)
+				(at 25.4 17.78 180)
 				(length 5.08)
-				(name "19"
+				(name "GP14"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -394,9 +386,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 12.7 0)
+				(at -25.4 17.78 0)
 				(length 5.08)
-				(name "2"
+				(name "GP1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -412,9 +404,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 5.08 180)
+				(at 25.4 15.24 180)
 				(length 5.08)
-				(name "20"
+				(name "GP15"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -430,9 +422,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 7.62 180)
+				(at 25.4 12.7 180)
 				(length 5.08)
-				(name "21"
+				(name "GP16"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -448,9 +440,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 10.16 180)
+				(at 25.4 10.16 180)
 				(length 5.08)
-				(name "22"
+				(name "GP17"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -465,10 +457,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 12.7 180)
+			(pin power_in line
+				(at 25.4 -40.64 180)
 				(length 5.08)
-				(name "23"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -484,9 +476,117 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 10.16 0)
+				(at 25.4 7.62 180)
 				(length 5.08)
-				(name "3"
+				(name "GP18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 5.08 180)
+				(length 5.08)
+				(name "GP19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 2.54 180)
+				(length 5.08)
+				(name "GP20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 0 180)
+				(length 5.08)
+				(name "GP21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -40.64 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -2.54 180)
+				(length 5.08)
+				(name "GP22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -40.64 180)
+				(length 5.08)
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -501,35 +601,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -17.78 -20.32 0)
+			(pin input line
+				(at -25.4 25.4 0)
 				(length 5.08)
-				(name "3.3V_1"
+				(name "~{RUN}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "3.3V_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 15.24 180)
-				(length 5.08)
-				(name "3.3V_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3.3V_2"
+				(number "30"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -538,9 +620,171 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 7.62 0)
+				(at 25.4 -5.08 180)
 				(length 5.08)
-				(name "4"
+				(name "GP26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -7.62 180)
+				(length 5.08)
+				(name "GP27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -38.1 180)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -10.16 180)
+				(length 5.08)
+				(name "GP28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 33.02 180)
+				(length 5.08)
+				(name "ADC_VREF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 35.56 180)
+				(length 5.08)
+				(name "3V3_OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -25.4 27.94 0)
+				(length 5.08)
+				(name "3V3_EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -40.64 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 38.1 180)
+				(length 5.08)
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 15.24 0)
+				(length 5.08)
+				(name "GP2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -555,10 +799,28 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 5.08 0)
+			(pin power_in line
+				(at 25.4 40.64 180)
 				(length 5.08)
-				(name "5"
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 12.7 0)
+				(length 5.08)
+				(name "GP3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -574,9 +836,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 2.54 0)
+				(at -25.4 10.16 0)
 				(length 5.08)
-				(name "6"
+				(name "GP4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -592,9 +854,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 0 0)
+				(at -25.4 7.62 0)
 				(length 5.08)
-				(name "7"
+				(name "GP5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -609,10 +871,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 -2.54 0)
+			(pin power_in line
+				(at 25.4 -40.64 180)
 				(length 5.08)
-				(name "8"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -628,9 +890,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -5.08 0)
+				(at -25.4 5.08 0)
 				(length 5.08)
-				(name "9"
+				(name "GP6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -646,16 +908,16 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 20.32 0)
+				(at 25.4 -33.02 180)
 				(length 5.08)
-				(name "G1"
+				(name "USB_SHIELD"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "G1"
+				(number "A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -664,16 +926,16 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -22.86 0)
+				(at 25.4 -33.02 180)
 				(length 5.08)
-				(name "G2"
+				(name "USB_SHIELD"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "G2"
+				(number "B"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -682,16 +944,70 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 17.78 180)
+				(at 25.4 -33.02 180)
 				(length 5.08)
-				(name "G3"
+				(name "USB_SHIELD"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "G3"
+				(number "C"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -33.02 180)
+				(length 5.08)
+				(name "USB_SHIELD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 25.4 27.94 180)
+				(length 5.08)
+				(name "SWCLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -40.64 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "D2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -700,16 +1016,34 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -17.78 180)
+				(at 25.4 25.4 180)
 				(length 5.08)
-				(name "ON/OFF"
+				(name "SWDIO"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "ON-OFF"
+				(number "D3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -27.94 180)
+				(length 5.08)
+				(name "TP1_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "TP1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -718,16 +1052,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -20.32 180)
+				(at 25.4 -17.78 180)
 				(length 5.08)
-				(name "PROGRAM"
+				(name "TP2_USB_DM"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "PGM"
+				(number "TP2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -735,17 +1069,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -17.78 -17.78 0)
+			(pin bidirectional line
+				(at 25.4 -20.32 180)
 				(length 5.08)
-				(name "VBAT"
+				(name "TP3_USB_DP"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "VBAT"
+				(number "TP3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -753,17 +1087,53 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 20.32 180)
+			(pin no_connect line
+				(at 25.4 -22.86 180)
 				(length 5.08)
-				(name "VIN"
+				(name "TP4_GPIO23/SMPS_PS"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "VIN"
+				(number "TP4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 25.4 -25.4 180)
+				(length 5.08)
+				(name "TP5_GPIO25/LED"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "TP5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -15.24 180)
+				(length 5.08)
+				(name "TP6_BOOTSEL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "TP6"
 					(effects
 						(font
 							(size 1.016 1.016)

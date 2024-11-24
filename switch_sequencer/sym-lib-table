@@ -32,7 +32,7 @@
   (lib (name "MCP4922-E_P")(type "KiCad")(uri "${KIPRJMOD}/../MCP4922/MCP4922-E_P.kicad_sym")(options "")(descr ""))
   (lib (name "NE5532DR")(type "KiCad")(uri "${KIPRJMOD}/../NE5532DR/NE5532DR.kicad_sym")(options "")(descr ""))
   (lib (name "OPA2172")(type "KiCad")(uri "${KIPRJMOD}/../OPA2172/2024-09-12_23-11-25.kicad_sym")(options "")(descr ""))
-  (lib (name "pico")(type "KiCad")(uri "${KIPRJMOD}/../pico/pico.kicad_sym")(options "")(descr ""))
+  (lib (name "pico")(type "KiCad")(uri "D:/Documents/Code/eurorack/pico/pico.kicad_sym")(options "")(descr ""))
   (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/../teensy_library/teensy.kicad_sym")(options "")(descr ""))
   (lib (name "teensy4p0")(type "KiCad")(uri "${KIPRJMOD}/../teensy4p0/DEV-15583.kicad_sym")(options "")(descr ""))
   (lib (name "TLV9364")(type "KiCad")(uri "${KIPRJMOD}/../TLV9364/KiCADv6/2024-09-30_00-47-09.kicad_sym")(options "")(descr ""))
