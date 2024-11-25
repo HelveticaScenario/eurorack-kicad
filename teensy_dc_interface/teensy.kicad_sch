@@ -1841,7 +1841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "teensy:Teensy40"
+		(property "Footprint" "teensy:Teensy40_SMT"
 			(at 72.39 80.01 0)
 			(effects
 				(font
