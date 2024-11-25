@@ -1820,6 +1820,108 @@
 				)
 			)
 		)
+		(symbol "4ms_Connector:TestPoint_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "4ms_IC:AP62200TWU-7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4850,10 +4952,52 @@
 		(uuid "0aeb51f9-6a0b-4c3c-85fc-4a4c8d02aa09")
 	)
 	(junction
+		(at 115.57 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bb5a618-7bf6-4ab3-a952-81b68c05ec42")
+	)
+	(junction
+		(at 180.34 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "118dbebd-86c9-4e82-aed9-807c149b30d1")
+	)
+	(junction
 		(at 120.65 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "128e81dd-6cbb-49c6-80c4-20b9c9370395")
+	)
+	(junction
+		(at 138.43 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13600e71-c8ab-48e1-b308-12b02f098761")
+	)
+	(junction
+		(at 265.43 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c51072-db59-4b11-bb5a-fefa70e05722")
+	)
+	(junction
+		(at 259.08 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "169a2fa5-d64d-466e-b3c2-d99a6e06e1ac")
+	)
+	(junction
+		(at 218.44 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19d8505b-a66d-4af5-861f-ff84ef91376e")
+	)
+	(junction
+		(at 251.46 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "271cbfe4-5d58-4248-b3ad-2eb94d30257a")
 	)
 	(junction
 		(at 38.1 33.02)
@@ -4862,10 +5006,22 @@
 		(uuid "29b21120-041b-45cd-8103-967ccbb69df0")
 	)
 	(junction
+		(at 186.69 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ae8789b-2d88-468f-b5c3-cc1bcef0b11a")
+	)
+	(junction
 		(at 120.65 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "377638ac-4d38-4f34-84c4-f335993cdc5d")
+	)
+	(junction
+		(at 234.95 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37ae2889-fc97-4bca-9d86-607375f9c142")
 	)
 	(junction
 		(at 92.71 149.86)
@@ -4940,6 +5096,12 @@
 		(uuid "64d6e9d5-ebb1-493a-9f8d-cf0037323058")
 	)
 	(junction
+		(at 259.08 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "673bd4c3-d036-41ce-b93e-fcf19b7c69f4")
+	)
+	(junction
 		(at 88.9 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4958,6 +5120,12 @@
 		(uuid "6ff25e28-6290-4c29-a474-b6a86c1058fa")
 	)
 	(junction
+		(at 234.95 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7472a7b2-81fe-44ce-9b11-9413e5b9f039")
+	)
+	(junction
 		(at 81.28 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4970,10 +5138,22 @@
 		(uuid "88aff649-9ecf-4c2e-8c29-a7b23e65f680")
 	)
 	(junction
+		(at 251.46 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96de9980-4b1f-4b37-967b-d466fbee46d4")
+	)
+	(junction
 		(at 151.13 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "990a69eb-1ce1-4512-9356-d52da46b8ccc")
+	)
+	(junction
+		(at 127 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a54c5c4-9522-4693-863b-88b05fdee2aa")
 	)
 	(junction
 		(at 144.78 64.77)
@@ -5036,6 +5216,12 @@
 		(uuid "b93e7dd5-7f21-4dca-bfa2-cba2afb43e4c")
 	)
 	(junction
+		(at 234.95 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b966e296-7778-4027-84d7-a349714318b2")
+	)
+	(junction
 		(at 143.51 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5046,6 +5232,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf3ea006-d053-4aa4-bdaa-5952aedf8d1c")
+	)
+	(junction
+		(at 115.57 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfc9ee71-5460-4bb1-8c27-83f721717e4f")
+	)
+	(junction
+		(at 239.395 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2e08044-4dec-4b6b-a96c-b8cf63cac5da")
 	)
 	(junction
 		(at 81.28 142.24)
@@ -5078,6 +5276,12 @@
 		(uuid "d091fd79-52d9-49b3-acb1-482fcb4e6f34")
 	)
 	(junction
+		(at 203.2 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2ea6248-87af-481d-96f2-c7051bded9cf")
+	)
+	(junction
 		(at 46.99 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5096,14 +5300,70 @@
 		(uuid "d5b43e09-ecb2-4b74-bbf4-8661c68af64f")
 	)
 	(junction
+		(at 115.57 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d80e1b7e-acf2-4903-941a-48b2b4e871c2")
+	)
+	(junction
+		(at 265.43 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df58544a-8d4b-418a-9678-6c8cdb12dae8")
+	)
+	(junction
+		(at 104.14 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb374c44-a03f-4526-a756-aa29934e8f10")
+	)
+	(junction
 		(at 92.71 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec005185-f24a-48d7-851a-e7bb86a38e10")
 	)
+	(junction
+		(at 127 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f43950b4-b0c6-4039-af9e-a8e733920b33")
+	)
+	(junction
+		(at 104.14 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f852ad26-64f3-4dea-a92b-042048f3128f")
+	)
+	(junction
+		(at 127 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb393387-5aec-4745-b84e-da1b7c2e0ea3")
+	)
 	(no_connect
 		(at -180.34 -113.03)
 		(uuid "37fdfa51-7758-4835-9f3d-b9b37b59178c")
+	)
+	(wire
+		(pts
+			(xy 138.43 147.32) (xy 138.43 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0412c57d-e4a0-4593-b437-424f8f4f3d31")
+	)
+	(wire
+		(pts
+			(xy 234.95 67.31) (xy 251.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07826b6a-ae7d-412f-922d-c357367d5b4c")
 	)
 	(wire
 		(pts
@@ -5177,6 +5437,16 @@
 	)
 	(wire
 		(pts
+			(xy 230.505 52.07) (xy 234.95 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a30edd-9557-4cfb-9a66-e55bef23f21e")
+	)
+	(wire
+		(pts
 			(xy 107.315 57.15) (xy 120.65 57.15)
 		)
 		(stroke
@@ -5207,6 +5477,16 @@
 	)
 	(wire
 		(pts
+			(xy 221.615 59.69) (xy 234.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209d2344-493d-4e94-b434-6a9904ee105d")
+	)
+	(wire
+		(pts
 			(xy 137.16 49.53) (xy 137.16 53.34)
 		)
 		(stroke
@@ -5214,6 +5494,16 @@
 			(type default)
 		)
 		(uuid "219404b5-ad63-4b37-9709-ad4b0a9bc0d4")
+	)
+	(wire
+		(pts
+			(xy 210.82 46.99) (xy 213.36 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e1a039-f19a-4025-8a46-7961594c2abb")
 	)
 	(wire
 		(pts
@@ -5227,13 +5517,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 149.86) (xy 110.49 149.86)
+			(xy 115.57 157.48) (xy 127 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29e3de39-afa6-4e53-829b-cceeb5e9fc99")
+		(uuid "29db5358-5512-4372-b7ef-5072827a451b")
+	)
+	(wire
+		(pts
+			(xy 170.18 46.99) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a40d0fb-e687-49b0-9400-1294f7b959e7")
 	)
 	(wire
 		(pts
@@ -5254,6 +5554,16 @@
 			(type default)
 		)
 		(uuid "2b1b7797-1c8d-42ec-8656-7380925088e6")
+	)
+	(wire
+		(pts
+			(xy 265.43 52.07) (xy 269.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8b48c9-e932-44bc-aa8c-57ef5ee80cef")
 	)
 	(wire
 		(pts
@@ -5297,6 +5607,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 67.31) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364c43e0-f390-4024-880d-aa77d2b05793")
+	)
+	(wire
+		(pts
 			(xy 46.99 80.01) (xy 59.69 80.01)
 		)
 		(stroke
@@ -5314,6 +5634,26 @@
 			(type default)
 		)
 		(uuid "3c93c1c1-ef25-41f4-80d2-7646e05bd105")
+	)
+	(wire
+		(pts
+			(xy 104.14 149.86) (xy 115.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea19e9d-54f5-4be6-8675-cb17d6b98e42")
+	)
+	(wire
+		(pts
+			(xy 210.82 52.07) (xy 218.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eeaa399-7d6f-44ff-b47a-875720dff4d8")
 	)
 	(wire
 		(pts
@@ -5387,6 +5727,16 @@
 	)
 	(wire
 		(pts
+			(xy 239.395 52.705) (xy 239.395 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a00b9dd-2575-48b3-8535-5413235010e7")
+	)
+	(wire
+		(pts
 			(xy 125.095 49.53) (xy 137.16 49.53)
 		)
 		(stroke
@@ -5414,6 +5764,16 @@
 			(type default)
 		)
 		(uuid "50f57d44-dd7d-4fad-a1cd-c5c75ef37e61")
+	)
+	(wire
+		(pts
+			(xy 115.57 142.24) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51080605-a8d1-4aed-92e1-f48942a1e49e")
 	)
 	(wire
 		(pts
@@ -5467,6 +5827,46 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 55.88) (xy 265.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abd692a-a69d-4866-b7aa-6f2b121cbdf3")
+	)
+	(wire
+		(pts
+			(xy 239.395 52.07) (xy 251.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec81253-3942-4b0d-9967-ffc6fc341988")
+	)
+	(wire
+		(pts
+			(xy 259.08 60.96) (xy 259.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7221cb-9e1f-4167-abc2-3242cdef6420")
+	)
+	(wire
+		(pts
+			(xy 239.395 57.785) (xy 239.395 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617c1dad-df98-47f6-af5d-735a8d3b4827")
+	)
+	(wire
+		(pts
 			(xy 71.12 157.48) (xy 58.42 157.48)
 		)
 		(stroke
@@ -5477,6 +5877,66 @@
 	)
 	(wire
 		(pts
+			(xy 127 157.48) (xy 138.43 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64066d26-9270-4774-a5e6-5d7fd4d4bb04")
+	)
+	(wire
+		(pts
+			(xy 186.69 52.07) (xy 186.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6521765e-8639-4f02-bc80-0dbb36462bc7")
+	)
+	(wire
+		(pts
+			(xy 180.34 46.99) (xy 180.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65519996-3278-4d43-a084-945f30ff8375")
+	)
+	(wire
+		(pts
+			(xy 151.13 38.1) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f8d045-8d68-4813-bb37-77c94b5f7f2a")
+	)
+	(wire
+		(pts
+			(xy 213.995 57.15) (xy 210.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700c0023-5344-4d0f-bfef-19b0950b17ac")
+	)
+	(wire
+		(pts
+			(xy 251.46 52.07) (xy 251.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7100e8bb-1d87-47e6-b5fc-8788d00fa485")
+	)
+	(wire
+		(pts
 			(xy 38.1 30.48) (xy 38.1 33.02)
 		)
 		(stroke
@@ -5484,6 +5944,16 @@
 			(type default)
 		)
 		(uuid "719878c3-b228-4131-98d2-90a738b309e2")
+	)
+	(wire
+		(pts
+			(xy 203.2 64.77) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e55f5c-1881-4e49-be99-2dd593a1b2bc")
 	)
 	(wire
 		(pts
@@ -5517,6 +5987,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 52.07) (xy 222.885 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765409a5-a0c5-4429-a45f-acbb90c06083")
+	)
+	(wire
+		(pts
 			(xy 66.04 44.45) (xy 66.04 50.8)
 		)
 		(stroke
@@ -5524,6 +6004,26 @@
 			(type default)
 		)
 		(uuid "7b80bd90-c464-4616-88f9-f392f625e0ad")
+	)
+	(wire
+		(pts
+			(xy 180.34 46.99) (xy 186.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bef6d40-cb88-47ea-b390-10ff23d7de59")
+	)
+	(wire
+		(pts
+			(xy 115.57 149.86) (xy 115.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ccc603b-b4d6-49e9-8a96-e4a95b9619b1")
 	)
 	(wire
 		(pts
@@ -5587,6 +6087,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 46.99) (xy 195.58 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ff9f21-0c05-423b-bcb2-e73da9e43f52")
+	)
+	(wire
+		(pts
 			(xy 58.42 142.24) (xy 46.99 142.24)
 		)
 		(stroke
@@ -5637,6 +6147,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 149.86) (xy 127 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d61ee2-615b-4f2c-b8e8-373101718316")
+	)
+	(wire
+		(pts
+			(xy 251.46 67.31) (xy 259.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c00d9f0-2b04-47cb-b7fa-db1dd02ec0d8")
+	)
+	(wire
+		(pts
 			(xy 104.14 147.32) (xy 104.14 149.86)
 		)
 		(stroke
@@ -5644,6 +6174,26 @@
 			(type default)
 		)
 		(uuid "9e1019df-9ff4-4771-bd37-fe5413e07378")
+	)
+	(wire
+		(pts
+			(xy 251.46 52.07) (xy 259.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5d2c33-2738-4fbb-96b8-68e48c430dc7")
+	)
+	(wire
+		(pts
+			(xy 213.995 59.69) (xy 213.995 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdf8348-0cee-4ca9-bcb1-d39d19c47808")
 	)
 	(wire
 		(pts
@@ -5667,6 +6217,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 149.86) (xy 138.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a361326d-4316-4648-8205-868914bbde5c")
+	)
+	(wire
+		(pts
 			(xy 67.31 96.52) (xy 67.31 100.33)
 		)
 		(stroke
@@ -5674,6 +6234,16 @@
 			(type default)
 		)
 		(uuid "a71e868a-eca0-4ad6-8ac6-981664f13616")
+	)
+	(wire
+		(pts
+			(xy 127 149.86) (xy 138.43 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa65dfb4-ed7e-46f8-8e39-4388d335c715")
 	)
 	(wire
 		(pts
@@ -5727,6 +6297,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 147.32) (xy 115.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17edf84-84a9-4030-985a-0a7e201c592d")
+	)
+	(wire
+		(pts
+			(xy 265.43 67.31) (xy 269.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21588aa-2cc9-4fd9-9d87-aa63a78b891d")
+	)
+	(wire
+		(pts
 			(xy 144.78 49.53) (xy 144.78 53.34)
 		)
 		(stroke
@@ -5744,6 +6334,16 @@
 			(type default)
 		)
 		(uuid "b2fac308-8d6e-48a6-a8e9-035c8a283856")
+	)
+	(wire
+		(pts
+			(xy 180.34 67.31) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3099e01-24e9-41d8-9cc6-bb101699a0f6")
 	)
 	(wire
 		(pts
@@ -5797,6 +6397,56 @@
 	)
 	(wire
 		(pts
+			(xy 127 142.24) (xy 138.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8e9e9e-8924-4796-bee8-6fdd35b110ea")
+	)
+	(wire
+		(pts
+			(xy 265.43 60.96) (xy 265.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baafdea8-6960-4153-a484-96fcf0be19dc")
+	)
+	(wire
+		(pts
+			(xy 127 147.32) (xy 127 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4a73ab-71b7-406b-a3fa-8539ec4df2f4")
+	)
+	(wire
+		(pts
+			(xy 195.58 52.07) (xy 194.31 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6c8f90-1bf3-4a49-b1e3-1962052d3e13")
+	)
+	(wire
+		(pts
+			(xy 104.14 142.24) (xy 115.57 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba80b73-ef89-4fcd-bd52-7942642a8157")
+	)
+	(wire
+		(pts
 			(xy 153.67 93.98) (xy 153.67 100.33)
 		)
 		(stroke
@@ -5824,6 +6474,26 @@
 			(type default)
 		)
 		(uuid "bd184c1e-dea7-4f6a-9efe-5db1a1e68d0b")
+	)
+	(wire
+		(pts
+			(xy 259.08 67.31) (xy 265.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28beffa-f233-4bfe-96a2-d8d5ac8b8bb3")
+	)
+	(wire
+		(pts
+			(xy 234.95 52.07) (xy 239.395 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46dc76f-4ee8-493a-8203-953f8fe7e5da")
 	)
 	(wire
 		(pts
@@ -5867,6 +6537,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 157.48) (xy 115.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fdd15d-3417-4138-8755-f2fbca165603")
+	)
+	(wire
+		(pts
+			(xy 259.08 52.07) (xy 265.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15a700b-df98-4567-85eb-0704b2dcba43")
+	)
+	(wire
+		(pts
 			(xy 81.28 49.53) (xy 80.01 49.53)
 		)
 		(stroke
@@ -5877,6 +6567,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 74.93) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1eefcd5-0f1d-4c10-ae28-54bf3751fd93")
+	)
+	(wire
+		(pts
 			(xy 46.99 142.24) (xy 35.56 142.24)
 		)
 		(stroke
@@ -5884,6 +6584,16 @@
 			(type default)
 		)
 		(uuid "d3bf79ca-522f-4e71-9261-2feab2e4a3fe")
+	)
+	(wire
+		(pts
+			(xy 218.44 52.07) (xy 218.44 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42806cd-f35f-4ef5-85b5-02eb10de9f26")
 	)
 	(wire
 		(pts
@@ -5904,6 +6614,16 @@
 			(type default)
 		)
 		(uuid "d761595f-48d0-4a06-841f-8390eef32eea")
+	)
+	(wire
+		(pts
+			(xy 259.08 52.07) (xy 259.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89aa05d-8db0-4f97-8126-f8319036934e")
 	)
 	(wire
 		(pts
@@ -5947,6 +6667,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 149.86) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd906678-6b26-4ae8-88dc-5d4904b1e802")
+	)
+	(wire
+		(pts
 			(xy 81.28 149.86) (xy 92.71 149.86)
 		)
 		(stroke
@@ -5964,6 +6694,26 @@
 			(type default)
 		)
 		(uuid "e22d39a2-e0bd-47a6-bbc7-5261cb8a211a")
+	)
+	(wire
+		(pts
+			(xy 138.43 149.86) (xy 142.24 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e456acfd-e977-4434-b83a-60cca29bb6e2")
+	)
+	(wire
+		(pts
+			(xy 234.95 59.69) (xy 239.395 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5711747-4389-45c8-9665-7bdf89e4a5b0")
 	)
 	(wire
 		(pts
@@ -5987,6 +6737,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 67.31) (xy 234.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9700e8-3d7f-42cd-af08-4d088de75c10")
+	)
+	(wire
+		(pts
 			(xy 99.695 57.15) (xy 99.695 54.61)
 		)
 		(stroke
@@ -6004,6 +6764,26 @@
 			(type default)
 		)
 		(uuid "edca0ba6-e2e8-41d5-99f9-48fcceb34d1a")
+	)
+	(wire
+		(pts
+			(xy 251.46 60.96) (xy 251.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb05c99-edf4-41e9-870a-8cb43de35321")
+	)
+	(wire
+		(pts
+			(xy 265.43 41.91) (xy 265.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0937f5d-d6c0-4566-b611-e33687774fc4")
 	)
 	(wire
 		(pts
@@ -6108,6 +6888,17 @@
 		)
 		(uuid "9487a4ce-5d90-457c-97cc-acac3e4ca1ef")
 	)
+	(label "SW"
+		(at 212.09 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "989d322f-76bd-4b8f-93c9-d7cf35287d65")
+	)
 	(label "FB"
 		(at 108.585 57.15 0)
 		(fields_autoplaced yes)
@@ -6118,6 +6909,28 @@
 			(justify left bottom)
 		)
 		(uuid "b1a91553-ef0d-4226-ab71-f27ad79b9cb2")
+	)
+	(label "BST"
+		(at 212.725 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bda7934b-d98b-451d-a002-0e6aa82cc182")
+	)
+	(label "FB"
+		(at 222.885 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c13ce5a9-d961-42b3-8489-f0f7072f2f0a")
 	)
 	(label "BST"
 		(at 98.425 44.45 90)
@@ -6142,6 +6955,17 @@
 		(uuid "db83a5d9-e021-4509-94e6-3eba01d62283")
 	)
 	(label "EN"
+		(at 194.945 52.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e76087f8-4bd5-48ce-9605-959ce24502f9")
+	)
+	(label "EN"
 		(at 80.645 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -6151,6 +6975,28 @@
 			(justify left bottom)
 		)
 		(uuid "f5680805-bb31-411d-a1cc-3ebdae646744")
+	)
+	(global_label "TEENSY_5V"
+		(shape input)
+		(at 269.24 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f61b8de-32e2-4cad-b5d0-c0a17a530c6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.3851 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "AVSS"
 		(shape input)
@@ -6316,6 +7162,143 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_Capacitor:22uF_0603_6.3V")
+		(at 251.46 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "079ab918-23ff-4285-8904-b058654c011a")
+		(property "Reference" "C59"
+			(at 252.095 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 248.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF, 6.3V,10%,X5R or X7R, 0603"
+			(at 251.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 248.92 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part number" "JMK212ABJ226MD-T"
+			(at 251.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "22uF, 6.3V,10%,X5R or X7R,0603"
+			(at 248.92 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM188R60J226MEA0J"
+			(at 248.92 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "22uF/6.3V"
+			(at 246.38 48.133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C59461"
+			(at 251.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 248.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e9be93c-ffea-44a6-bbd1-b770442218a0")
+		)
+		(pin "1"
+			(uuid "493dcbf9-6c6a-472a-9a94-e501fd9def9c")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Capacitor:22uF_0805_25V")
 		(at 67.31 93.98 0)
 		(unit 1)
@@ -6434,6 +7417,195 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Connector:TestPoint_Small")
+		(at 265.43 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10c1e288-15f9-4512-96ce-e44e12a9e396")
+		(property "Reference" "TP10"
+			(at 266.7 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 266.7 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 270.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ec60c88-61a0-49a6-b9da-a5118788549f")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
+		(at 215.9 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "138205d0-c62a-4177-b61e-eb54572e5b2f")
+		(property "Reference" "C57"
+			(at 215.9 41.3004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 215.9 43.5356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 210.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 199.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c800d0b9-9e72-4b8f-9630-51e24a2d9dd8")
+		)
+		(pin "2"
+			(uuid "b9e18671-4173-4aeb-9dea-8ae82d4c16b1")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -6625,6 +7797,147 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Inductor:15uH_1A_5040")
+		(at 226.695 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "198b444c-6292-4745-b78b-208c1a276b4b")
+		(property "Reference" "L3"
+			(at 226.695 47.3964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15uH"
+			(at 226.695 49.6316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Inductor:COIL_5040"
+			(at 239.395 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.695 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15uH, Isat>1A, Rdc<=100mOhms, shielded"
+			(at 226.695 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bournes"
+			(at 236.093 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SRN5040TA-150M"
+			(at 226.695 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "15uH, Isat>1A, Rdc<=100mOhms, shielded"
+			(at 234.569 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SRN5040TA-150M"
+			(at 237.617 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "15uH"
+			(at 226.695 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Display 2" "1A"
+			(at 226.5934 47.6504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C222950"
+			(at 230.505 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 243.205 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83a64dec-0660-41af-8748-61ffe366b131")
+		)
+		(pin "1"
+			(uuid "0bb0b76d-b803-406f-8493-c7adaa85718c")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -7136,6 +8449,130 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
+		(at 127 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c4b01ed-3bcc-4f10-b0fc-71d3c2744043")
+		(property "Reference" "C65"
+			(at 123.825 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF_0603_16V"
+			(at 127 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 124.46 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 123.825 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "ID" ""
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 124.46 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 124.46 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 124.46 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f288c908-2a45-4212-b1c2-2bca93da6823")
+		)
+		(pin "2"
+			(uuid "77cc85e7-b31f-4bb9-a78a-66b4321df983")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -8123,6 +9560,269 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_Resistor_0603:100k_0603")
+		(at 190.5 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a7aabb4-755a-4f18-8f07-7347c32c3899")
+		(property "Reference" "R56"
+			(at 190.5 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 190.5 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 177.546 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100k, 1%, 1/10W, 0603"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "100k, 1%, 1/10W, 0603"
+			(at 182.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 181.102 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07100KL"
+			(at 179.324 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "100k"
+			(at 190.5 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C14675"
+			(at 175.768 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d9e50fe-1154-4125-8af5-fecc0a013dc1")
+		)
+		(pin "2"
+			(uuid "a56fada1-14f6-4641-8724-d74dc21b3135")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:47uF_5x5.3_16V")
+		(at 265.43 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e098070-998b-4cc1-8d53-741a611114e0")
+		(property "Reference" "C61"
+			(at 267.97 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 267.97 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
+			(at 263.525 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 265.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lelon"
+			(at 262.89 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part number" "VE-470M1CTR-0505"
+			(at 265.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 262.89 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "VES470M1CTR-0505"
+			(at 262.89 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "47uF/16V"
+			(at 260.731 46.609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C134798"
+			(at 265.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 262.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9e4c967-fa16-4ea9-a19e-570e74b3f750")
+		)
+		(pin "1"
+			(uuid "e5473ff0-7444-41d9-9aeb-1d6f0409b421")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Power-symbol:+3.3V")
 		(at 162.56 85.09 0)
 		(unit 1)
@@ -8389,6 +10089,142 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_Capacitor:22uF_0805_25V")
+		(at 180.34 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d6feb60-6e3b-47d8-8b75-cf4e310b7d79")
+		(property "Reference" "C56"
+			(at 181.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0805"
+			(at 181.3052 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF, Min. 10V, 20%, X5R or X7S or similar, 0805, MLCC"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 177.8 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part number" "UMK325BJ106KMHP"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "22uF, Min. 25V, 20%, X5R or X7S or similar, 0805, MLCC"
+			(at 177.8 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM21BR61E226ME44L"
+			(at 177.8 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "22uF/25V"
+			(at 182.245 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C45783"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a71f1f3-7c49-416d-8b67-f04ab138fa38")
+		)
+		(pin "2"
+			(uuid "744d6450-a87d-47de-a029-cb1a7d4a4bfe")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Power-symbol:GND")
 		(at 46.99 100.33 0)
 		(unit 1)
@@ -8580,7 +10416,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Power-symbol:GNDA")
-		(at 110.49 149.86 90)
+		(at 142.24 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8589,7 +10425,7 @@
 		(fields_autoplaced yes)
 		(uuid "69791bd2-e5ce-4629-a21a-0ebcc82d66b2")
 		(property "Reference" "#PWR043"
-			(at 116.84 149.86 0)
+			(at 148.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +10434,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 114.3 149.8599 90)
+			(at 146.05 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +10443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 149.86 0)
+			(at 142.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,7 +10452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 149.86 0)
+			(at 142.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +10461,7 @@
 			)
 		)
 		(property "Description" "(analog) ground power-flag symbol"
-			(at 110.49 149.86 0)
+			(at 142.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,6 +10543,73 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Connector:TestPoint_Small")
+		(at 153.67 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "701a2ff6-07e8-4e6b-837e-b6ab5300c6dd")
+		(property "Reference" "TP11"
+			(at 154.94 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 154.94 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 158.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51161b07-884b-4ef6-bcd4-165d5ed3b9b5")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -8978,6 +10881,252 @@
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "U8")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:+12V")
+		(at 170.18 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "826d6dea-00b9-45b2-8f09-49b96b52b9bc")
+		(property "Reference" "#PWR037"
+			(at 170.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 170.18 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "021421d8-2d4c-4079-9da6-5c49a35ebfae")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GNDA")
+		(at 269.24 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8297662f-4add-4716-b154-6888dc74e01a")
+		(property "Reference" "#PWR042"
+			(at 269.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 269.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(analog) ground power-flag symbol"
+			(at 269.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a0cce9e-2e2c-4902-9929-966ea97d20c2")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor:75k_0603")
+		(at 217.805 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82b3f914-3286-4c15-a5f6-968ce6eabd71")
+		(property "Reference" "R57"
+			(at 217.805 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "75k"
+			(at 217.805 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 230.505 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.805 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75K, 1%, 1/10W, 0603"
+			(at 217.805 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "75K, 1%, 1/10W, 0603"
+			(at 225.679 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 227.203 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0775KL"
+			(at 228.727 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "75k"
+			(at 217.805 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C23242"
+			(at 224.155 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94f7b428-c804-46eb-bc2a-8b57734f3a2b")
+		)
+		(pin "1"
+			(uuid "04fa419c-98d6-4215-9083-0b34e8cf91bc")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "R57")
+					(unit 1)
 				)
 			)
 		)
@@ -9324,6 +11473,130 @@
 			(project ""
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
+		(at 127 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c310076-b8f6-44f3-a07b-c37c396a0a04")
+		(property "Reference" "C64"
+			(at 123.825 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF_0603_16V"
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 124.46 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 123.825 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "ID" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 124.46 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 124.46 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 124.46 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 128.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cf731ef-1915-41c5-8081-fd9d47340907")
+		)
+		(pin "2"
+			(uuid "39d9b597-5a99-4c83-8535-3730ae6a2e23")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -10111,6 +12384,121 @@
 	)
 	(symbol
 		(lib_id "4ms_Resistor:7.68k_0603")
+		(at 234.95 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2059220-310c-419b-b2cc-4bfb14b20357")
+		(property "Reference" "R59"
+			(at 232.918 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7.68k"
+			(at 231.14 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 237.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7.68K, 1%, 1/10W, 0603"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "7.68K, 1%, 1/10W, 0603"
+			(at 237.49 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 237.49 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-077K68L"
+			(at 237.49 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "7.68k"
+			(at 231.14 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C23102"
+			(at 231.14 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d089e030-81ec-4d9c-bc90-6fbc190c7125")
+		)
+		(pin "2"
+			(uuid "fbe84edc-18b8-4af1-b272-c79cc76ac8a9")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor:7.68k_0603")
 		(at 120.65 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10292,6 +12680,130 @@
 	)
 	(symbol
 		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
+		(at 138.43 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaf29626-663a-47d7-9ff7-96ca1f63f482")
+		(property "Reference" "C67"
+			(at 135.255 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF_0603_16V"
+			(at 138.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 135.89 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 135.255 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "ID" ""
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 135.89 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 135.89 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 135.89 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 139.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dd8826c-f3e8-4033-9834-1b0d870ae971")
+		)
+		(pin "2"
+			(uuid "bd4ecd71-ea77-4ed2-90ae-156b6d82b6a0")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
 		(at 104.14 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10409,6 +12921,209 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Connector:TestPoint_Small")
+		(at 151.13 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab5b0d6f-2250-4094-bb1d-b92feced16d0")
+		(property "Reference" "TP9"
+			(at 149.098 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 143.51 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9b61015-ecfb-4d22-92d0-dbd7eb9b505c")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:10uF_0603_10V")
+		(at 259.08 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b88905ae-86e5-46c8-a375-3e265d9a212a")
+		(property "Reference" "C60"
+			(at 259.715 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF, Min. 10V X5R 10%"
+			(at 259.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10uF, Min. 10V X5R 10%"
+			(at 256.54 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 256.54 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM188R61A106KE69D"
+			(at 259.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM188R61A106KE69D"
+			(at 256.54 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF/10V"
+			(at 254.254 44.323 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C19702"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 256.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8edb2e3d-7b8c-47db-a8b9-ceb335bc9f40")
+		)
+		(pin "2"
+			(uuid "9f8466ed-94ca-4283-843c-0f7d213f6d75")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -11259,6 +13974,395 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_IC:AP65211AWU-7")
+		(at 203.2 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d26a2a8c-97d8-48b4-8494-c1c7e8bb5add")
+		(property "Reference" "U9"
+			(at 203.2 40.3352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP65211A"
+			(at 203.2 42.5704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Package_SOT:TSOT-23-6"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP65111A.pdf"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC/DC Buck Converter 500kHz 18VinMax 2A Synchronous"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "DC/DC Buck Converter 500kHz 18VinMax 2A Synchronous"
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AP65211AWU-7"
+			(at 210.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C441829"
+			(at 214.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93481e10-dc83-4429-8a55-e492221bed2b")
+		)
+		(pin "4"
+			(uuid "63b81ddd-ab0f-4b09-aabb-0db883397727")
+		)
+		(pin "5"
+			(uuid "817b6d93-55e3-4343-a690-b301fc0242b1")
+		)
+		(pin "2"
+			(uuid "c39764d6-1d1c-46a7-96f5-a6460bb9fcce")
+		)
+		(pin "3"
+			(uuid "7eb75b94-dee0-43e4-89f7-619e345a6a05")
+		)
+		(pin "6"
+			(uuid "b5a682e5-40e1-4507-bfa6-8bf2a78aca9a")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:47pF_0603_50V")
+		(at 239.395 55.245 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d34f3704-5ee1-4d3f-bd78-88e216b2d8a6")
+		(property "Reference" "C58"
+			(at 241.7318 54.1274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47pF"
+			(at 241.7318 56.3626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 241.935 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 239.395 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47pF, 50V C0G/NPO 5%, MLCC"
+			(at 239.395 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "885012005078"
+			(at 239.395 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 241.935 45.847 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "47pF, 50V C0G/NPO 5%, MLCC"
+			(at 241.935 47.371 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0603JRNPO9BN470"
+			(at 241.935 44.323 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "47pF"
+			(at 246.634 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C1671"
+			(at 239.395 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 241.935 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a307220-809c-4bd0-b514-f5d42d8ffe7b")
+		)
+		(pin "1"
+			(uuid "b1289a1d-1cd6-47ba-a57d-aa2593b9e5e5")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
+		(at 115.57 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6823ad9-f22d-48e5-8dc8-86975891f831")
+		(property "Reference" "C62"
+			(at 112.395 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF_0603_16V"
+			(at 115.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 113.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 112.395 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "ID" ""
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 113.03 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 113.03 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 113.03 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "331e947d-d391-44d0-a168-736aec1e622d")
+		)
+		(pin "2"
+			(uuid "c0cb1215-4da9-4d08-a822-339c6e7293f5")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Power-symbol:GND")
 		(at 25.4 30.48 270)
 		(unit 1)
@@ -11319,6 +14423,245 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor:40.2k_0603")
+		(at 234.95 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8aa54f2-d919-4e4b-b5d4-c4be656335ca")
+		(property "Reference" "R58"
+			(at 232.918 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40.2k"
+			(at 231.14 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 237.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40.2k, 1%, 1/10W, 0603"
+			(at 234.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "40.2k, 1%, 1/10W, 0603"
+			(at 237.49 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 237.49 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0740K2L"
+			(at 237.49 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "40.2k"
+			(at 231.14 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C12447"
+			(at 234.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24c7f514-c636-4830-8810-8c345e786b95")
+		)
+		(pin "2"
+			(uuid "e1f1e63e-e8b9-4238-8d77-b25acdc0cef4")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
+		(at 138.43 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec08e8bd-1d7b-4091-8e8a-19fe55088027")
+		(property "Reference" "C66"
+			(at 135.255 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF_0603_16V"
+			(at 138.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 135.89 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 135.255 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "ID" ""
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 135.89 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 135.89 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 135.89 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 139.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96eb9197-003e-4cc5-bb0c-0a531fc6c6d7")
+		)
+		(pin "2"
+			(uuid "e34fb0c7-4d0e-4a0f-81c2-53137fe35a94")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -11443,6 +14786,130 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
+		(at 115.57 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7fe3022-5a57-4152-9cf6-4973ac3df61b")
+		(property "Reference" "C63"
+			(at 112.395 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF_0603_16V"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 113.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 112.395 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "ID" ""
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 113.03 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 113.03 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 113.03 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37673604-1924-41ab-88e9-2ce50e008504")
+		)
+		(pin "2"
+			(uuid "a6f2bdd4-5d4e-4d6b-9d4b-04bd086d77cc")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "C63")
 					(unit 1)
 				)
 			)

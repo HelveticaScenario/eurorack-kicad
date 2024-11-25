@@ -1587,10 +1587,22 @@
 		(uuid "2192df81-6709-4a7c-86d0-9cd565425fbd")
 	)
 	(junction
+		(at 209.55 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26f7ac6b-0d9f-4df2-b7ef-b738ba5130d9")
+	)
+	(junction
 		(at 236.22 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36a0d272-0a2e-4490-9d1b-19f00b4d0867")
+	)
+	(junction
+		(at 236.22 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36cd745a-61d9-475f-8ed4-37222515ad9d")
 	)
 	(junction
 		(at 48.26 44.45)
@@ -1878,6 +1890,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 20.32) (xy 236.22 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06771402-34a1-471b-a632-739ca4010462")
+	)
+	(wire
+		(pts
 			(xy 124.46 33.02) (xy 128.27 33.02)
 		)
 		(stroke
@@ -1905,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "0de9468a-196d-4893-9d9a-f204300b000b")
+	)
+	(wire
+		(pts
+			(xy 236.22 20.32) (xy 236.22 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f764da4-346c-4921-bd40-4144ceda2124")
 	)
 	(wire
 		(pts
@@ -2255,6 +2287,16 @@
 			(type default)
 		)
 		(uuid "3244b7c0-88b8-4a74-a6d2-d4a7874ff2f4")
+	)
+	(wire
+		(pts
+			(xy 203.2 20.32) (xy 209.55 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332a6dbe-507d-4683-9ef1-02424850fc20")
 	)
 	(wire
 		(pts
@@ -3848,6 +3890,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 20.32) (xy 209.55 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32a977e-4d2e-4bee-8f2b-0e5885234435")
+	)
+	(wire
+		(pts
 			(xy 63.5 119.38) (xy 63.5 123.19)
 		)
 		(stroke
@@ -4448,6 +4500,28 @@
 			)
 		)
 	)
+	(global_label "ADC3"
+		(shape input)
+		(at 240.03 13.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b0b4a6d-f71e-4cc9-8ebb-30ce57b4e163")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.8533 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OP3_OUT"
 		(shape input)
 		(at 74.93 115.57 0)
@@ -4532,6 +4606,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC2"
+		(shape input)
+		(at 213.36 13.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63353c64-8562-4abd-bb05-cfa3ea0fcebb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.1833 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8112,6 +8208,119 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Jack:3.5mm_Mono_Switched_SymSmall_0.05")
+		(at 205.74 16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34b7ca7e-364c-4f56-a7e8-73d0f82a7dce")
+		(property "Reference" "J12"
+			(at 205.4225 8.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_SymSmall_0.05"
+			(at 216.535 27.305 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 224.79 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 205.74 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 207.01 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 207.01 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 207.01 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 205.4225 11.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d13b5aa7-438e-4e68-b6d7-2e5d7613a780")
+		)
+		(pin "1"
+			(uuid "5849a9c2-53c5-4bca-80bb-2ccf0473499c")
+		)
+		(pin "3"
+			(uuid "c6964fdc-62e1-48f2-9ee0-252215bfcb6b")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/479e54ad-9621-45c1-9486-782bedef5f46"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Resistor_0402:16.9k_0402")
 		(at 64.77 25.4 90)
 		(unit 1)
@@ -9129,6 +9338,119 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/479e54ad-9621-45c1-9486-782bedef5f46"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Jack:3.5mm_Mono_Switched_SymSmall_0.05")
+		(at 232.41 16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "513b2174-d229-4604-9490-e4f37f397283")
+		(property "Reference" "J13"
+			(at 232.0925 8.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_SymSmall_0.05"
+			(at 243.205 27.305 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(bold yes)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 251.46 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 232.41 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 233.68 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 233.68 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 233.68 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "3.5mm_Mono"
+			(at 232.0925 11.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67864635-9c3c-45f1-9a9c-b4dfdc55fe8d")
+		)
+		(pin "1"
+			(uuid "9b5b03a1-9ae4-4ede-8e20-36692d4d999e")
+		)
+		(pin "3"
+			(uuid "1f278b59-c55b-4f91-9909-743f90534e3e")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/479e54ad-9621-45c1-9486-782bedef5f46"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -11263,6 +11585,140 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/479e54ad-9621-45c1-9486-782bedef5f46"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GNDA")
+		(at 209.55 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f8e7730-fec4-44b8-bc66-1241f8740128")
+		(property "Reference" "#PWR061"
+			(at 215.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 213.36 20.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(analog) ground power-flag symbol"
+			(at 209.55 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "540b159f-b956-4ac7-ad4e-5c0fb586ba32")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/479e54ad-9621-45c1-9486-782bedef5f46"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GNDA")
+		(at 236.22 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd6727d-4b7a-42f7-8d38-194989b3a348")
+		(property "Reference" "#PWR062"
+			(at 242.57 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 240.03 20.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(analog) ground power-flag symbol"
+			(at 236.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc8933b9-eae2-465f-8548-2ec7d192f695")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/479e54ad-9621-45c1-9486-782bedef5f46"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
