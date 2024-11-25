@@ -646,7 +646,7 @@
 				)
 			)
 		)
-		(symbol "4ms_Capacitor:220pF_0402_50V"
+		(symbol "4ms_Capacitor:47uF_5x5.3_16V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -662,7 +662,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "220pF_0402_50V"
+			(property "Value" "47uF_5x5.3_16V"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -671,8 +671,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "4ms_Capacitor:C_0402"
-				(at -2.54 -5.08 0)
+			(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
+				(at -1.905 -4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -690,7 +690,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "220pF, Min. 50V 5%, 0402"
+			(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
 				(at 0 0 0)
 				(effects
 					(font
@@ -699,7 +699,7 @@
 					(hide yes)
 				)
 			)
-			(property "Specifications" "220pF, 50V, 5%, X7R or X5R or similar"
+			(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
 				(at -2.54 -7.874 0)
 				(effects
 					(font
@@ -709,7 +709,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Yageo"
+			(property "Manufacturer" "Lelon"
 				(at -2.54 -9.398 0)
 				(effects
 					(font
@@ -719,7 +719,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "AC0402JPNPO9BN221"
+			(property "Part Number" "VES470M1CTR-0505"
 				(at -2.54 -10.922 0)
 				(effects
 					(font
@@ -729,7 +729,7 @@
 					(hide yes)
 				)
 			)
-			(property "Display" "220pF"
+			(property "Display" "47uF/16V"
 				(at 1.905 -1.27 0)
 				(effects
 					(font
@@ -738,8 +738,8 @@
 					(justify left)
 				)
 			)
-			(property "JLCPCB ID" "C327000"
-				(at 1.27 -12.7 0)
+			(property "JLCPCB ID" "C134798"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -757,7 +757,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "200pF_0402_50V"
+			(property "ki_keywords" "47uF_5x5.3_16V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -766,7 +766,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "CP_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -775,19 +775,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "220pF_0402_50V_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "47uF_5x5.3_16V_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -800,8 +788,44 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -0.762)
+					(mid 0 -0.3734)
+					(end -1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "220pF_0402_50V_1_1"
+			(symbol "47uF_5x5.3_16V_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1356,194 +1380,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "4ms_Resistor:10R_0402"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10R_0402"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "4ms_Resistor:R_0402"
-				(at -2.54 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10Ω, 1%, 1/16W, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "10R, 1%, 1/16W, 0402"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RC0402FR-0710RL "
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer 2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number 2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Display" "10Ω"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB ID" ""
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "10Ω 10R 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "10R_0402_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "10R_0402_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2668,7 +2504,7 @@
 		(uuid "1462b9fd-0472-40be-b8bc-966bb3bef60e")
 	)
 	(junction
-		(at 234.95 88.9)
+		(at 257.81 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18df403e-3448-47d4-a1b8-f81b83d5f619")
@@ -2716,13 +2552,13 @@
 		(uuid "90604438-841f-42af-8ff5-b34acbe04d67")
 	)
 	(junction
-		(at 234.95 107.95)
+		(at 257.81 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5c48171-ef95-494f-8442-3bb8f6302109")
 	)
 	(junction
-		(at 234.95 93.98)
+		(at 257.81 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d01114ce-8abe-4cdb-b390-4b169b000d70")
@@ -2740,7 +2576,7 @@
 		(uuid "f3046ba7-b59e-477f-8015-f25e7cfaa43a")
 	)
 	(junction
-		(at 234.95 113.03)
+		(at 257.81 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f810ee7b-daf1-409b-ad1a-52ea1b97e3a3")
@@ -2748,6 +2584,16 @@
 	(no_connect
 		(at 167.64 58.42)
 		(uuid "0546ff49-9361-4413-897e-4752ead581e9")
+	)
+	(wire
+		(pts
+			(xy 254 113.03) (xy 257.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00de6542-aa6c-46b1-8d1e-e94a791c3f2a")
 	)
 	(wire
 		(pts
@@ -2761,6 +2607,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 107.95) (xy 207.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150c145b-9767-43a4-b4d7-a5ccf6a47ccc")
+	)
+	(wire
+		(pts
 			(xy 208.28 59.69) (xy 208.28 66.04)
 		)
 		(stroke
@@ -2768,16 +2624,6 @@
 			(type default)
 		)
 		(uuid "2012b1ff-1991-4e3c-9a5c-f8e179d057f4")
-	)
-	(wire
-		(pts
-			(xy 207.01 107.95) (xy 203.2 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a8fad0-c8a3-4ff9-b177-547317a8dc0b")
 	)
 	(wire
 		(pts
@@ -2791,13 +2637,23 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 107.95) (xy 234.95 107.95)
+			(xy 207.01 93.98) (xy 224.79 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4412621c-c1a4-4e32-ac34-2bb574287665")
+		(uuid "42693398-2079-4d1d-aacf-0d79d5731e1c")
+	)
+	(wire
+		(pts
+			(xy 257.81 113.03) (xy 273.05 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a49b61d-c918-4e1b-b62a-74f7f2c3906b")
 	)
 	(wire
 		(pts
@@ -2811,6 +2667,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 107.95) (xy 257.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5494dffc-5bfc-4009-a91b-792057426562")
+	)
+	(wire
+		(pts
 			(xy 203.2 54.61) (xy 203.2 59.69)
 		)
 		(stroke
@@ -2821,13 +2687,33 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 113.03) (xy 234.95 113.03)
+			(xy 207.01 113.03) (xy 224.79 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c1d5cbd-e15d-47b1-b19c-0652d06f4c22")
+		(uuid "833daa4b-54c7-4d70-b997-75b0fe4181ca")
+	)
+	(wire
+		(pts
+			(xy 257.81 107.95) (xy 273.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86957c78-14ee-4391-ba00-10bf8e20283f")
+	)
+	(wire
+		(pts
+			(xy 207.01 107.95) (xy 224.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897a7390-fe30-49eb-b704-6068f68ea7f8")
 	)
 	(wire
 		(pts
@@ -2841,7 +2727,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 88.9) (xy 231.14 88.9)
+			(xy 257.81 93.98) (xy 273.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19b0117-d791-4d97-9640-e8553574d173")
+	)
+	(wire
+		(pts
+			(xy 257.81 88.9) (xy 254 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2851,13 +2747,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 113.03) (xy 203.2 113.03)
+			(xy 203.2 113.03) (xy 207.01 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa1922ef-9822-49f1-9ff0-fc105eca0412")
+		(uuid "a76699e4-1abe-44df-ab36-b0d2c03e0236")
 	)
 	(wire
 		(pts
@@ -2871,7 +2767,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 93.98) (xy 231.14 93.98)
+			(xy 207.01 88.9) (xy 224.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a444d6-a442-4759-8dbf-c2768e009f37")
+	)
+	(wire
+		(pts
+			(xy 257.81 93.98) (xy 254 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2908,6 +2814,16 @@
 			(type default)
 		)
 		(uuid "d3855424-a353-4583-954d-d7c74ede08a7")
+	)
+	(wire
+		(pts
+			(xy 257.81 88.9) (xy 273.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49d5969-2159-41d7-9d68-42615acd15b6")
 	)
 	(wire
 		(pts
@@ -2961,26 +2877,6 @@
 		(uuid "082b4301-36a1-421d-b66a-3fb75dda66c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTR4N"
-		(shape output)
-		(at 271.78 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "09800912-3258-4451-b534-1903055bef09")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,26 +2977,6 @@
 		(uuid "22b238a2-7197-4e4d-b3c8-17fb9cd3b421")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTR2N"
-		(shape output)
-		(at 271.78 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23bed00b-43fd-469d-a1d1-9336539e8ec8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,26 +3105,6 @@
 			)
 		)
 	)
-	(global_label "AOUTL1N"
-		(shape output)
-		(at 271.78 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "300abcd9-c091-4d38-af51-71e9d0fb62df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VREFL1"
 		(shape input)
 		(at 91.44 106.68 180)
@@ -3301,26 +3157,6 @@
 		(uuid "35fea66f-53cf-4ade-b5bc-9af095143935")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.64 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTR1N"
-		(shape output)
-		(at 271.78 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a565b5a-eb05-4708-9e71-d38106def37b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,26 +3305,6 @@
 			)
 		)
 	)
-	(global_label "AOUTR3P"
-		(shape output)
-		(at 259.08 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a995d44-1ba2-4d84-9f7d-8a2be1d4f5ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BICK/DCLK"
 		(shape input)
 		(at 91.44 60.96 180)
@@ -3531,7 +3347,7 @@
 	)
 	(global_label "VREFL3"
 		(shape input)
-		(at 203.2 113.03 180)
+		(at 203.2 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3540,7 +3356,7 @@
 		)
 		(uuid "514071b8-3f01-4e57-8565-1c7f1534d43a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2 113.03 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3387,7 @@
 	)
 	(global_label "VREFH4"
 		(shape input)
-		(at 231.14 107.95 180)
+		(at 254 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3580,27 +3396,7 @@
 		)
 		(uuid "5aab52e6-b3f9-4dc4-99d7-adb014fd3842")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTL2P"
-		(shape output)
-		(at 259.08 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5cd7b6d1-41bc-4b80-8039-79ccf16ceb8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 57.15 0)
+			(at 254 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,26 +3505,6 @@
 			)
 		)
 	)
-	(global_label "AOUTL3P"
-		(shape output)
-		(at 259.08 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73874a3f-7c41-4425-9418-8fd89009fcb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "9_OUT1C"
 		(shape bidirectional)
 		(at 34.29 85.09 0)
@@ -3769,26 +3545,6 @@
 			)
 		)
 	)
-	(global_label "AOUTR2P"
-		(shape output)
-		(at 259.08 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7c72683a-3b55-4aca-b20c-d1d3287e5f0b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VREFL4"
 		(shape input)
 		(at 167.64 78.74 0)
@@ -3801,46 +3557,6 @@
 		(uuid "7de1eca4-a9d5-4308-a906-b9074b0f2bda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTL4N"
-		(shape output)
-		(at 271.78 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "800ca60f-bca8-4773-b29e-0ebf18cbf15c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTR3N"
-		(shape output)
-		(at 271.78 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "80c8cd5c-9ebe-4c4b-9105-f1b50a2c4c42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,26 +3617,6 @@
 		(uuid "88e449f4-8531-498e-8527-1f611b0f1a2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTL2N"
-		(shape output)
-		(at 271.78 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8a2d0706-b03c-484c-860e-57a63b2723cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3687,7 @@
 	)
 	(global_label "VREFH2"
 		(shape input)
-		(at 231.14 93.98 180)
+		(at 254 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4000,7 +3696,7 @@
 		)
 		(uuid "91643216-28c6-48d2-b5fe-6c5475dab7e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 93.98 0)
+			(at 254 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +3747,7 @@
 	)
 	(global_label "VREFL4"
 		(shape input)
-		(at 231.14 113.03 180)
+		(at 254 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4060,7 +3756,7 @@
 		)
 		(uuid "9747f580-ffe8-4023-9132-62d375f8e1af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 113.03 0)
+			(at 254 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,7 +3767,7 @@
 	)
 	(global_label "VREFL2"
 		(shape input)
-		(at 231.14 88.9 180)
+		(at 254 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4080,7 +3776,7 @@
 		)
 		(uuid "a15ca39c-e756-425f-99db-86ebdbb21823")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 88.9 0)
+			(at 254 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,26 +3905,6 @@
 			)
 		)
 	)
-	(global_label "AOUTL4P"
-		(shape output)
-		(at 259.08 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8262c56-e8aa-4a0b-b2a7-6df3dc998d84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "AOUTR4N"
 		(shape output)
 		(at 167.64 76.2 0)
@@ -4349,69 +4025,9 @@
 			)
 		)
 	)
-	(global_label "AOUTL1P"
-		(shape output)
-		(at 259.08 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df61fd08-395c-4cb9-9548-eda142a4b456")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTR4P"
-		(shape output)
-		(at 259.08 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e63c69ad-69d4-4f82-8671-01bb0bf58dae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTL3N"
-		(shape output)
-		(at 271.78 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e96c8227-2571-45de-9566-02dcb694a4a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VREFH3"
 		(shape input)
-		(at 203.2 107.95 180)
+		(at 203.2 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4420,7 +4036,7 @@
 		)
 		(uuid "e9cae580-1ef9-4f00-a490-86695deb0149")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2 107.95 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,26 +4097,6 @@
 		(uuid "ee8881b4-1735-47f3-bd1b-11c8a94a6e0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.44 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AOUTR1P"
-		(shape output)
-		(at 259.08 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0237803-bc4c-4943-a028-9436f202a1c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,6 +4300,135 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_Capacitor:47uF_5x5.3_16V")
+		(at 224.79 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c986280-a9b1-4a8c-b18a-920645d82404")
+		(property "Reference" "C54"
+			(at 227.33 90.6017 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF_5x5.3_16V"
+			(at 224.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
+			(at 226.695 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 227.33 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lelon"
+			(at 227.33 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "VES470M1CTR-0505"
+			(at 227.33 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "47uF/16V"
+			(at 227.33 93.1417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "JLCPCB ID" "C134798"
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd0719ad-5b65-4937-99d2-4dba23b4a541")
+		)
+		(pin "2"
+			(uuid "1c909c63-e609-4883-ade1-84db8bd36c63")
+		)
+		(instances
+			(project ""
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Power-symbol:GNDA")
 		(at 207.01 107.95 180)
 		(unit 1)
@@ -4830,134 +4555,6 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Capacitor:220pF_0402_50V")
-		(at 261.62 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "187a6bda-0190-4115-966b-b2af915489b0")
-		(property "Reference" "C55"
-			(at 264.16 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220pF_0402_50V"
-			(at 257.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_0402"
-			(at 266.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "220pF, Min. 50V 5%, 0402"
-			(at 261.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "220pF, 50V, 5%, X7R or X5R or similar"
-			(at 269.494 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 271.018 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402JPNPO9BN221"
-			(at 272.542 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "220pF"
-			(at 264.16 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C327000"
-			(at 274.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 278.13 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8bcce900-11f3-4550-8b8e-fcde9f1bd74a")
-		)
-		(pin "1"
-			(uuid "361d3bca-2455-4a70-b1a0-0f6f0e0c9a81")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -5098,398 +4695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Resistor:10R_0402")
-		(at 267.97 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "211ac2d5-efac-427e-90a9-2cb7fbcc6ecc")
-		(property "Reference" "R59"
-			(at 269.875 80.6451 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R_0402"
-			(at 267.97 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0402"
-			(at 280.67 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω, 1%, 1/16W, 0402"
-			(at 267.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10R, 1%, 1/16W, 0402"
-			(at 275.844 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 277.368 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-0710RL "
-			(at 278.892 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 267.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 267.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" "10Ω"
-			(at 269.875 78.1051 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 271.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "847d5392-27ee-48ba-b4e7-7c30caac6847")
-		)
-		(pin "1"
-			(uuid "f117a3bd-b4d1-44a8-833e-456b2e8964d8")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Capacitor:220pF_0402_50V")
-		(at 261.62 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22048c5c-cf4b-4e78-b2e3-4b6af60269ff")
-		(property "Reference" "C54"
-			(at 264.414 92.964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220pF_0402_50V"
-			(at 257.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_0402"
-			(at 266.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "220pF, Min. 50V 5%, 0402"
-			(at 261.62 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "220pF, 50V, 5%, X7R or X5R or similar"
-			(at 269.494 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 271.018 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402JPNPO9BN221"
-			(at 272.542 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "220pF"
-			(at 264.414 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C327000"
-			(at 274.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 278.13 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6093ccf4-8f96-4b8e-b6ad-40d6d17cf278")
-		)
-		(pin "1"
-			(uuid "5f73e0f3-d23c-4072-94f1-7c905eb5a1ef")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Capacitor:220pF_0402_50V")
-		(at 261.62 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "231ea598-ed0e-448e-a7b3-4cd927727e26")
-		(property "Reference" "C57"
-			(at 264.16 53.594 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220pF_0402_50V"
-			(at 257.81 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_0402"
-			(at 266.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "220pF, Min. 50V 5%, 0402"
-			(at 261.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "220pF, 50V, 5%, X7R or X5R or similar"
-			(at 269.494 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 271.018 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402JPNPO9BN221"
-			(at 272.542 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "220pF"
-			(at 264.16 51.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C327000"
-			(at 274.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 278.13 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "259587c5-e03e-46e8-962b-4b520c9cb3f9")
-		)
-		(pin "1"
-			(uuid "da49809e-2d63-4bf7-b9df-652ab70fe24f")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 91.44 96.52 270)
 		(unit 1)
@@ -5558,7 +4763,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Power-symbol:+5V")
-		(at 234.95 113.03 180)
+		(at 257.81 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5567,7 +4772,7 @@
 		(fields_autoplaced yes)
 		(uuid "25dfe7ba-9812-4150-a0b7-109681d418df")
 		(property "Reference" "#PWR058"
-			(at 234.95 109.22 0)
+			(at 257.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +4781,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 234.95 118.11 0)
+			(at 257.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +4789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 113.03 0)
+			(at 257.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +4798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 113.03 0)
+			(at 257.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +4807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 113.03 0)
+			(at 257.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,25 +4895,26 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Capacitor:220pF_0402_50V")
-		(at 261.62 31.75 90)
+		(lib_id "4ms_Capacitor:47uF_5x5.3_16V")
+		(at 273.05 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "33ab59c3-ee22-49f9-9129-1ddb22b70f4b")
-		(property "Reference" "C59"
-			(at 264.414 27.686 90)
+		(fields_autoplaced yes)
+		(uuid "3740991a-4ff8-4441-a677-23873114309b")
+		(property "Reference" "C53"
+			(at 275.59 109.6517 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "220pF_0402_50V"
-			(at 257.81 31.75 0)
+		(property "Value" "47uF_5x5.3_16V"
+			(at 273.05 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,8 +4922,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "4ms_Capacitor:C_0402"
-			(at 266.7 34.29 0)
+		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
+			(at 274.955 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +4933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 31.75 0)
+			(at 273.05 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,8 +4941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220pF, Min. 50V 5%, 0402"
-			(at 261.62 31.75 0)
+		(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 273.05 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,8 +4950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" "220pF, 50V, 5%, X7R or X5R or similar"
-			(at 269.494 34.29 0)
+		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 275.59 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,8 +4960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 271.018 34.29 0)
+		(property "Manufacturer" "Lelon"
+			(at 275.59 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,8 +4970,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402JPNPO9BN221"
-			(at 272.542 34.29 0)
+		(property "Part Number" "VES470M1CTR-0505"
+			(at 275.59 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,17 +4980,17 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "220pF"
-			(at 264.414 25.146 90)
+		(property "Display" "47uF/16V"
+			(at 275.59 112.1917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "JLCPCB ID" "C327000"
-			(at 274.32 30.48 0)
+		(property "JLCPCB ID" "C134798"
+			(at 273.05 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +4999,7 @@
 			)
 		)
 		(property "Production Stage" "A"
-			(at 278.13 34.29 0)
+			(at 275.59 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,280 +5008,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "de21d2d8-43b2-4b24-8e60-c9f0f54361bf")
-		)
 		(pin "1"
-			(uuid "dd0f9a3f-c770-47b9-80ad-f2eff7de7709")
+			(uuid "193afbda-b027-4dda-a0bd-b6d64d85a886")
+		)
+		(pin "2"
+			(uuid "c78668b7-fc8f-48bb-a243-ea6f2be1f5e5")
 		)
 		(instances
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Resistor:10R_0402")
-		(at 267.97 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f71a9ea-ebc0-4e65-ba99-a6b0ed13705d")
-		(property "Reference" "R63"
-			(at 270.002 27.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R_0402"
-			(at 267.97 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0402"
-			(at 280.67 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω, 1%, 1/16W, 0402"
-			(at 267.97 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10R, 1%, 1/16W, 0402"
-			(at 275.844 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 277.368 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-0710RL "
-			(at 278.892 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 267.97 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 267.97 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" "10Ω"
-			(at 270.002 25.146 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 271.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e116c916-074c-4c59-92cd-29ad0880b225")
-		)
-		(pin "1"
-			(uuid "da5dbf66-bdc7-40c7-b688-eeb7d5cb2855")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Capacitor:220pF_0402_50V")
-		(at 261.62 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47bba456-ce0d-4e47-b330-134333a13689")
-		(property "Reference" "C52"
-			(at 264.414 119.634 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220pF_0402_50V"
-			(at 257.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_0402"
-			(at 266.7 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "220pF, Min. 50V 5%, 0402"
-			(at 261.62 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "220pF, 50V, 5%, X7R or X5R or similar"
-			(at 269.494 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 271.018 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402JPNPO9BN221"
-			(at 272.542 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "220pF"
-			(at 264.414 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C327000"
-			(at 274.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 278.13 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f15e07d-857c-46dc-b13b-d51aeaa4999d")
-		)
-		(pin "1"
-			(uuid "d94d8da4-2b4e-4328-b4ff-0d240ac1c13d")
-		)
-		(instances
-			(project ""
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C52")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -6149,7 +5091,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Capacitor:0.1uF_0805_50V")
-		(at 234.95 91.44 0)
+		(at 257.81 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6158,7 +5100,7 @@
 		(fields_autoplaced yes)
 		(uuid "57f38105-0eec-4dbf-86e8-040c366139ba")
 		(property "Reference" "C47"
-			(at 237.49 90.1762 0)
+			(at 260.35 90.1762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +5109,7 @@
 			)
 		)
 		(property "Value" "0.1uF_0805_50V"
-			(at 234.95 87.63 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +5118,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Capacitor:C_0805"
-			(at 232.41 95.885 0)
+			(at 255.27 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +5128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 91.44 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +5137,7 @@
 			)
 		)
 		(property "Description" "0.1uF, 50V, 0805, MLCC, X5R or similar"
-			(at 234.95 91.44 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +5146,7 @@
 			)
 		)
 		(property "Specifications" "0.1uF, 50V, 0805, MLCC, X5R or similar"
-			(at 232.41 99.314 0)
+			(at 255.27 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +5156,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 232.41 100.838 0)
+			(at 255.27 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +5166,7 @@
 			)
 		)
 		(property "Part Number" "GCJ21BL81H104KA01L"
-			(at 232.41 102.362 0)
+			(at 255.27 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +5176,7 @@
 			)
 		)
 		(property "Display" "0.1uF/50V"
-			(at 237.49 92.7162 0)
+			(at 260.35 92.7162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +5185,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 234.95 91.44 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +5194,7 @@
 			)
 		)
 		(property "Production Stage" "A"
-			(at 232.41 107.95 0)
+			(at 255.27 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,6 +5213,135 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:47uF_5x5.3_16V")
+		(at 224.79 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f5f9a77-d73a-4a59-9fd5-4e4cadbe8420")
+		(property "Reference" "C52"
+			(at 227.33 109.6517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF_5x5.3_16V"
+			(at 224.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
+			(at 226.695 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 224.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 227.33 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lelon"
+			(at 227.33 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "VES470M1CTR-0505"
+			(at 227.33 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "47uF/16V"
+			(at 227.33 112.1917 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "JLCPCB ID" "C134798"
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 227.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d75c4ad7-6a6a-491f-be01-fbc88dbd788c")
+		)
+		(pin "2"
+			(uuid "b877c31d-a1e2-4612-a259-c0d7ce9728bd")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -6602,8 +5673,137 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_Capacitor:47uF_5x5.3_16V")
+		(at 273.05 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9da51029-4495-4470-b721-e0eb4b645ca5")
+		(property "Reference" "C55"
+			(at 275.59 90.6017 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF_5x5.3_16V"
+			(at 273.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
+			(at 274.955 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 273.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
+			(at 275.59 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lelon"
+			(at 275.59 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "VES470M1CTR-0505"
+			(at 275.59 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "47uF/16V"
+			(at 275.59 93.1417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "JLCPCB ID" "C134798"
+			(at 273.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 275.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47eaa815-0aa0-4c96-a5fa-133f0ef2bce4")
+		)
+		(pin "2"
+			(uuid "a1c0f0d2-2a17-487a-b334-24f375a4c56f")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Power-symbol:+5V")
-		(at 234.95 93.98 180)
+		(at 257.81 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6612,7 +5812,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1f636ae-bfee-446b-bb8a-6b4593b9de51")
 		(property "Reference" "#PWR056"
-			(at 234.95 90.17 0)
+			(at 257.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +5821,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 234.95 99.06 0)
+			(at 257.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +5829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 93.98 0)
+			(at 257.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +5838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 93.98 0)
+			(at 257.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +5847,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 93.98 0)
+			(at 257.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,142 +6073,6 @@
 			(project ""
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Resistor:10R_0402")
-		(at 267.97 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab294b74-ab29-40e9-b94b-ed0b30c76da4")
-		(property "Reference" "R62"
-			(at 269.875 41.2751 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R_0402"
-			(at 267.97 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0402"
-			(at 280.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω, 1%, 1/16W, 0402"
-			(at 267.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10R, 1%, 1/16W, 0402"
-			(at 275.844 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 277.368 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-0710RL "
-			(at 278.892 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 267.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 267.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" "10Ω"
-			(at 269.875 38.7351 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 271.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1bc10301-3bbc-4e64-bf6e-d1a05960a17f")
-		)
-		(pin "1"
-			(uuid "e2cf2e76-b6b1-44ef-869c-d2f2776ddc9f")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -7420,7 +6484,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Capacitor:0.1uF_0805_50V")
-		(at 234.95 110.49 0)
+		(at 257.81 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7429,7 +6493,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3120131-b82f-4cf6-a141-e5fd26322f06")
 		(property "Reference" "C49"
-			(at 237.49 109.2262 0)
+			(at 260.35 109.2262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +6502,7 @@
 			)
 		)
 		(property "Value" "0.1uF_0805_50V"
-			(at 234.95 106.68 0)
+			(at 257.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,7 +6511,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Capacitor:C_0805"
-			(at 232.41 114.935 0)
+			(at 255.27 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +6521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +6530,7 @@
 			)
 		)
 		(property "Description" "0.1uF, 50V, 0805, MLCC, X5R or similar"
-			(at 234.95 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +6539,7 @@
 			)
 		)
 		(property "Specifications" "0.1uF, 50V, 0805, MLCC, X5R or similar"
-			(at 232.41 118.364 0)
+			(at 255.27 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +6549,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 232.41 119.888 0)
+			(at 255.27 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +6559,7 @@
 			)
 		)
 		(property "Part Number" "GCJ21BL81H104KA01L"
-			(at 232.41 121.412 0)
+			(at 255.27 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +6569,7 @@
 			)
 		)
 		(property "Display" "0.1uF/50V"
-			(at 237.49 111.7662 0)
+			(at 260.35 111.7662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +6578,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 234.95 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +6587,7 @@
 			)
 		)
 		(property "Production Stage" "A"
-			(at 232.41 127 0)
+			(at 255.27 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,406 +6606,6 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Capacitor:220pF_0402_50V")
-		(at 261.62 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4b02fe7-ee04-4eb9-aaac-aedf07e15a7d")
-		(property "Reference" "C58"
-			(at 263.906 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220pF_0402_50V"
-			(at 257.81 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_0402"
-			(at 266.7 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "220pF, Min. 50V 5%, 0402"
-			(at 261.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "220pF, 50V, 5%, X7R or X5R or similar"
-			(at 269.494 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 271.018 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402JPNPO9BN221"
-			(at 272.542 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "220pF"
-			(at 263.906 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C327000"
-			(at 274.32 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 278.13 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea74bba5-cade-4f13-af6f-78445a8d8cd2")
-		)
-		(pin "1"
-			(uuid "a9e26d0b-19e9-4bdc-bd0c-6ae49472cdd8")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Resistor:10R_0402")
-		(at 267.97 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7694a95-77ea-44ab-b27e-c61139638528")
-		(property "Reference" "R57"
-			(at 269.875 106.0451 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R_0402"
-			(at 267.97 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0402"
-			(at 280.67 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω, 1%, 1/16W, 0402"
-			(at 267.97 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10R, 1%, 1/16W, 0402"
-			(at 275.844 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 277.368 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-0710RL "
-			(at 278.892 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 267.97 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 267.97 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" "10Ω"
-			(at 269.875 103.5051 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 271.78 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40e2bad1-c595-4594-b84b-9478a1a9586b")
-		)
-		(pin "1"
-			(uuid "5f554394-d289-404f-8e51-fc103709db5d")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Resistor:10R_0402")
-		(at 267.97 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb35dc88-2dac-46e4-990b-1453ade506e5")
-		(property "Reference" "R56"
-			(at 269.875 120.0151 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R_0402"
-			(at 267.97 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0402"
-			(at 280.67 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω, 1%, 1/16W, 0402"
-			(at 267.97 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10R, 1%, 1/16W, 0402"
-			(at 275.844 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 277.368 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-0710RL "
-			(at 278.892 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 267.97 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 267.97 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" "10Ω"
-			(at 269.875 117.4751 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 271.78 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "975062da-6a24-46e8-adc4-e11c56bfba1b")
-		)
-		(pin "1"
-			(uuid "ddde8d78-08b0-45f0-b0c9-a826f767ca34")
-		)
-		(instances
-			(project ""
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -8059,7 +6723,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Power-symbol:GNDA")
-		(at 234.95 88.9 180)
+		(at 257.81 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8067,7 +6731,7 @@
 		(dnp no)
 		(uuid "be723cc7-0111-4c76-a5b2-c2ccbb35d0a5")
 		(property "Reference" "#PWR052"
-			(at 234.95 82.55 0)
+			(at 257.81 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +6740,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 234.95 83.82 0)
+			(at 257.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +6748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 88.9 0)
+			(at 257.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +6757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 88.9 0)
+			(at 257.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +6766,7 @@
 			)
 		)
 		(property "Description" "(analog) ground power-flag symbol"
-			(at 234.95 88.9 0)
+			(at 257.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,670 +7167,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Resistor:10R_0402")
-		(at 267.97 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca97c33b-fa43-4a13-a2d5-7ca5a1f874bd")
-		(property "Reference" "R58"
-			(at 269.875 93.3451 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R_0402"
-			(at 267.97 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0402"
-			(at 280.67 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω, 1%, 1/16W, 0402"
-			(at 267.97 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10R, 1%, 1/16W, 0402"
-			(at 275.844 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 277.368 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-0710RL "
-			(at 278.892 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 267.97 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 267.97 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" "10Ω"
-			(at 269.875 90.8051 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 271.78 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "295faf1e-41cf-4b81-91f2-5f420bf80517")
-		)
-		(pin "1"
-			(uuid "bcde7ca0-26c0-408d-a95c-be2c0651019f")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Resistor:10R_0402")
-		(at 267.97 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cec7b0ff-1c40-4280-8cda-c99e19257516")
-		(property "Reference" "R60"
-			(at 269.875 67.9451 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R_0402"
-			(at 267.97 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0402"
-			(at 280.67 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω, 1%, 1/16W, 0402"
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10R, 1%, 1/16W, 0402"
-			(at 275.844 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 277.368 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-0710RL "
-			(at 278.892 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" "10Ω"
-			(at 269.875 65.4051 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 271.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aed83d79-a30c-41a7-bf5a-408aeb75cfa6")
-		)
-		(pin "1"
-			(uuid "2f28444d-7ef0-4f75-84df-4648b68eb72b")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Resistor:10R_0402")
-		(at 267.97 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d080d999-5f52-410f-b049-f316b88b89c9")
-		(property "Reference" "R61"
-			(at 269.875 53.9751 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R_0402"
-			(at 267.97 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0402"
-			(at 280.67 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω, 1%, 1/16W, 0402"
-			(at 267.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10R, 1%, 1/16W, 0402"
-			(at 275.844 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 277.368 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-0710RL "
-			(at 278.892 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 267.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 267.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" "10Ω"
-			(at 269.875 51.4351 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 271.78 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "59e58790-a0b1-4317-a649-12866135ec33")
-		)
-		(pin "1"
-			(uuid "d397e97a-79f0-4ff2-8237-69117fe0d68b")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Capacitor:220pF_0402_50V")
-		(at 261.62 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d81c1d20-5982-4e40-8e70-d83e3ceb8fa8")
-		(property "Reference" "C53"
-			(at 264.414 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220pF_0402_50V"
-			(at 257.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_0402"
-			(at 266.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "220pF, Min. 50V 5%, 0402"
-			(at 261.62 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "220pF, 50V, 5%, X7R or X5R or similar"
-			(at 269.494 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 271.018 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402JPNPO9BN221"
-			(at 272.542 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "220pF"
-			(at 264.414 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C327000"
-			(at 274.32 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 278.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "107cee73-893b-4f7d-b2f2-f74ab41180b9")
-		)
-		(pin "1"
-			(uuid "2ede79eb-69ee-41c7-9add-7c2b1232ff48")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Capacitor:220pF_0402_50V")
-		(at 261.62 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e33ccdce-2c24-4ec9-84c6-169863426860")
-		(property "Reference" "C56"
-			(at 263.906 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220pF_0402_50V"
-			(at 257.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_0402"
-			(at 266.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "220pF, Min. 50V 5%, 0402"
-			(at 261.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "220pF, 50V, 5%, X7R or X5R or similar"
-			(at 269.494 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 271.018 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402JPNPO9BN221"
-			(at 272.542 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "220pF"
-			(at 263.906 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C327000"
-			(at 274.32 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 278.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ff99e70-1930-45f9-8d73-b486cbc7361e")
-		)
-		(pin "1"
-			(uuid "bf4858c7-d19d-4901-aec0-c46d504e4861")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4ms_Capacitor:10uF_4x5.3_10V")
 		(at 222.25 132.08 0)
 		(unit 1)
@@ -9422,7 +7422,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Power-symbol:GNDA")
-		(at 234.95 107.95 180)
+		(at 257.81 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9431,7 +7431,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebcba09b-0d1c-4bd1-874b-e41e41b1003f")
 		(property "Reference" "#PWR054"
-			(at 234.95 101.6 0)
+			(at 257.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9440,7 +7440,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 234.95 102.87 0)
+			(at 257.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,7 +7448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 107.95 0)
+			(at 257.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +7457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 107.95 0)
+			(at 257.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,7 +7466,7 @@
 			)
 		)
 		(property "Description" "(analog) ground power-flag symbol"
-			(at 234.95 107.95 0)
+			(at 257.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
