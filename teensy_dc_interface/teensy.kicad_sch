@@ -1624,7 +1624,7 @@
 			)
 		)
 	)
-	(global_label "Teensy_5V"
+	(global_label "TEENSY_5V"
 		(shape input)
 		(at 110.49 109.22 0)
 		(fields_autoplaced yes)
@@ -1636,7 +1636,7 @@
 		)
 		(uuid "8819377b-877f-4d60-80fa-443cbe5ab3b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.0304 109.22 0)
+			(at 123.6351 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

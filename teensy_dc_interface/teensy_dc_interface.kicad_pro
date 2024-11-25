@@ -594,6 +594,22 @@
     [
       "cc1bffa6-65b3-47b9-9487-c9fe2212650d",
       "Teensy"
+    ],
+    [
+      "a2bef8e6-8492-4438-8e26-477434709960",
+      "Out Pair 1"
+    ],
+    [
+      "555c11b1-fa94-4c2e-897a-536273de3325",
+      "Out Pair 2"
+    ],
+    [
+      "52b460c8-69fa-42ab-8839-33b22aacbdd5",
+      "Out Pair 3"
+    ],
+    [
+      "8e0ffe0d-40b2-467b-a2d5-15ae23cd7fa3",
+      "Out Pair 4"
     ]
   ],
   "text_variables": {}

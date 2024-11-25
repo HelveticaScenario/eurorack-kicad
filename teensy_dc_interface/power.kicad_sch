@@ -4673,29 +4673,29 @@
 				)
 			)
 		)
-		(symbol "Amplifier_Operational:NE5532"
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0.127)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "NE5532"
-				(at 0 -5.08 0)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -4707,7 +4707,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4716,7 +4716,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4725,15 +4725,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
+			(property "ki_keywords" "flag power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4742,31 +4734,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NE5532_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
 					(name "~"
 						(effects
 							(font
@@ -4782,146 +4753,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "NE5532_2_1"
+			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NE5532_3_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+						(type none)
 					)
 				)
 			)
@@ -4932,18 +4775,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03815c47-a771-4d83-9cf6-6231e3321e1b")
-	)
-	(junction
-		(at 35.56 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09178e05-faab-4a7b-bfa8-c4024099ed76")
-	)
-	(junction
-		(at 71.12 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "092e3604-a45c-4b58-8fb7-f7572e03d953")
 	)
 	(junction
 		(at 125.095 49.53)
@@ -5036,6 +4867,12 @@
 		(uuid "3e3e0412-44f4-4112-8238-30f887175d66")
 	)
 	(junction
+		(at 265.43 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "403d7344-c783-4f68-9c42-302341a76210")
+	)
+	(junction
 		(at 66.04 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5084,12 +4921,6 @@
 		(uuid "5a183ca8-3aeb-43ff-b515-80b406aade00")
 	)
 	(junction
-		(at 35.56 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5aef6a92-5c95-4e8c-a181-189c99556343")
-	)
-	(junction
 		(at 137.16 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5132,12 +4963,6 @@
 		(uuid "845067c1-e401-4f34-a83c-43dc3072b3c4")
 	)
 	(junction
-		(at 58.42 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88aff649-9ecf-4c2e-8c29-a7b23e65f680")
-	)
-	(junction
 		(at 251.46 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5162,10 +4987,22 @@
 		(uuid "9ca199e4-bb78-42a4-9b04-300a6053e5ac")
 	)
 	(junction
+		(at 38.1 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e3213ec-d902-4fbb-a09a-431597802846")
+	)
+	(junction
 		(at 132.08 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a12ccdb6-3679-4846-a6aa-1c003e3aea6b")
+	)
+	(junction
+		(at 38.1 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a48ceb91-d358-4648-a566-94e58e646f39")
 	)
 	(junction
 		(at 59.69 80.01)
@@ -5186,12 +5023,6 @@
 		(uuid "ab5e67c5-c4e3-4b41-a9a6-73bd08ba60e5")
 	)
 	(junction
-		(at 58.42 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac723d20-0b05-404d-844a-c119b26e9ddd")
-	)
-	(junction
 		(at 88.9 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5210,6 +5041,12 @@
 		(uuid "b25698f3-6d35-44a9-932c-8bf31bae4686")
 	)
 	(junction
+		(at 81.28 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a9d83a-7c59-4c80-9e93-09ba35e9d717")
+	)
+	(junction
 		(at 72.39 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5222,10 +5059,22 @@
 		(uuid "b966e296-7778-4027-84d7-a349714318b2")
 	)
 	(junction
+		(at 154.94 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0d9a34-0b95-4ceb-b44b-db3e899da46e")
+	)
+	(junction
 		(at 143.51 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbe736ba-72b3-4b0f-8f28-b8b9a7812b71")
+	)
+	(junction
+		(at 162.56 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc17fb30-da26-400a-8634-0fc7aa7a48a7")
 	)
 	(junction
 		(at 143.51 85.09)
@@ -5252,12 +5101,6 @@
 		(uuid "c37577d8-8493-4ffc-954a-e039bf84aa1a")
 	)
 	(junction
-		(at 71.12 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3e68372-9ae8-4ba2-b53d-edd7ae8c54c1")
-	)
-	(junction
 		(at 120.65 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5270,28 +5113,10 @@
 		(uuid "cd1de7b7-1b09-42b2-a094-37808c1952c1")
 	)
 	(junction
-		(at 81.28 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d091fd79-52d9-49b3-acb1-482fcb4e6f34")
-	)
-	(junction
 		(at 203.2 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2ea6248-87af-481d-96f2-c7051bded9cf")
-	)
-	(junction
-		(at 46.99 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d356d407-2acb-429b-a879-d4405b3ecc84")
-	)
-	(junction
-		(at 46.99 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d492f12f-d8b4-4e5b-a8b0-6bb6bd33fb4e")
 	)
 	(junction
 		(at 104.14 49.53)
@@ -5487,6 +5312,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 25.4) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216a2e66-1159-402e-a04e-737827508316")
+	)
+	(wire
+		(pts
 			(xy 137.16 49.53) (xy 137.16 53.34)
 		)
 		(stroke
@@ -5534,16 +5369,6 @@
 			(type default)
 		)
 		(uuid "2a40d0fb-e687-49b0-9400-1294f7b959e7")
-	)
-	(wire
-		(pts
-			(xy 58.42 157.48) (xy 46.99 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2adaabfa-964e-44b2-a875-d2a9940fdd1c")
 	)
 	(wire
 		(pts
@@ -5604,6 +5429,16 @@
 			(type default)
 		)
 		(uuid "346ca051-cd09-47e1-9e6a-6d40061c42d0")
+	)
+	(wire
+		(pts
+			(xy 265.43 49.53) (xy 265.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ec8d91-c22d-4fd6-860a-b74acdd11c77")
 	)
 	(wire
 		(pts
@@ -5787,7 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 142.24) (xy 81.28 142.24)
+			(xy 66.04 142.24) (xy 81.28 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5864,16 +5699,6 @@
 			(type default)
 		)
 		(uuid "617c1dad-df98-47f6-af5d-735a8d3b4827")
-	)
-	(wire
-		(pts
-			(xy 71.12 157.48) (xy 58.42 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ad5a8a-daa4-4332-b844-6a120a178283")
 	)
 	(wire
 		(pts
@@ -6097,16 +5922,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 142.24) (xy 46.99 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934cd89a-bbc3-4fb9-b270-05250a92a106")
-	)
-	(wire
-		(pts
 			(xy 153.67 100.33) (xy 162.56 100.33)
 		)
 		(stroke
@@ -6254,16 +6069,6 @@
 			(type default)
 		)
 		(uuid "ab7ac111-d1f8-4024-a139-a17c54ef4331")
-	)
-	(wire
-		(pts
-			(xy 71.12 142.24) (xy 58.42 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6306c5-9e54-4e05-b2da-6a0d4a94a7f9")
 	)
 	(wire
 		(pts
@@ -6447,6 +6252,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 157.48) (xy 81.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1d2f1b-6425-491f-9ed5-c3c52771928c")
+	)
+	(wire
+		(pts
 			(xy 153.67 93.98) (xy 153.67 100.33)
 		)
 		(stroke
@@ -6577,13 +6392,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 142.24) (xy 35.56 142.24)
+			(xy 38.1 25.4) (xy 38.1 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3bf79ca-522f-4e71-9261-2feab2e4a3fe")
+		(uuid "d26674ca-8d5a-48bd-ad42-9be19388d3d2")
 	)
 	(wire
 		(pts
@@ -6604,16 +6419,6 @@
 			(type default)
 		)
 		(uuid "d554d0c1-2c5c-4af0-bca2-bbbaceefce43")
-	)
-	(wire
-		(pts
-			(xy 46.99 157.48) (xy 35.56 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d761595f-48d0-4a06-841f-8390eef32eea")
 	)
 	(wire
 		(pts
@@ -6654,16 +6459,6 @@
 			(type default)
 		)
 		(uuid "dba59f48-5dd0-47b6-9eb4-662847b0bbd9")
-	)
-	(wire
-		(pts
-			(xy 71.12 157.48) (xy 81.28 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf74ef1-ac44-4429-96b1-6f6cf6a2cf7e")
 	)
 	(wire
 		(pts
@@ -6777,7 +6572,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 41.91) (xy 265.43 52.07)
+			(xy 265.43 41.91) (xy 265.43 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7162,6 +6957,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06fff1db-c2b3-4a79-802b-8eadbb55f7d7")
+		(property "Reference" "#FLG01"
+			(at 38.1 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d468dea-e57e-40c0-b806-1ec604fea9b0")
+		)
+		(instances
+			(project ""
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Capacitor:22uF_0603_6.3V")
 		(at 251.46 58.42 0)
 		(unit 1)
@@ -7293,6 +7154,73 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 154.94 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ab4bf28-29ff-4ecb-9433-978d29d2203d")
+		(property "Reference" "#FLG05"
+			(at 156.845 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 158.75 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b6eb977-1429-4d63-aa1e-237565174396")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -8329,6 +8257,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 265.43 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3442e44f-1f16-4e81-86e4-c623a37918c8")
+		(property "Reference" "#FLG04"
+			(at 267.335 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 269.24 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1b96f46-50bb-4a94-ba8c-38df19efcd1b")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Resistor_0603:100k_0603")
 		(at 76.2 49.53 270)
 		(unit 1)
@@ -9076,94 +9071,6 @@
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "C4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 33.02 149.86 180)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46119a06-66f6-4419-a92c-243929629985")
-		(property "Reference" "U5"
-			(at 34.29 151.1301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 34.29 148.5901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NE5532DR:SOIC127P599X175-8N"
-			(at 33.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 33.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 33.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "5f7d1326-9cfc-4471-a4d2-2725d94c4a05")
-		)
-		(pin "7"
-			(uuid "a2d77071-7661-4dac-bb29-23f385c2ee4a")
-		)
-		(pin "3"
-			(uuid "7e2da85f-5900-4402-a5d9-a286c7176a2b")
-		)
-		(pin "4"
-			(uuid "21780a28-6c9e-4df5-a586-8260e0854c6d")
-		)
-		(pin "5"
-			(uuid "dd10c865-ed86-4839-865b-8dc4673b1a34")
-		)
-		(pin "8"
-			(uuid "933f8ce3-79c6-4b14-bcb7-1fcf7d97888d")
-		)
-		(pin "1"
-			(uuid "c9350c2b-20b3-409d-b4d8-a1b25cb388e1")
-		)
-		(pin "2"
-			(uuid "79b87a9e-3f54-4d06-a6cf-c7195be65752")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
-					(reference "U5")
-					(unit 3)
 				)
 			)
 		)
@@ -10225,6 +10132,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 162.56 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e0640da-e763-4e92-ad78-b1b385ba64c5")
+		(property "Reference" "#FLG03"
+			(at 164.465 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c84dea26-55a2-4d68-9da1-c163b6af2ab0")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Power-symbol:GND")
 		(at 46.99 100.33 0)
 		(unit 1)
@@ -10483,16 +10457,15 @@
 	)
 	(symbol
 		(lib_id "4ms_Power-symbol:+12V")
-		(at 35.56 157.48 90)
+		(at 66.04 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ea52f11-4be4-47f8-b6bd-9c97c838c765")
 		(property "Reference" "#PWR013"
-			(at 39.37 157.48 0)
+			(at 69.85 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,7 +10474,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 31.75 157.4801 90)
+			(at 62.23 157.4801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10510,7 +10483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 157.48 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10519,7 +10492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 157.48 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10528,7 +10501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 157.48 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,94 +10771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 68.58 149.86 180)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8194af8f-b63a-404a-8a88-5be83000dd62")
-		(property "Reference" "U8"
-			(at 69.85 151.1301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 69.85 148.5901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NE5532DR:SOIC127P599X175-8N"
-			(at 68.58 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 68.58 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 68.58 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "0f9588ae-3641-4aa3-ae50-50bb1c2f4b38")
-		)
-		(pin "6"
-			(uuid "0a31a31a-2c8b-4ce0-8e77-f51f7a4f044c")
-		)
-		(pin "8"
-			(uuid "c95a7751-491b-4c31-8512-0a57a7f8fcc6")
-		)
-		(pin "4"
-			(uuid "c1229cb7-af9e-49ec-b7db-6918449f2cbb")
-		)
-		(pin "3"
-			(uuid "743874b1-c465-4711-9716-4a562657f914")
-		)
-		(pin "2"
-			(uuid "3ca037fe-e540-4879-bdb3-37a9f89bac2c")
-		)
-		(pin "7"
-			(uuid "537e8c50-ebbc-4042-9e5c-04f1f371e6e6")
-		)
-		(pin "1"
-			(uuid "2078088c-e1ca-4867-9bd5-50301ad9070e")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
-					(reference "U8")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4ms_Power-symbol:+12V")
 		(at 170.18 46.99 0)
 		(unit 1)
@@ -11132,94 +11017,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 44.45 149.86 180)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8503a703-1f59-4cd6-b1fe-d7f3c68f447f")
-		(property "Reference" "U6"
-			(at 45.72 151.1301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 45.72 148.5901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NE5532DR:SOIC127P599X175-8N"
-			(at 44.45 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 44.45 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 44.45 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b5ec5181-35cf-4cea-80c9-e2619d9800d4")
-		)
-		(pin "6"
-			(uuid "90a804f9-39a7-4cc8-8d53-e9101d30cacd")
-		)
-		(pin "5"
-			(uuid "65d92558-57bd-4fd1-a19b-f9fd5ef47bb0")
-		)
-		(pin "8"
-			(uuid "24241372-9f94-4a4c-bfaa-c995d1859dea")
-		)
-		(pin "1"
-			(uuid "49e025b4-e654-42e1-a7de-0fabb84dfd46")
-		)
-		(pin "3"
-			(uuid "3bc6f7df-54c4-4e8d-974e-9bff28561fbc")
-		)
-		(pin "2"
-			(uuid "4972e855-3479-4bfd-b35d-5cafbe051734")
-		)
-		(pin "7"
-			(uuid "d5073c22-e1d8-4bb8-bbea-341641858761")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
-					(reference "U6")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4ms_Resistor:100k_0603")
 		(at 76.2 85.09 270)
 		(unit 1)
@@ -11342,16 +11139,15 @@
 	)
 	(symbol
 		(lib_id "4ms_Power-symbol:-12VA")
-		(at 35.56 142.24 90)
+		(at 66.04 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88973207-89b7-4760-8a67-b75d7644ad8f")
 		(property "Reference" "#PWR012"
-			(at 39.37 142.24 0)
+			(at 69.85 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11360,7 +11156,7 @@
 			)
 		)
 		(property "Value" "-12VA"
-			(at 31.75 142.2401 90)
+			(at 62.23 142.2401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,7 +11165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 142.24 0)
+			(at 66.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11378,7 +11174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 142.24 0)
+			(at 66.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11387,7 +11183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 142.24 0)
+			(at 66.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12993,6 +12789,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af39c79a-1aa7-47a7-b9b1-022f87c15acd")
+		(property "Reference" "#FLG02"
+			(at 51.435 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 53.34 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "743f0c92-33c2-46bb-a506-c758b08fe384")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Capacitor:10uF_0603_10V")
 		(at 259.08 58.42 0)
 		(unit 1)
@@ -13881,94 +13744,6 @@
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
 					(reference "C2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 55.88 149.86 180)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d24afef3-600a-4b3a-b6f8-a443e8ec6f48")
-		(property "Reference" "U7"
-			(at 57.15 151.1301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 57.15 148.5901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NE5532DR:SOIC127P599X175-8N"
-			(at 55.88 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 55.88 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 55.88 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb494dad-8b41-4365-a668-8b4d79e8a036")
-		)
-		(pin "6"
-			(uuid "7af125ce-a1cb-4d2f-a183-8402311c3cc9")
-		)
-		(pin "8"
-			(uuid "67cec5ed-6be7-4094-8966-a9ff7b38a96e")
-		)
-		(pin "3"
-			(uuid "d8ba9db5-61f5-49ae-a97a-e659a186d672")
-		)
-		(pin "1"
-			(uuid "ce5199da-da26-4885-9ac0-dfdfc336d1ec")
-		)
-		(pin "4"
-			(uuid "dc12cd8f-d6b9-4e57-8802-132c0ff0481c")
-		)
-		(pin "5"
-			(uuid "527f8b77-9a07-45c1-b143-9b158330228b")
-		)
-		(pin "7"
-			(uuid "a95aa3b9-7846-42e8-8ae5-4cf352cc816e")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/1f5c8041-45d6-4a64-aa15-1c1752531f41"
-					(reference "U7")
-					(unit 3)
 				)
 			)
 		)
