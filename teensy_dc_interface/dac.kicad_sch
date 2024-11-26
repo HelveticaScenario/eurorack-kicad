@@ -646,224 +646,6 @@
 				)
 			)
 		)
-		(symbol "4ms_Capacitor:47uF_5x5.3_16V"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "47uF_5x5.3_16V"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
-				(at -1.905 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Lelon"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "VES470M1CTR-0505"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "47uF/16V"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "JLCPCB ID" "C134798"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Production Stage" "A"
-				(at -2.54 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "47uF_5x5.3_16V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "47uF_5x5.3_16V_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -0.762)
-					(mid 0 -0.3734)
-					(end -1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "47uF_5x5.3_16V_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "4ms_Connector:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -2400,6 +2182,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2607,6 +2525,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 114.3) (xy 224.79 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11579c1a-c41b-4fb0-80aa-7cbe050b9a66")
+	)
+	(wire
+		(pts
 			(xy 203.2 107.95) (xy 207.01 107.95)
 		)
 		(stroke
@@ -2617,6 +2545,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 114.3) (xy 273.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c994501-1db3-4916-b8de-ec1b56e97d5c")
+	)
+	(wire
+		(pts
 			(xy 208.28 59.69) (xy 208.28 66.04)
 		)
 		(stroke
@@ -2624,6 +2562,26 @@
 			(type default)
 		)
 		(uuid "2012b1ff-1991-4e3c-9a5c-f8e179d057f4")
+	)
+	(wire
+		(pts
+			(xy 273.05 114.3) (xy 273.05 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238e06cf-f951-462a-93ed-380672cff501")
+	)
+	(wire
+		(pts
+			(xy 273.05 93.98) (xy 273.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3588b5fd-f627-4756-a48d-15750fda6f8c")
 	)
 	(wire
 		(pts
@@ -2657,6 +2615,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 95.25) (xy 273.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc0b8ab-ff51-4ef7-988a-69670e74b49c")
+	)
+	(wire
+		(pts
 			(xy 203.2 59.69) (xy 203.2 66.04)
 		)
 		(stroke
@@ -2664,6 +2632,26 @@
 			(type default)
 		)
 		(uuid "4db5702e-5998-4932-898a-5b7902647470")
+	)
+	(wire
+		(pts
+			(xy 224.79 106.68) (xy 224.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5116fc30-4def-4940-a28e-b87a6ac68781")
+	)
+	(wire
+		(pts
+			(xy 224.79 95.25) (xy 224.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51710217-0ce0-4b80-85c0-b34372af35d8")
 	)
 	(wire
 		(pts
@@ -2684,6 +2672,26 @@
 			(type default)
 		)
 		(uuid "6854dde6-09ba-4d18-aa30-f986c5eef35c")
+	)
+	(wire
+		(pts
+			(xy 273.05 106.68) (xy 273.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f50187-df8d-4ac9-9084-f18052547fb2")
+	)
+	(wire
+		(pts
+			(xy 227.33 87.63) (xy 224.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808755f7-f06a-4d05-ab8f-4d2b8622ffd3")
 	)
 	(wire
 		(pts
@@ -2717,6 +2725,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 106.68) (xy 273.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c7cbf6-118d-4f83-a817-7a45b4faa70d")
+	)
+	(wire
+		(pts
 			(xy 212.09 129.54) (xy 222.25 129.54)
 		)
 		(stroke
@@ -2724,6 +2742,16 @@
 			(type default)
 		)
 		(uuid "982565b9-b0e0-4745-9378-37493f588cf6")
+	)
+	(wire
+		(pts
+			(xy 224.79 87.63) (xy 224.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18eb355-c5cc-44da-a606-ecba6b33d8c5")
 	)
 	(wire
 		(pts
@@ -2744,6 +2772,16 @@
 			(type default)
 		)
 		(uuid "a486450f-4e83-4975-adcd-da9574ba831e")
+	)
+	(wire
+		(pts
+			(xy 228.6 106.68) (xy 224.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a631346b-1991-4646-bf63-6ef96a8988a0")
 	)
 	(wire
 		(pts
@@ -2797,6 +2835,26 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 114.3) (xy 224.79 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4da69cd-b275-4a7b-a0e2-977f21a4326e")
+	)
+	(wire
+		(pts
+			(xy 273.05 87.63) (xy 273.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f80967-9e60-4487-ad7a-e2cf021f8cc3")
+	)
+	(wire
+		(pts
 			(xy 205.74 134.62) (xy 212.09 134.62)
 		)
 		(stroke
@@ -2827,6 +2885,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 87.63) (xy 273.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e9b44d-e0a4-4582-b770-cfc92846e55d")
+	)
+	(wire
+		(pts
 			(xy 207.01 88.9) (xy 203.2 88.9)
 		)
 		(stroke
@@ -2834,6 +2902,16 @@
 			(type default)
 		)
 		(uuid "ed0f9170-da9d-4c29-8bc4-90623c7a2f38")
+	)
+	(wire
+		(pts
+			(xy 227.33 95.25) (xy 224.79 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb40d29d-0c15-49cd-9453-027e1e33cf5e")
 	)
 	(wire
 		(pts
@@ -4172,135 +4250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Capacitor:47uF_5x5.3_16V")
-		(at 224.79 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c986280-a9b1-4a8c-b18a-920645d82404")
-		(property "Reference" "C54"
-			(at 227.33 90.6017 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47uF_5x5.3_16V"
-			(at 224.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
-			(at 226.695 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-			(at 227.33 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lelon"
-			(at 227.33 82.042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "VES470M1CTR-0505"
-			(at 227.33 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "47uF/16V"
-			(at 227.33 93.1417 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "JLCPCB ID" "C134798"
-			(at 224.79 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 227.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd0719ad-5b65-4937-99d2-4dba23b4a541")
-		)
-		(pin "2"
-			(uuid "1c909c63-e609-4883-ade1-84db8bd36c63")
-		)
-		(instances
-			(project ""
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4ms_Power-symbol:GNDA")
 		(at 207.01 107.95 180)
 		(unit 1)
@@ -4700,6 +4649,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 275.59 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be6eef7-6dcd-4e95-a2c3-cc6505f4b723")
+		(property "Reference" "C55"
+			(at 279.4 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 279.4 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 276.5552 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 275.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87394d2e-23fd-430a-a4c0-0167803efbea")
+		)
+		(pin "1"
+			(uuid "54a0213f-9568-45ff-a179-23153cf34c9d")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2befd1e9-0dd3-4348-a6b1-1e6495b2c593")
+		(property "Reference" "C52"
+			(at 232.41 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 232.41 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 229.5652 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f57378c-964c-4bb9-ab03-2942fa641988")
+		)
+		(pin "1"
+			(uuid "4a1f3e15-8058-4838-9f8a-9ddedcbda27b")
+		)
+		(instances
+			(project "teensy_dc_interface"
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 93.98 270)
 		(unit 1)
@@ -4761,135 +4850,6 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Capacitor:47uF_5x5.3_16V")
-		(at 273.05 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3740991a-4ff8-4441-a677-23873114309b")
-		(property "Reference" "C53"
-			(at 275.59 109.6517 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47uF_5x5.3_16V"
-			(at 273.05 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
-			(at 274.955 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-			(at 273.05 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-			(at 275.59 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lelon"
-			(at 275.59 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "VES470M1CTR-0505"
-			(at 275.59 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "47uF/16V"
-			(at 275.59 112.1917 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "JLCPCB ID" "C134798"
-			(at 273.05 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 275.59 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "193afbda-b027-4dda-a0bd-b6d64d85a886")
-		)
-		(pin "2"
-			(uuid "c78668b7-fc8f-48bb-a243-ea6f2be1f5e5")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -5091,102 +5051,35 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Capacitor:47uF_5x5.3_16V")
-		(at 224.79 110.49 180)
+		(lib_id "Device:C")
+		(at 276.86 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6f5f9a77-d73a-4a59-9fd5-4e4cadbe8420")
-		(property "Reference" "C52"
-			(at 227.33 109.6517 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47uF_5x5.3_16V"
-			(at 224.79 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
-			(at 226.695 106.045 0)
+		(uuid "6c8f443a-ee7c-4cff-912c-d620be414f55")
+		(property "Reference" "C53"
+			(at 280.67 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 224.79 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-			(at 224.79 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-			(at 227.33 102.616 0)
+		(property "Value" "47uF"
+			(at 280.67 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lelon"
-			(at 227.33 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "VES470M1CTR-0505"
-			(at 227.33 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "47uF/16V"
-			(at 227.33 112.1917 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "JLCPCB ID" "C134798"
-			(at 224.79 97.79 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 277.8252 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,26 +5087,34 @@
 				(hide yes)
 			)
 		)
-		(property "Production Stage" "A"
-			(at 227.33 93.98 0)
+		(property "Datasheet" "~"
+			(at 276.86 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d75c4ad7-6a6a-491f-be01-fbc88dbd788c")
+		(property "Description" "Unpolarized capacitor"
+			(at 276.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "b877c31d-a1e2-4612-a259-c0d7ce9728bd")
+			(uuid "75b2fad9-21d8-45ca-be85-1e32b472cf45")
+		)
+		(pin "1"
+			(uuid "f9e8a4e8-b0e1-4a02-9636-ce23111caae8")
 		)
 		(instances
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C52")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -5539,135 +5440,6 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Capacitor:47uF_5x5.3_16V")
-		(at 273.05 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9da51029-4495-4470-b721-e0eb4b645ca5")
-		(property "Reference" "C55"
-			(at 275.59 90.6017 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47uF_5x5.3_16V"
-			(at 273.05 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:CP_Elec_5x5.3"
-			(at 274.955 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-			(at 273.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"
-			(at 275.59 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lelon"
-			(at 275.59 82.042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "VES470M1CTR-0505"
-			(at 275.59 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "47uF/16V"
-			(at 275.59 93.1417 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "JLCPCB ID" "C134798"
-			(at 273.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 275.59 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47eaa815-0aa0-4c96-a5fa-133f0ef2bce4")
-		)
-		(pin "2"
-			(uuid "a1c0f0d2-2a17-487a-b334-24f375a4c56f")
-		)
-		(instances
-			(project "teensy_dc_interface"
-				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
-					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -6138,6 +5910,76 @@
 			(project "teensy_dc_interface"
 				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad6a2c53-1ce3-4fd5-99d9-f933a663e01a")
+		(property "Reference" "C54"
+			(at 231.14 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 231.14 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 228.2952 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55e766e0-ac37-45c2-ba77-0a8e76922a26")
+		)
+		(pin "1"
+			(uuid "466b52ab-466a-4ff4-b02f-7161d3a8156d")
+		)
+		(instances
+			(project ""
+				(path "/a4119639-42c9-4d05-afde-5b738907ed5a/6394447c-ab31-4b0c-8b06-b5f80e645276"
+					(reference "C54")
 					(unit 1)
 				)
 			)
