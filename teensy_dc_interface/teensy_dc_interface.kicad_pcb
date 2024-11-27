@@ -6586,6 +6586,104 @@
 			)
 		)
 	)
+	(footprint "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+		(layer "F.Cu")
+		(uuid "2404d546-9db7-4011-b88f-238fbd88466d")
+		(at 104.5 146.5)
+		(property "Reference" "H5"
+			(at 0 3.937 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33752d5d-4bbd-4631-bfdd-f0f64738e2b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0.09 2.46 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "949b5c2f-99fa-430a-abb3-73d7942502a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca0f0035-4603-4897-ba92-0f706951d636")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00246754-5107-461e-ba95-4ed0261272e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45b3eed9-1058-4fc7-9862-9733bd8dcb44")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/2f36b4e6-1897-43ef-af3b-51408514f7d2")
+		(sheetname "Root")
+		(sheetfile "teensy_dc_interface.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(fp_line
+			(start -0.508 0)
+			(end 0.508 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7da33491-5830-4efe-a84f-1936abcfe37e")
+		)
+		(fp_line
+			(start 0 -0.508)
+			(end 0 0.508)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d90c5cfe-0fc1-497b-81be-e13ecf003c41")
+		)
+		(pad "1" thru_hole oval
+			(at 0 0)
+			(size 7.366 4.191)
+			(drill oval 6.35 3.175)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "bdde72c4-e000-4c9d-9f95-9dff96112959")
+		)
+	)
 	(footprint "4ms_Capacitor:C_0402"
 		(layer "F.Cu")
 		(uuid "26bd6062-d6da-4998-986f-ef715be90257")
@@ -20677,6 +20775,104 @@
 			)
 		)
 	)
+	(footprint "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+		(layer "F.Cu")
+		(uuid "7c99ae01-1e79-4f68-a7b4-54b023c159b6")
+		(at 104.5 24)
+		(property "Reference" "H3"
+			(at 0 3.937 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13b66ff1-df85-47c7-9430-0ff57adebe27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0.09 2.46 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f6ca2c6-1a30-41aa-ae96-140db78cabe0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8067b8c8-6644-4bc8-ab22-6ba90637026c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1b867d5-56ce-498a-bc39-823798e00b1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c34e8b3f-eaf2-4d7c-907c-d87f6bb53e48")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/6a434c20-685d-4822-aa40-8323d165a1c0")
+		(sheetname "Root")
+		(sheetfile "teensy_dc_interface.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(fp_line
+			(start -0.508 0)
+			(end 0.508 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e016399e-aee4-4a38-8ead-f5b346462865")
+		)
+		(fp_line
+			(start 0 -0.508)
+			(end 0 0.508)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ae511fe-3b0b-49a2-ac12-98224eae9d00")
+		)
+		(pad "1" thru_hole oval
+			(at 0 0)
+			(size 7.366 4.191)
+			(drill oval 6.35 3.175)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "d92d72cf-fdfc-4c30-8e3a-8025e0e4d49e")
+		)
+	)
 	(footprint "4ms_Resistor:R_0402"
 		(layer "F.Cu")
 		(uuid "7e1f1f28-d996-4069-bd03-ff40383c84b7")
@@ -28464,6 +28660,104 @@
 			)
 		)
 	)
+	(footprint "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+		(layer "F.Cu")
+		(uuid "951c3a6d-997f-40d3-b616-bae5a284f37c")
+		(at 38.6 146.5)
+		(property "Reference" "H4"
+			(at 0 3.937 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "613ce8ff-e352-45e4-b0ce-ea910c3a4962")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0.09 2.46 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b4039cc-a639-4ee9-9873-734ffae012b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "429b3ff0-39a5-42f8-bb29-8d4686f75664")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60ee1383-e972-4de4-befa-c6244c3cee20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c37f937a-ed76-4c7e-aeaa-74daee509ea2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/c49b2bba-98aa-4566-b75f-79aae9f6cd3b")
+		(sheetname "Root")
+		(sheetfile "teensy_dc_interface.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(fp_line
+			(start -0.508 0)
+			(end 0.508 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e4214f1-a954-44c0-abbc-0d6e8c25c945")
+		)
+		(fp_line
+			(start 0 -0.508)
+			(end 0 0.508)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9bd0a09f-152d-4584-9e7b-c483fec96bbd")
+		)
+		(pad "1" thru_hole oval
+			(at 0 0)
+			(size 7.366 4.191)
+			(drill oval 6.35 3.175)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "1f722a5c-50fa-4dbd-a8a2-b132ca0c48ab")
+		)
+	)
 	(footprint "4ms_Package_SOT:TSOT-23-6"
 		(layer "F.Cu")
 		(uuid "9553666b-156b-4993-84d4-90e2e9ac99d0")
@@ -30240,6 +30534,104 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+		(layer "F.Cu")
+		(uuid "9b3a2cad-62c5-4c34-a15a-e5fd6cea2dfc")
+		(at 38.6 24)
+		(property "Reference" "H2"
+			(at 0 3.937 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "350b4b2f-dc40-4cb4-8db6-9af794de2e5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0.09 2.46 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59f4c5d8-4e43-4e04-9fa1-cc49708c5e3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fc1856f-bf1f-4725-91f7-47de7d4a8e27")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "186125b6-27e9-4f62-96b5-8f94a1571173")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb1ed0e-d388-440a-852c-a4018b027db0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/71d5fb8a-8aec-41c1-9a7a-2810fc5c3577")
+		(sheetname "Root")
+		(sheetfile "teensy_dc_interface.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(fp_line
+			(start -0.508 0)
+			(end 0.508 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "213b0544-0418-4b78-9301-69b271a9f634")
+		)
+		(fp_line
+			(start 0 -0.508)
+			(end 0 0.508)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "60f30d6d-034c-4a65-8a1f-af5e0e7e0534")
+		)
+		(pad "1" thru_hole oval
+			(at 0 0)
+			(size 7.366 4.191)
+			(drill oval 6.35 3.175)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "5db6eb9c-83cd-4036-bfbc-b93da40f0cd6")
 		)
 	)
 	(footprint "4ms_Resistor:R_0603"
