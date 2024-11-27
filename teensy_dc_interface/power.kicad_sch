@@ -6662,17 +6662,6 @@
 		(uuid "1951acb6-05e0-4bb9-87fa-58176dd9ad3a")
 	)
 	(label "SW"
-		(at 68.58 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07eef2c7-1b5d-44e2-a81c-16fad79f2438")
-	)
-	(label "SW"
 		(at 76.2 119.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6682,94 +6671,6 @@
 			(justify left bottom)
 		)
 		(uuid "9487a4ce-5d90-457c-97cc-acac3e4ca1ef")
-	)
-	(label "SW"
-		(at 212.09 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "989d322f-76bd-4b8f-93c9-d7cf35287d65")
-	)
-	(label "FB"
-		(at 79.375 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1a91553-ef0d-4226-ab71-f27ad79b9cb2")
-	)
-	(label "BST"
-		(at 212.725 66.04 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bda7934b-d98b-451d-a002-0e6aa82cc182")
-	)
-	(label "FB"
-		(at 222.885 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c13ce5a9-d961-42b3-8489-f0f7072f2f0a")
-	)
-	(label "BST"
-		(at 69.215 67.31 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9027bdb-b01f-4627-bfec-decc9eb3a6f2")
-	)
-	(label "FB"
-		(at 87.63 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db83a5d9-e021-4509-94e6-3eba01d62283")
-	)
-	(label "EN"
-		(at 194.945 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e76087f8-4bd5-48ce-9605-959ce24502f9")
-	)
-	(label "EN"
-		(at 51.435 72.39 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5680805-bb31-411d-a1cc-3ebdae646744")
 	)
 	(global_label "TEENSY_5V"
 		(shape input)
