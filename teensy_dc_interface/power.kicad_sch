@@ -6661,17 +6661,6 @@
 		)
 		(uuid "1951acb6-05e0-4bb9-87fa-58176dd9ad3a")
 	)
-	(label "SW"
-		(at 76.2 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9487a4ce-5d90-457c-97cc-acac3e4ca1ef")
-	)
 	(global_label "TEENSY_5V"
 		(shape input)
 		(at 269.24 71.12 0)
@@ -7723,7 +7712,7 @@
 			)
 		)
 		(property "Display" "15uH"
-			(at 226.695 68.58 90)
+			(at 227.33 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +7720,7 @@
 			)
 		)
 		(property "Display 2" "1A"
-			(at 226.5934 66.7004 90)
+			(at 226.822 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +9643,7 @@
 			)
 		)
 		(property "Display" "47uF/16V"
-			(at 260.731 65.659 0)
+			(at 265.176 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,7 +12840,7 @@
 			)
 		)
 		(property "Display" "10uF/10V"
-			(at 254.254 63.373 0)
+			(at 254.254 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
