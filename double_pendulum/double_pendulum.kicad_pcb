@@ -5499,7 +5499,7 @@
 		(uuid "54a87fa4-c7cc-419e-9fde-1c7515220444")
 		(at 80.81 58.22)
 		(property "Reference" "U4"
-			(at -3.200445 -19.405915 360)
+			(at -3.200445 -19.405915 0)
 			(layer "F.SilkS")
 			(uuid "2bb171ba-675f-4434-ba68-7bc882f88c02")
 			(effects
@@ -5510,7 +5510,7 @@
 			)
 		)
 		(property "Value" "MCP4922-E_P"
-			(at 7.85434 4.14321 360)
+			(at 7.85434 4.14321 0)
 			(layer "F.Fab")
 			(uuid "1c01b726-544a-48b4-81a9-adeea58af6b9")
 			(effects
@@ -5521,7 +5521,7 @@
 			)
 		)
 		(property "Footprint" "MCP4922:DIP254P762X533-14"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ecc8f88c-ba76-4da1-9057-9d717c37bbe4")
@@ -5533,7 +5533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a44f102e-dab6-4f97-a18c-8aed0b85ead5")
@@ -5545,7 +5545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "60132598-9103-419a-b1ff-83afad5ae811")
@@ -9308,7 +9308,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9c60a113-6c55-4f6c-8f87-4d700f5ba94a")
-		(at 44.2 42.82)
+		(at 44.2 42.74)
 		(descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x20 2.54mm single row")
 		(property "Reference" "J2"
@@ -15587,7 +15587,7 @@
 			)
 		)
 		(property "Footprint" "TMUX4051:TSSOP16_PW_TEX"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "142afffc-789c-4b3c-95fa-e9ac4c583429")
@@ -15599,7 +15599,7 @@
 			)
 		)
 		(property "Datasheet" "TMUX4051PWR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "66bcf349-5689-4594-88d3-776d8f71f0b3")
@@ -15611,7 +15611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fee56f75-1dfa-4650-8221-a324815298a9")
@@ -16483,7 +16483,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -3.20675 -3.773551 360)
+			(at -3.20675 -3.773551 0)
 			(layer "F.SilkS")
 			(uuid "eebbdcf7-9929-420f-b8c9-7efe700a9b89")
 			(effects
@@ -16494,7 +16494,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -1.8669 -2.4765 360)
+			(at -1.8669 -2.4765 0)
 			(layer "F.Fab")
 			(uuid "89d344ae-a4f3-4161-a9b7-c46e6b7828b0")
 			(effects
@@ -17418,7 +17418,7 @@
 		(uuid "e10a5321-7a47-4d19-b50d-c0e1227dfa8c")
 		(at 121.6 83.764447 180)
 		(property "Reference" "J3"
-			(at -3.579678 -1.521557 360)
+			(at -3.579678 -1.521557 0)
 			(layer "F.SilkS")
 			(uuid "75f59891-7723-42ce-82fa-3262d1798c05")
 			(effects
@@ -17429,7 +17429,7 @@
 			)
 		)
 		(property "Value" "1734839-8"
-			(at -1.829208 5.474592 360)
+			(at -1.829208 5.474592 0)
 			(layer "F.Fab")
 			(uuid "21861936-df77-4211-b3d2-b3e1d7108d44")
 			(effects
@@ -17440,7 +17440,7 @@
 			)
 		)
 		(property "Footprint" "1734839_8:TE_1734839-8"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f540ba51-0b7d-4234-a38b-80e686b9de56")
@@ -17452,7 +17452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0002c008-f89b-4354-96e4-1b5bf95add7a")
@@ -17464,7 +17464,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc347b1f-b4d9-4fb2-a61f-3f617dda5eaa")

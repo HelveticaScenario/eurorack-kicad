@@ -2227,6 +2227,16 @@
 		(at 144.78 97.79)
 		(uuid "e8b537f1-b68a-4015-94c0-ade378c2a93d")
 	)
+	(text "Change Pico symbol/layout around\n\nChange DAC to SMD from through hole\n\nSwap LM7805 to SMD\n\nHave one of the mux inputs come from a jack\n\nChange display to use Dan's with headers\n\nAdd buttons\n\nAdd LEDs\n\nDo 3V shunt on ADC ref\n\nAdd in circuit for pico in datasheet that allows for external power + USB connected "
+		(exclude_from_sim no)
+		(at 118.618 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3b6d730-c930-4730-8a8e-eaae8d749b2d")
+	)
 	(global_label "SCL_DISPLAY"
 		(shape input)
 		(at 144.78 46.99 0)
