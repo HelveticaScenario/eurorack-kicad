@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "0ee515bc-1b11-4b1a-95a2-dac7dffd28c0")
+	(uuid "1090b42d-0526-4901-ae26-1a4493d10820")
 	(paper "A4")
 	(lib_symbols
 		(symbol "4ms_Power-symbol:+12V"
@@ -2502,32 +2502,22 @@
 		)
 	)
 	(no_connect
-		(at 260.35 36.83)
-		(uuid "917f80b1-408f-4ec1-ad99-b1253d3d7e68")
+		(at 262.89 36.83)
+		(uuid "cd0dde0a-c822-45f2-b87e-f438b487ea64")
 	)
 	(wire
 		(pts
-			(xy 82.55 95.25) (xy 60.96 95.25)
+			(xy 85.09 95.25) (xy 83.82 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e876c6a-09ca-42a0-8799-9d1752484a6b")
+		(uuid "de0adab9-b039-4928-9ef6-854032c3d5ff")
 	)
-	(wire
-		(pts
-			(xy 60.96 95.25) (xy 60.96 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aff05214-6552-4fdc-9465-d9d9e701a2d8")
-	)
-	(global_label "5V"
+	(global_label "IO_3"
 		(shape input)
-		(at 115.57 29.21 90)
+		(at 66.04 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2535,9 +2525,9 @@
 			)
 			(justify left)
 		)
-		(uuid "0158109c-f226-43ce-b912-baeddb688b78")
+		(uuid "084d70f0-d7de-453f-bfb8-2db7bb3b977d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 23.9267 90)
+			(at 73.1376 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,31 +2537,31 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "IO_6"
 		(shape input)
-		(at 237.49 29.21 90)
+		(at 25.4 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "042e04c6-1cf6-46c0-822b-0e8281a84ee1")
+		(uuid "1057e7a6-fd82-42ad-881a-a8ff679e5121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 23.9267 90)
+			(at 18.3024 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "IO_4"
 		(shape input)
-		(at 63.5 35.56 0)
+		(at 66.04 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2579,9 +2569,9 @@
 			)
 			(justify left)
 		)
-		(uuid "10ad9f28-ab8e-4ff5-bfae-d3d471034336")
+		(uuid "107687da-ff2c-4bba-b632-61f99726cc58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5976 35.56 0)
+			(at 73.1376 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2583,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 252.73 29.21 90)
+		(at 194.31 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2601,339 +2591,9 @@
 			)
 			(justify left)
 		)
-		(uuid "16040e37-9ebf-422a-8246-752a8f9f939d")
+		(uuid "170b6f78-7766-4add-892e-2b266481f1c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.73 23.9267 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO_2"
-		(shape input)
-		(at 63.5 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "217de844-99d3-4034-92c4-4b9a170ceab9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5976 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLOCK"
-		(shape input)
-		(at 133.35 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2af4cdc3-dc3e-44d2-b956-489d744228dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.5038 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A2"
-		(shape input)
-		(at 63.5 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2bea888b-9708-4462-a708-31a6ea2bd4ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.7833 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 207.01 29.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2dcb6bef-ca99-4fdf-8478-41933d820881")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.01 23.9267 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 161.29 29.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "352af8c5-0f83-42a1-a3e8-983ef1093d8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 23.9267 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WS2812_SIG"
-		(shape input)
-		(at 133.35 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3932fe9f-c928-4433-9319-50c850a4af85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.886 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 146.05 29.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ed1727c-5b9b-461f-aedb-438c4513f45e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 23.9267 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A0"
-		(shape input)
-		(at 133.35 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43c44a96-1454-498c-a7af-f7c0431a56f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6333 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 222.25 29.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "447c4f03-e4e6-483a-b871-79f0255050c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 23.9267 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WS2812_SIG"
-		(shape input)
-		(at 92.71 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5320e337-44f7-4d7c-b9db-f1fbf850bf96")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.174 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A0"
-		(shape input)
-		(at 63.5 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5eca181a-a42a-4252-af8e-c496790cf89d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.7833 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 130.81 29.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c5d888b-b6d7-44c2-9e66-ef20953a9bad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 23.9267 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COM_IO"
-		(shape input)
-		(at 22.86 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "766feb5e-7c9a-4296-9422-592ff97699cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.92 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO_3"
-		(shape input)
-		(at 63.5 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7750c450-ed6a-4fe1-82b6-71a86ef6a9ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5976 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 176.53 29.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7be5412c-4b38-4ef7-8255-ed021f764de3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 23.9267 90)
+			(at 194.31 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +2605,7 @@
 	)
 	(global_label "IO_7"
 		(shape input)
-		(at 22.86 27.94 180)
+		(at 25.4 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2953,9 +2613,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7f978780-ec3d-4df7-859e-9abdeba18513")
+		(uuid "1a7e4316-e9a9-4c09-9ccb-4099ed0384b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.7624 27.94 0)
+			(at 18.3024 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,9 +2625,9 @@
 			)
 		)
 	)
-	(global_label "A1"
+	(global_label "5V"
 		(shape input)
-		(at 63.5 40.64 0)
+		(at 255.27 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2975,31 +2635,9 @@
 			)
 			(justify left)
 		)
-		(uuid "80ef4357-e73f-4b96-a633-c79151856c1b")
+		(uuid "217e0725-f598-475b-bc66-c4c5db4b58fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.7833 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO_1"
-		(shape input)
-		(at 63.5 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8545a537-1537-4156-bc0e-50811e8c4f37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5976 33.02 0)
+			(at 255.27 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +2649,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 191.77 29.21 90)
+		(at 118.11 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3019,9 +2657,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a3c5b207-a5db-44f0-bc13-80a0e913651a")
+		(uuid "2ee48067-2b79-4e5e-bc72-5bf5998c756e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.77 23.9267 90)
+			(at 118.11 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +2671,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 100.33 29.21 90)
+		(at 148.59 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3041,9 +2679,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ae77236e-9bc9-495b-aba9-2c45c9ae9a37")
+		(uuid "3a3fc867-a932-449d-887a-c24b5520d073")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 23.9267 90)
+			(at 148.59 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,53 +2691,9 @@
 			)
 		)
 	)
-	(global_label "IO_8"
+	(global_label "5V"
 		(shape input)
-		(at 22.86 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b439a2ec-a854-4822-b1bf-38705b684330")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.7624 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO_6"
-		(shape input)
-		(at 22.86 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b507b929-5763-4592-8b57-b95ee2f19c69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.7624 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A1"
-		(shape input)
-		(at 133.35 105.41 0)
+		(at 209.55 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3107,31 +2701,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ca0d60ae-5314-4127-8601-7f93bac2968c")
+		(uuid "403031c5-3766-4773-a715-e236dc438bd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6333 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET"
-		(shape input)
-		(at 133.35 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbd822a5-3dc1-44e3-867d-c1097a2ecf07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.0803 110.49 0)
+			(at 209.55 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +2715,7 @@
 	)
 	(global_label "A2"
 		(shape input)
-		(at 133.35 107.95 0)
+		(at 135.89 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3151,9 +2723,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e272bf12-c331-4b71-98eb-beb0745c9276")
+		(uuid "42aa9036-e525-4f6b-a893-98e5b39cb2c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6333 107.95 0)
+			(at 141.1733 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,9 +2735,119 @@
 			)
 		)
 	)
-	(global_label "IO_5"
+	(global_label "A1"
 		(shape input)
-		(at 22.86 25.4 180)
+		(at 66.04 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49206d87-14b2-4b09-836b-c6b6b026e05b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3233 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 179.07 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5729829d-30ed-4712-8b42-fdd825686029")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 23.9267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 224.79 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c65c5f2-aa06-42ba-ae2d-24521dedb29c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 23.9267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO_2"
+		(shape input)
+		(at 66.04 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e1bc2fd-8b69-4439-a6f6-f2c45b1742c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.1376 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 163.83 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "606089b1-f015-4602-8064-882f51dff8c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 23.9267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COM_IO"
+		(shape input)
+		(at 25.4 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3173,9 +2855,9 @@
 			)
 			(justify right)
 		)
-		(uuid "fe96a60e-2cfd-417d-be8a-cfd508d9c772")
+		(uuid "60a59770-abe4-4de1-82c5-1e508a132040")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.7624 25.4 0)
+			(at 15.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,586 +2867,342 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 115.57 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04568c61-d31d-4ca0-89ab-798e345ca0b8")
-		(property "Reference" "D2"
-			(at 115.57 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 115.57 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 118.11 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 115.57 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21ba9b34-2a14-4482-b662-6fdd51a2e4f8")
-		)
-		(pin "3"
-			(uuid "a0f31437-ac69-4411-a733-a9c9afafe34f")
-		)
-		(pin "4"
-			(uuid "8c9e82ff-9420-403a-8db2-49c77dc02025")
-		)
-		(pin "1"
-			(uuid "ffcedb2c-e623-442a-b2e0-ccd739715bc5")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 237.49 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04bc290f-6c52-4fec-a135-f662635961f9")
-		(property "Reference" "#PWR071"
-			(at 237.49 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6010b6a7-5b4e-4961-a6eb-d799e1a7073b")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 146.05 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cb4dc1c-ad0f-4358-a5a3-ffb20d282db7")
-		(property "Reference" "#PWR065"
-			(at 146.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bcea4f2-952c-44d7-a26f-5302a01ea3be")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 115.57 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15dfaf77-3d9d-4ee4-b346-7c3a30637f4c")
-		(property "Reference" "#PWR063"
-			(at 115.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c0661bb-3fb6-46ec-9a36-337ec5da12cf")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 222.25 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1659ca80-f9ff-400a-960c-7616c30d6d8b")
-		(property "Reference" "D9"
-			(at 222.25 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 222.25 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 223.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 224.79 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 222.25 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c01e4410-3406-4b3c-a2a5-6327f7fe546e")
-		)
-		(pin "3"
-			(uuid "87e5856a-bdde-4a41-85cd-5222ca947c1c")
-		)
-		(pin "4"
-			(uuid "38c22c81-a4f0-4695-aa1b-947da0e10c84")
-		)
-		(pin "1"
-			(uuid "51ec270f-793f-43a3-9692-3b876ea720ed")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 22.86 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "192d5f98-286c-41d2-a651-1c6997fcfc53")
-		(property "Reference" "#PWR054"
-			(at 16.51 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 16.51 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b83c6a3-682f-458c-ae6e-673d7b712c00")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 130.81 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23d338c9-d04d-4f0b-83db-393e7985ca57")
-		(property "Reference" "#PWR064"
-			(at 130.81 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42096de9-6d02-4f65-a73b-8aa3928d7a3f")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 130.81 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24962acf-69bf-46c6-ae68-c9dadcf6df89")
-		(property "Reference" "D3"
-			(at 130.81 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 130.81 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 132.08 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 133.35 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 130.81 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5824fbc8-d510-4395-8424-bb426244d3f8")
-		)
-		(pin "3"
-			(uuid "31066b2f-b07e-4689-bdbb-12fd74fe426e")
-		)
-		(pin "4"
-			(uuid "4657fa51-7cd5-40b9-a95b-a399e7d511fb")
-		)
-		(pin "1"
-			(uuid "2d1bfa09-7d27-457a-8a74-1d656c74aec6")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:-12VA")
-		(at 22.86 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(global_label "IO_5"
+		(shape input)
+		(at 25.4 25.4 180)
 		(fields_autoplaced yes)
-		(uuid "260744d3-a787-4298-b2d1-6239b5c3d646")
-		(property "Reference" "#PWR056"
-			(at 26.67 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62f37ce5-d616-4cd3-a26e-a984da903e13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3024 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Value" "-12VA"
-			(at 19.05 40.6399 90)
+	)
+	(global_label "IO_8"
+		(shape input)
+		(at 25.4 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bedddaf-5ab4-4b4b-aaf0-80f8dc7fe5e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3024 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape input)
+		(at 66.04 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ccc2a0e-8e1a-4984-bcb4-63fc4530e61f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3233 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WS2812_SIG"
+		(shape input)
+		(at 135.89 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70fa1682-2cc1-489c-8d2d-f35641a10c3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.426 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO_1"
+		(shape input)
+		(at 66.04 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78366cc3-bbd4-4c12-9605-62bdefec4c89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.1376 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 102.87 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88827a9e-ff31-49a0-bb68-6ac3a61afe8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 23.9267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 240.03 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bd2fdc9-2db2-4dbb-816e-74ca65e9f4e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 23.9267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A0"
+		(shape input)
+		(at 135.89 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bf1de55-0279-4c3d-9776-6c8a32e52ae3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 133.35 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "964eb85c-0bf6-409f-a9a0-b801328f811d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.35 23.9267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1"
+		(shape input)
+		(at 135.89 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a340a839-16eb-4ced-bff1-9a808ec072b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WS2812_SIG"
+		(shape input)
+		(at 95.25 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cadda04a-d742-425c-96dd-b6cde35a77d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.714 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A0"
+		(shape input)
+		(at 66.04 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4b8184e-2cd0-4db3-b745-6f733904b4af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3233 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLOCK"
+		(shape input)
+		(at 135.89 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8db0647-6605-4557-a881-9eb933451c2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.0438 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 135.89 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0915008-7cb6-40c9-bf2d-c46a154888b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.6203 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 179.07 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "034c934b-7e88-4def-abca-06da568c9499")
+		(property "Reference" "#PWR013"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 40.64 0)
+			(at 179.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +3211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 40.64 0)
+			(at 179.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +3220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 40.64 0)
+			(at 179.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,12 +3229,272 @@
 			)
 		)
 		(pin "1"
-			(uuid "28bc6115-19f5-4082-b460-3711a2c86468")
+			(uuid "e7c66573-dc54-4896-9072-78d9fa470047")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR056")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 194.31 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "049b4e40-5d15-4407-a89b-3972dfa7be44")
+		(property "Reference" "#PWR014"
+			(at 194.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83794f41-e86c-4e7f-bca1-01af885cdf9c")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 133.35 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16da3ea1-25e2-4278-9aab-7aac94858b53")
+		(property "Reference" "#PWR010"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6f0e53d-f53b-4dbb-8a28-57e01ac1eb53")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 224.79 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "236b8b1a-28c6-4d0b-ad08-72a86a0af75a")
+		(property "Reference" "#PWR016"
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96e75384-7cfe-4651-b90c-d85f75a33f0b")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 148.59 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "252339e9-b5fe-4f07-9aa1-dcd083a496b5")
+		(property "Reference" "#PWR011"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33d90833-6b69-4a5c-bd55-d2ae4b64923c")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3804,15 +3502,15 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 100.33 36.83 0)
+		(at 163.83 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2fa67fce-94c5-48f8-b69a-8c166939d86a")
-		(property "Reference" "D1"
-			(at 100.33 19.304 0)
+		(uuid "2c9c7db6-adda-4c4f-aafa-3ac22c355e2a")
+		(property "Reference" "D5"
+			(at 163.83 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3518,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 100.33 21.844 0)
+			(at 163.83 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3526,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 101.6 44.45 0)
+			(at 165.1 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3536,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 102.87 46.355 0)
+			(at 166.37 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3546,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 100.33 36.83 0)
+			(at 163.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,20 +3555,160 @@
 			)
 		)
 		(pin "2"
-			(uuid "83d878fd-205e-4585-8136-fa4a1d96dfec")
+			(uuid "f60b2e2c-8acb-4a15-8419-2e091472ea40")
 		)
 		(pin "3"
-			(uuid "44900ffa-3dd2-4167-84b2-bd50615769fe")
+			(uuid "54b1de1f-bd66-4ecd-9a40-40142e179804")
 		)
 		(pin "4"
-			(uuid "745e0e9e-a418-4fc4-83a8-1b26a8681358")
+			(uuid "517bf13d-8a00-429a-86ae-4b95005d9753")
 		)
 		(pin "1"
-			(uuid "bea17591-fbfc-4f59-9be2-ffdec9c6769e")
+			(uuid "f93e38af-c7a9-4339-a0e6-a9d6b1d5406f")
 		)
 		(instances
-			(project ""
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 97.79 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33c88592-7465-4c9d-8364-037b5ef7ccda")
+		(property "Reference" "#PWR07"
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c55b81e-cfe9-43fb-9478-fccccde4675d")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 102.87 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a356d22-4e0a-4b96-be0b-d6837633cc96")
+		(property "Reference" "D1"
+			(at 102.87 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 102.87 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 105.41 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e675b9b4-35a6-4c8d-9ddd-ceae2d81862c")
+		)
+		(pin "3"
+			(uuid "c3191c31-2bdc-4829-be66-2dde3ab4412e")
+		)
+		(pin "4"
+			(uuid "1d35adb2-392b-4dd9-90f9-13f4be60b3be")
+		)
+		(pin "1"
+			(uuid "cd8e2151-6f30-419d-9cf9-40f63c65d38b")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
 					(reference "D1")
 					(unit 1)
 				)
@@ -3878,82 +3716,17 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 176.53 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e3e41ea-d4af-4ca0-98a1-09ce941637d7")
-		(property "Reference" "#PWR067"
-			(at 176.53 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8372f7ee-8872-4c3e-9b7b-70ee5d7c5c97")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TMUX4051:TMUX4051PWR")
-		(at 22.86 25.4 0)
+		(at 25.4 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4cf8f0b1-55c8-4ea9-af44-a0aaf2f63276")
-		(property "Reference" "U5"
-			(at 43.18 15.24 0)
+		(uuid "5495c0aa-03c1-4f83-a01a-6a0468f1715c")
+		(property "Reference" "U1"
+			(at 45.72 15.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3961,7 +3734,7 @@
 			)
 		)
 		(property "Value" "TMUX4051PWR"
-			(at 43.18 17.78 0)
+			(at 45.72 17.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3969,7 +3742,7 @@
 			)
 		)
 		(property "Footprint" "TMUX4051:TSSOP16_PW_TEX"
-			(at 22.86 25.4 0)
+			(at 25.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3752,7 @@
 			)
 		)
 		(property "Datasheet" "TMUX4051PWR"
-			(at 22.86 25.4 0)
+			(at 25.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +3762,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 25.4 0)
+			(at 25.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,179 +3771,57 @@
 			)
 		)
 		(pin "11"
-			(uuid "558fbdc2-3946-481d-baf4-73010474a650")
+			(uuid "9e73f1fd-c7ed-4eb0-95f8-bc68ee71bb39")
 		)
 		(pin "10"
-			(uuid "d5a9bcac-8bd7-447b-8937-cdb603c33d1e")
+			(uuid "33a655d2-5d66-4001-a034-73616e12a511")
 		)
 		(pin "1"
-			(uuid "e16c3d79-fdc8-4371-b1cd-b2cda84d3e14")
+			(uuid "a519215a-e2d9-4080-8de1-52224e720820")
 		)
 		(pin "14"
-			(uuid "b95d7bc1-7f8b-4932-8ff8-816e92e9c91a")
+			(uuid "45bd86d2-5584-4218-8818-0fbae160ec6b")
 		)
 		(pin "13"
-			(uuid "5c63bdef-802c-4cc9-98c8-116afad99d50")
+			(uuid "7bb97b48-4e3a-4223-965e-0ffbac617088")
 		)
 		(pin "15"
-			(uuid "b09e3d73-c81a-4a27-9da1-96c8c21f413e")
+			(uuid "063f0fbe-6de9-495e-9d01-75bbe0a33319")
 		)
 		(pin "3"
-			(uuid "968094f8-4350-4b0b-bf4c-60a228f63bbb")
+			(uuid "49426d34-6213-422e-9f98-eb5b28207a6f")
 		)
 		(pin "2"
-			(uuid "f49573d2-2a57-4cae-bcfc-cb575f6bfdd6")
+			(uuid "e38e3874-5c0e-4e2a-87f8-e3a4e2c70862")
 		)
 		(pin "4"
-			(uuid "6fc48cc5-2c97-40ee-a3e0-48ece4192e1b")
+			(uuid "adbb0fc0-fedd-40fe-a7a5-c59a72e91d19")
 		)
 		(pin "5"
-			(uuid "192a30de-3621-4bab-b33e-a11ed8b24b0b")
+			(uuid "5dc8a73d-3299-4264-9f08-dfa6ab1cfae6")
 		)
 		(pin "12"
-			(uuid "82def309-8303-4e74-84c4-a0dd1735848b")
+			(uuid "a6984654-1638-4643-a4f3-40e99c7e6f44")
 		)
 		(pin "16"
-			(uuid "f4e04b4a-735a-4e16-8a67-1826ed9df5a5")
+			(uuid "63199daf-4767-4f11-934b-4338ede97786")
 		)
 		(pin "6"
-			(uuid "11142d41-663d-4acd-8757-b0973a49e110")
+			(uuid "4533a25d-8683-4289-b754-0a6cd260a149")
 		)
 		(pin "7"
-			(uuid "2f95e4fd-fece-4c4f-b383-d2742cfc799a")
+			(uuid "974a19be-453a-459a-add7-bbdd079bf954")
 		)
 		(pin "9"
-			(uuid "2c89f50e-5022-4705-958c-750272742649")
+			(uuid "610b896b-396b-4456-b702-09834a908b87")
 		)
 		(pin "8"
-			(uuid "8b04b239-2305-4ad4-9e0d-aa27b55840af")
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 22.86 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d781dce-614a-437f-9e49-97e9773921c6")
-		(property "Reference" "#PWR055"
-			(at 16.51 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 16.51 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "071da5b4-281b-44df-8a80-b8e4b4e4658b")
+			(uuid "6ca3d381-0e1a-4762-8dd2-37a7fd906c90")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 207.01 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "614b121c-0fb9-47fe-8274-4b3c394d5a8f")
-		(property "Reference" "#PWR069"
-			(at 207.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e7f0380-925d-40b0-b6b0-fdfd265e094e")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR069")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4178,15 +3829,15 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 237.49 36.83 0)
+		(at 240.03 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "64b4926c-46d8-4fe3-a5be-add1a6cab10f")
+		(uuid "57fde8c7-37b9-435f-88cd-cf521d621113")
 		(property "Reference" "D10"
-			(at 237.49 19.304 0)
+			(at 240.03 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +3845,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 237.49 21.844 0)
+			(at 240.03 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +3853,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 238.76 44.45 0)
+			(at 241.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +3863,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 240.03 46.355 0)
+			(at 242.57 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +3873,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 237.49 36.83 0)
+			(at 240.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,20 +3882,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "30b063db-de9b-4ff4-80a4-0635709c824a")
+			(uuid "4d82df9c-602e-4dc1-8f8c-4cc3feabd96b")
 		)
 		(pin "3"
-			(uuid "a590b862-0298-4073-8f43-3a6d9b893902")
+			(uuid "484c1793-24c2-4985-aac2-63f364d1613d")
 		)
 		(pin "4"
-			(uuid "861dcab6-8671-4511-b8a8-5ac0cc8e25f3")
+			(uuid "39f36a38-ef8f-48ec-81a3-a02ef1321eac")
 		)
 		(pin "1"
-			(uuid "aef026f3-a3cb-48f7-8266-df355fbfcd5e")
+			(uuid "2f9d7972-142c-4daf-9404-9a6c719260b0")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
 					(reference "D10")
 					(unit 1)
 				)
@@ -4252,16 +3903,17 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 222.25 44.45 0)
+		(lib_id "4ms_Power-symbol:+12V")
+		(at 66.04 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "65fa3b29-867d-4349-b4fd-634cdcfbb950")
-		(property "Reference" "#PWR070"
-			(at 222.25 50.8 0)
+		(fields_autoplaced yes)
+		(uuid "5b329d03-019a-4d57-9653-45f1ca9dbf43")
+		(property "Reference" "#PWR05"
+			(at 62.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,16 +3921,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 222.25 48.26 0)
+		(property "Value" "+12V"
+			(at 69.85 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 44.45 0)
+			(at 66.04 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +3940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 44.45 0)
+			(at 66.04 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,7 +3949,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 44.45 0)
+			(at 66.04 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,12 +3958,1403 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f0c42f6-4a10-4681-9373-d6da167f269c")
+			(uuid "2ffb075b-2454-4f46-8625-4b002526d2de")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR070")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 163.83 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ce58746-40c5-400f-b283-d16a1958e7bb")
+		(property "Reference" "#PWR012"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67a85562-1656-4005-9d05-230b2e78921d")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 118.11 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "602c22b1-23ca-4eb3-a180-5024f25a8f9a")
+		(property "Reference" "#PWR09"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88755d5d-0f1c-4b3c-bc6a-614c37f40d3c")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:+3.3V")
+		(at 83.82 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66b0e809-0b03-4b43-a16f-2c48b232b47b")
+		(property "Reference" "#PWR04"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 77.978 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "337d2050-6c0b-49bf-ba1e-c9493895c6a5")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 240.03 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "725d0715-90e9-4856-903c-68e4ee8ae71f")
+		(property "Reference" "#PWR017"
+			(at 240.03 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f7506f5-e332-45ac-9ce5-b3e60e4b9ce0")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 255.27 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ad31f19-960e-4abb-8702-ab8f4fee0bb1")
+		(property "Reference" "D11"
+			(at 255.27 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 255.27 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 256.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 257.81 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "253d2ee4-7515-4af6-9b03-00caa959a475")
+		)
+		(pin "3"
+			(uuid "32d3a802-c982-46b8-8468-98c40bdfc82a")
+		)
+		(pin "4"
+			(uuid "a613473f-bb0e-4186-8c87-3c47525d8af1")
+		)
+		(pin "1"
+			(uuid "e4d91ebf-59cc-4225-bd05-b1a4bec2c5a2")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 25.4 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ba6fab0-6837-4f86-93f4-9a1cc14a4760")
+		(property "Reference" "#PWR01"
+			(at 19.05 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af6514ba-7d79-4c97-9a22-99bea019a0c9")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 209.55 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87f3f4f6-37c9-49fe-9a08-f25b326a13c4")
+		(property "Reference" "D8"
+			(at 209.55 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 209.55 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 210.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 212.09 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 209.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f9fae90-4ae6-49e3-9bbd-4003c3b64bdf")
+		)
+		(pin "3"
+			(uuid "34ea7c14-eafb-4560-bfdf-db303f0cdd16")
+		)
+		(pin "4"
+			(uuid "81b1eaf0-7573-4719-ae2c-7191f2d5271c")
+		)
+		(pin "1"
+			(uuid "18329542-6967-4241-9d2c-ec60bf363749")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 102.87 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ddb73b3-fdc0-4505-8508-3342a6cf4765")
+		(property "Reference" "#PWR08"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dd7b29e-734e-4cdd-9cbd-4e169fa8cb9e")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 209.55 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f6b103e-d264-4b32-9fda-058c06c96928")
+		(property "Reference" "#PWR015"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38187a8b-29cb-4c37-849e-3b5e1322961d")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 224.79 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96f4de1f-ffb4-4fde-9ab1-3974695b58ac")
+		(property "Reference" "D9"
+			(at 224.79 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 224.79 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 226.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 227.33 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 224.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "086e55d3-938e-46b0-a1a4-349c6856a28e")
+		)
+		(pin "3"
+			(uuid "8c687c57-5b64-42ad-9e15-fa721a41770d")
+		)
+		(pin "4"
+			(uuid "33b4206a-2fab-4d98-ae39-52ccc11c48fd")
+		)
+		(pin "1"
+			(uuid "d41c9145-f03a-41c8-a47b-6a9bc1976f0a")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 118.11 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98105468-1df6-4266-928c-de9303dc264a")
+		(property "Reference" "D2"
+			(at 118.11 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 118.11 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 120.65 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 118.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "084158e6-60cf-4600-9ed5-526242a2906e")
+		)
+		(pin "3"
+			(uuid "c31c7773-6d29-43cc-a357-9d17a5d7d3ec")
+		)
+		(pin "4"
+			(uuid "4bff50e9-09b7-4110-af60-ac62e8897a69")
+		)
+		(pin "1"
+			(uuid "543eb89a-efed-4cea-b514-d9d0807d2f5c")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 179.07 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa3fd2fd-b892-48f8-a6aa-a2511b6b2359")
+		(property "Reference" "D6"
+			(at 179.07 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 179.07 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 181.61 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce43c9f7-3505-4a47-b60a-ce7329f45ec4")
+		)
+		(pin "3"
+			(uuid "563b3aee-f398-49aa-98eb-a25ffe80c1f8")
+		)
+		(pin "4"
+			(uuid "95ddf9ee-6fc3-4afe-b497-244bad324b87")
+		)
+		(pin "1"
+			(uuid "8f027c10-f0b5-4d44-b4c3-ef0278e928dc")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 148.59 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5e05ef3-9fec-461d-ac46-6c40aecf5f9d")
+		(property "Reference" "D4"
+			(at 148.59 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 148.59 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 151.13 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 148.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "998f7dea-75a5-49dd-be63-5c1c1ed7812a")
+		)
+		(pin "3"
+			(uuid "c26cca09-469a-4f9e-b226-a6fc032b4dab")
+		)
+		(pin "4"
+			(uuid "d6f585c2-266f-41b7-8f4d-9f440514ff45")
+		)
+		(pin "1"
+			(uuid "c8f65705-0c12-447f-90cd-4e3d091fd3c0")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 255.27 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d086f05e-d76a-4054-9bd0-fd5652e2ad76")
+		(property "Reference" "#PWR018"
+			(at 255.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3842cf18-f0e1-4fc9-acb7-8d128465fe20")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 25.4 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4da36a9-e712-4677-a3e1-37f890adcdbb")
+		(property "Reference" "#PWR03"
+			(at 19.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d6764dd-3153-4220-b2dd-06a4d5c72696")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 133.35 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d87eec0a-4529-4c96-9815-10171f2e309f")
+		(property "Reference" "D3"
+			(at 133.35 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 133.35 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 134.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 135.89 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 133.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecbcacaf-f503-4f75-b8b4-8a955a595d6b")
+		)
+		(pin "3"
+			(uuid "a2c0dbaf-c4f0-4238-8cf9-d6c3703d479d")
+		)
+		(pin "4"
+			(uuid "ca5e88ea-b168-44b2-8d04-e1ebb04c5dcb")
+		)
+		(pin "1"
+			(uuid "e1a81652-cb0f-4692-a729-88cb145d6def")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G_LED")
+		(at 102.87 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d943139e-9c1d-490f-9210-46cc966d5568")
+		(property "Reference" "SW1"
+			(at 102.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G_LED"
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 102.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open illuminated tactile switch"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b10e5020-ca41-414e-9def-4c757d2bf3a1")
+		)
+		(pin "1"
+			(uuid "1cb298c2-bb6d-4e06-b0c2-a562ffdcb778")
+		)
+		(pin "4"
+			(uuid "70b92a62-fcee-43df-8ce9-86b3601717c0")
+		)
+		(pin "3"
+			(uuid "0d9c7f07-48e5-4dd1-a797-a52fad15c586")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:+3.3V")
+		(at 97.79 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6709385-791a-4ada-b975-7c70f3e75b27")
+		(property "Reference" "#PWR06"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 91.948 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c98d286-eda4-4412-b280-d772092a9de2")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 194.31 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f80fdfcb-8004-4508-8365-5eedada4f83d")
+		(property "Reference" "D7"
+			(at 194.31 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 194.31 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 195.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 196.85 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 194.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48ef9ba0-6e0e-49fb-a25a-4388ca6baa16")
+		)
+		(pin "3"
+			(uuid "bceee2a6-21a5-45bd-bc14-1d29fb33b326")
+		)
+		(pin "4"
+			(uuid "08211b16-47a9-4dbe-9e8b-c5e46d8ad77b")
+		)
+		(pin "1"
+			(uuid "60d6ee99-7826-48e3-bf33-d4f0d01e6487")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:-12VA")
+		(at 25.4 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8750733-91a4-421e-80fc-4fceaf8dd03d")
+		(property "Reference" "#PWR02"
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12VA"
+			(at 21.59 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "609d798c-05c0-4a6a-98b6-5283c4dc6730")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4318,16 +5362,16 @@
 	)
 	(symbol
 		(lib_id "pico:pico")
-		(at 107.95 123.19 0)
+		(at 110.49 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "77bbe7d2-f9b4-4c57-b734-d12a298a425d")
-		(property "Reference" "U4"
-			(at 107.95 74.93 0)
+		(uuid "feb180fb-f174-46da-8299-d4c285225e9f")
+		(property "Reference" "U2"
+			(at 110.49 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +5379,7 @@
 			)
 		)
 		(property "Value" "pico"
-			(at 107.95 77.47 0)
+			(at 110.49 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +5387,7 @@
 			)
 		)
 		(property "Footprint" "SC0915:MODULE_SC0915"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +5397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +5406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +5415,7 @@
 			)
 		)
 		(property "MF" "Raspberry Pi"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +5425,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915\n                        \n"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +5435,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +5445,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +5455,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=eda"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +5465,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +5475,7 @@
 			)
 		)
 		(property "PARTREV" "1.9"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +5485,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=snap"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +5495,7 @@
 			)
 		)
 		(property "MP" "SC0915"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +5505,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Pi Supply"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +5515,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +5525,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "SC0915"
-			(at 107.95 123.19 0)
+			(at 110.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,1251 +5535,175 @@
 			)
 		)
 		(pin "TP1"
-			(uuid "2faa1458-3d66-4c54-bfd1-522486b47f97")
+			(uuid "efa74c9d-d612-4788-aa29-21c2c3f216c1")
 		)
 		(pin "TP3"
-			(uuid "55b2c1bf-3ebc-475a-bddf-9d31555d1419")
+			(uuid "4e93e291-43f4-4d56-9153-45e15006a099")
 		)
 		(pin "TP4"
-			(uuid "091a860c-2f6f-4b71-9ce8-85c142c04bfb")
+			(uuid "3e2e05b3-44e2-46d8-a7ca-85615c33e9c8")
 		)
 		(pin "11"
-			(uuid "67f92cf2-6a34-49a1-9d90-5ac74313d5ed")
+			(uuid "48ff851c-f33c-4757-96a8-da269abb88bc")
 		)
 		(pin "28"
-			(uuid "08d9e29d-ab5b-4252-a013-46849be565be")
+			(uuid "5d85c7a1-92d2-4076-a3be-42784dd4a531")
 		)
 		(pin "30"
-			(uuid "29d8b075-260a-493e-8e2d-e46e89f24c90")
+			(uuid "ce48e3e0-8e1a-495b-84f9-5db9474b2a4c")
 		)
 		(pin "D2"
-			(uuid "a0cf4c5c-d964-486a-8566-26f0a9968c88")
+			(uuid "1b55ad61-9d0f-4ce6-b894-32394ba71cfc")
 		)
 		(pin "29"
-			(uuid "6b14f838-d563-4ce4-8661-0cb56aa1ba89")
+			(uuid "c02ccaed-1d4e-4b78-80bd-62cad8609aa2")
 		)
 		(pin "34"
-			(uuid "84474267-3382-45ee-8b31-062f386a3882")
+			(uuid "5337764d-aceb-4aca-9cb4-b6a5727872f3")
 		)
 		(pin "36"
-			(uuid "1fa76f47-692e-4214-b4fd-7fd47f8451b7")
+			(uuid "9f8d7eac-baad-404b-8ac8-13136d74ff5b")
 		)
 		(pin "37"
-			(uuid "1b36b552-ab68-483b-9f34-de442304fc76")
+			(uuid "da00cb1a-64b9-43ce-9f16-a4f908216a71")
 		)
 		(pin "A"
-			(uuid "efea1cc8-f848-4fed-b025-5b44430275cc")
+			(uuid "a3620805-0dd4-457e-9aff-eb2f654abef1")
 		)
 		(pin "10"
-			(uuid "24513018-b85a-46b1-8f20-144f41197473")
+			(uuid "84d1cd86-15cf-4e79-a7f2-099dd71a5d46")
 		)
 		(pin "25"
-			(uuid "3b1070c3-c6f3-4272-8485-17c5c951fdf4")
+			(uuid "87f8b0a8-4d54-4933-8109-cd7851bfc323")
 		)
 		(pin "26"
-			(uuid "817635b9-011c-4c09-a360-7b6b9c3c7dbc")
+			(uuid "e5f6f5a5-29d4-4bd0-96aa-c3c1720cfec0")
 		)
 		(pin "D"
-			(uuid "31a59231-b894-4fc3-9ae2-0926750f4668")
+			(uuid "e4f7ec77-22b1-4929-ad29-279b764674cd")
 		)
 		(pin "TP5"
-			(uuid "8a32c87b-1d40-4732-addd-d8164f9c0bbb")
+			(uuid "0fe19482-1292-45b2-821a-dca26b18081e")
 		)
 		(pin "16"
-			(uuid "301cd09a-6514-4140-868f-0876ce23bab0")
+			(uuid "f974c2fe-e4df-4555-b1dd-de043c15972c")
 		)
 		(pin "3"
-			(uuid "9fd555a5-c6f2-4396-938b-6085824e7b9a")
+			(uuid "25dcaf0c-03af-4fc2-a8a1-0eaad37fd7b5")
 		)
 		(pin "TP2"
-			(uuid "e43d64ba-6730-4ffe-8fa3-80cabeced214")
+			(uuid "435c4d71-a2bd-4e24-bea4-aa3a8142e688")
 		)
 		(pin "4"
-			(uuid "71c3eb94-1c3f-4e42-b20d-bbcf0831ffc4")
+			(uuid "89a8fa74-af3d-412f-bfb6-f3cc1c2cd474")
 		)
 		(pin "6"
-			(uuid "67a7073e-609c-4e17-9485-e92276575988")
+			(uuid "f9f3d483-98ea-4d9b-bd0d-86a690b1b039")
 		)
 		(pin "TP6"
-			(uuid "6c5bdb22-c9ef-4ba7-8bae-dffed781f174")
+			(uuid "8c5fe2fb-e557-4096-a7ce-8b8c6cbada9c")
 		)
 		(pin "7"
-			(uuid "bc1bd10f-4f0c-4459-a513-0cd8b03184c9")
+			(uuid "a30c3fa3-df64-4d56-a85c-08b030570d19")
 		)
 		(pin "D1"
-			(uuid "bd8ee293-c5ae-4009-b774-672880df9ab9")
+			(uuid "3940bf97-4753-4235-93df-00df38e2a454")
 		)
 		(pin "9"
-			(uuid "74761b31-a2d6-4102-8442-420313e900d5")
+			(uuid "ae83bf80-8815-473d-86aa-e79f5433c20e")
 		)
 		(pin "39"
-			(uuid "f4482dca-387e-4985-b5a1-c10a4728da6a")
+			(uuid "1424488a-2b18-4eda-830e-636c0fbf4fbf")
 		)
 		(pin "B"
-			(uuid "d8796fac-7f71-471a-bc80-836f981366dd")
+			(uuid "3ae0c60c-991a-4ad7-b2b6-daba8dffce94")
 		)
 		(pin "23"
-			(uuid "8679b9ba-fdfe-42c3-baa7-39899e2e30cd")
+			(uuid "5251dffd-70d9-468b-9ea4-116ccf8431a7")
 		)
 		(pin "27"
-			(uuid "28ed6146-7d10-4012-bd04-c05e2c4b9c78")
+			(uuid "a3182f85-c89f-4f20-8067-517a41967dce")
 		)
 		(pin "14"
-			(uuid "9c8c40bd-cc44-4aa2-8c35-6e7757cc7af8")
+			(uuid "c98abcdd-1b3e-4809-af50-19dd06715c0e")
 		)
 		(pin "12"
-			(uuid "cefe2225-622e-4d87-ab1d-263ffebb4072")
+			(uuid "dad6e9d5-2786-49a7-bc61-ae187892ff24")
 		)
 		(pin "20"
-			(uuid "f357c888-7022-4502-9806-a4356c79cb0a")
+			(uuid "0f46aee9-c794-4d15-9d1c-a63ee1ad6beb")
 		)
 		(pin "18"
-			(uuid "3b8dd842-6ab2-4ad7-b852-4a04beee401b")
+			(uuid "384c4909-fc6b-4768-95d8-6fbf5f3644e5")
 		)
 		(pin "19"
-			(uuid "61ff0d17-a8fd-440d-96b7-08e93487df6c")
+			(uuid "c59a4300-757f-47ce-8b6b-4e67c373266c")
 		)
 		(pin "17"
-			(uuid "d81495b8-8ba3-4895-8e9c-162d431c73fe")
+			(uuid "df0e512c-e502-437a-8a0f-c19a7976e1aa")
 		)
 		(pin "2"
-			(uuid "b6b630ed-1813-44ef-9245-2210e8ed3e20")
+			(uuid "3d111833-965f-4446-b9d4-33a6d8f20091")
 		)
 		(pin "21"
-			(uuid "80627165-e4f6-4b9d-80cd-d8f4b172cbee")
+			(uuid "1ac81700-a8ce-42b0-9d60-a89589da36cf")
 		)
 		(pin "31"
-			(uuid "881bfa27-d107-48db-8d10-8cfbcb749c50")
+			(uuid "d0abb3a5-7cd8-4022-ba87-5a6d018992e3")
 		)
 		(pin "38"
-			(uuid "3a5345f1-2fbd-478c-af52-2e8bf2643f53")
+			(uuid "1b0ce98e-744f-4631-8044-a8ec81f5f3ec")
 		)
 		(pin "13"
-			(uuid "348e54fa-40d8-4aab-929e-a2471dbd8081")
+			(uuid "4e1df2b2-40f4-4c08-ac51-077c53ac9159")
 		)
 		(pin "35"
-			(uuid "11b8deac-881b-4dab-91e1-7dacb37f68bb")
+			(uuid "92d1e00d-b3be-465e-813b-2d62ddb4c0d7")
 		)
 		(pin "40"
-			(uuid "e8968668-e03b-4baf-928d-484cb0f87755")
+			(uuid "ce053fba-f382-4661-b367-d5dee7db07c4")
 		)
 		(pin "C"
-			(uuid "e92c28db-2462-48c9-bc84-9dcbb3a5dd4d")
+			(uuid "8405bc9e-7446-4efd-9277-c2ce149cb8ed")
 		)
 		(pin "5"
-			(uuid "4f6634b5-8dbf-4cbb-991d-53bb561887c7")
+			(uuid "86878881-d2ab-4810-88c3-813c68a50b89")
 		)
 		(pin "D3"
-			(uuid "033c5030-74d5-456e-8c8e-a1b9b7304e09")
+			(uuid "b88a40e1-bf8b-4161-a21d-3b7df21ae0b0")
 		)
 		(pin "1"
-			(uuid "49586863-b55f-4b94-bec8-9aa60c13467c")
+			(uuid "6f08ff12-2ec2-4b9b-be4e-019f7e3074e0")
 		)
 		(pin "32"
-			(uuid "e811e45b-da1b-405e-88f9-1248d405f5ca")
+			(uuid "68c799fd-3448-41f4-b595-ffa5cc1081d8")
 		)
 		(pin "22"
-			(uuid "2d42b03d-999b-4d25-b805-430d43505f7c")
+			(uuid "7a95f1e7-653a-47b3-984f-dd669e59528e")
 		)
 		(pin "33"
-			(uuid "6bbd5493-fbb6-461f-a6d8-05bf78c6184e")
+			(uuid "be4f057c-773c-4e39-99c0-720557fcb60c")
 		)
 		(pin "15"
-			(uuid "34633f63-16ce-429d-b9d6-b120b191499e")
+			(uuid "683c8ba6-a8f2-40cd-9311-cd1022471ada")
 		)
 		(pin "8"
-			(uuid "f46decb0-c297-4279-ac46-09c4bc4f1015")
+			(uuid "b3b42369-9872-41dd-bc4f-eae317cc4082")
 		)
 		(pin "24"
-			(uuid "7a4ed0c1-9379-4dde-a12b-86690acb984e")
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:+3.3V")
-		(at 60.96 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85e46c85-80bd-4d85-a221-794cfbb027ed")
-		(property "Reference" "#PWR01"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 55.118 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd79b069-f7da-4daa-a2f0-805ca00d18bf")
+			(uuid "3c8e739b-33b5-4604-b90f-279f5b6ea70e")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 191.77 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88f25bd7-2cf0-400f-9207-277aa693de84")
-		(property "Reference" "#PWR068"
-			(at 191.77 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a59f15c2-f958-49a0-9af2-c9f744e8fb77")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G_LED")
-		(at 100.33 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6c3a7c6-5806-4e12-abc2-08e556add435")
-		(property "Reference" "SW1"
-			(at 100.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G_LED"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 100.33 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open illuminated tactile switch"
-			(at 100.33 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9cedbe9b-3018-4def-a731-a7d917929f61")
-		)
-		(pin "1"
-			(uuid "0d461075-7a73-4902-8d7e-e251f7c5702c")
-		)
-		(pin "4"
-			(uuid "08f6a581-3a38-4c07-8965-1ecf02d34cbf")
-		)
-		(pin "3"
-			(uuid "11b59631-79f0-409d-a3e5-46646187b3b1")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 161.29 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a944420c-f5b3-469b-a879-1b6504eb4be4")
-		(property "Reference" "D5"
-			(at 161.29 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 161.29 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 162.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 163.83 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 161.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ccab6380-cf9b-447f-a18a-7360e2ae0137")
-		)
-		(pin "3"
-			(uuid "382fae4c-f748-471e-a337-7460cc8dbb1f")
-		)
-		(pin "4"
-			(uuid "a0af0854-1b83-4934-86ad-d28fa3bc9081")
-		)
-		(pin "1"
-			(uuid "4f4ec2e4-02c3-4247-9dc0-19ea0b81ce8d")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 95.25 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af5de940-abec-48e0-8740-7bf3584cc857")
-		(property "Reference" "#PWR074"
-			(at 88.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a029a2c0-5bf3-4d2e-abb1-e855a4c70d7c")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 146.05 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c79a61fd-8dac-48ce-bb21-7d392b219411")
-		(property "Reference" "D4"
-			(at 146.05 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 146.05 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 147.32 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 148.59 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 146.05 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "03467c17-a3e3-426e-8e65-a404a4c6decb")
-		)
-		(pin "3"
-			(uuid "0031f678-27b5-4cb9-87d0-13986c47f3f1")
-		)
-		(pin "4"
-			(uuid "fb82d712-a45c-4bcb-8d05-5b8258e3fa16")
-		)
-		(pin "1"
-			(uuid "4845367d-b188-4da0-a2db-199acb64c217")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 176.53 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cab901b1-0c6b-403a-9300-9211cbfd80a7")
-		(property "Reference" "D6"
-			(at 176.53 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 176.53 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 177.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 179.07 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3221d8e5-0ff1-4a0b-aef5-592e77e9df60")
-		)
-		(pin "3"
-			(uuid "c1f03104-985e-42e0-86b6-dfb6441667fd")
-		)
-		(pin "4"
-			(uuid "1d8c9574-6d49-45e2-8db8-e79dc915a7f4")
-		)
-		(pin "1"
-			(uuid "cc2f5ae9-3b4f-4bb8-aa2d-6c657ded06bc")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:+3.3V")
-		(at 95.25 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1c936c4-8daa-4762-be21-c95835fe7f71")
-		(property "Reference" "#PWR073"
-			(at 99.06 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 89.408 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7ea4632-3171-4359-8451-ef411554242e")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 161.29 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2cb9010-9c56-49b1-af1a-3aa62c03ef0f")
-		(property "Reference" "#PWR066"
-			(at 161.29 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3045acdf-7563-44fd-81d3-acd94c9d41e8")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 252.73 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e09caa16-9fea-43b4-b5df-5edc066ec68e")
-		(property "Reference" "D11"
-			(at 252.73 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 252.73 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 254 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 255.27 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 252.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1763cd60-a967-4dcf-819b-0272edb4b768")
-		)
-		(pin "3"
-			(uuid "71fb95e2-5020-41d6-bb44-925d478517a8")
-		)
-		(pin "4"
-			(uuid "0ffaf6c0-e25a-4730-b5d8-011b450d1f47")
-		)
-		(pin "1"
-			(uuid "fddbb19f-97e9-43fd-b0bf-628bf77b62e6")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:+12V")
-		(at 63.5 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7caa72b-91c8-484f-83df-2e6ad0158cd7")
-		(property "Reference" "#PWR057"
-			(at 59.69 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 67.31 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee374baa-c4f2-4fd1-9d8e-43a6ad3c4317")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 207.01 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0de49c1-f758-428e-b709-67990f92439b")
-		(property "Reference" "D8"
-			(at 207.01 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 207.01 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 208.28 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 209.55 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 207.01 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ba49174-9f38-4f17-9f39-6e22821cb9a8")
-		)
-		(pin "3"
-			(uuid "7be608d5-572e-4868-a99e-b666758aa87e")
-		)
-		(pin "4"
-			(uuid "e295edb1-fd74-4fae-9a87-1d8ee1613036")
-		)
-		(pin "1"
-			(uuid "71ba5a1e-1d71-4333-822e-e361f7a7b4c6")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 100.33 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f12bef04-3bb5-4ff6-9c31-c792e09090f9")
-		(property "Reference" "#PWR062"
-			(at 100.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec96cdb8-7aeb-41e1-abea-aeb17f6e397c")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 191.77 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5d7b42f-fca7-4137-9f30-791b1e9031d1")
-		(property "Reference" "D7"
-			(at 191.77 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 191.77 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 194.31 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 191.77 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aabd7ab3-4933-4cdd-8441-5101a27a5e14")
-		)
-		(pin "3"
-			(uuid "756d6983-a32b-440f-ab34-3f187a244578")
-		)
-		(pin "4"
-			(uuid "0662508f-2116-49f8-928f-8ef9630cf575")
-		)
-		(pin "1"
-			(uuid "d46aa5f4-b1b9-4117-8af2-b20356a6c91a")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GND")
-		(at 252.73 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff326c4b-6da0-4eb5-b4a9-2558e5ac41af")
-		(property "Reference" "#PWR072"
-			(at 252.73 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2b086b8-f1bd-4cd8-91ea-50e979cda05d")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(reference "#PWR072")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 207.01 109.22)
-		(size 25.4 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "658b39a3-409f-4989-b1a2-579902bf4911")
-		(property "Sheetname" "I_O"
-			(at 207.01 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "i_o_sequencer_switch.kicad_sch"
-			(at 207.01 130.1246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 238.76 109.22)
+		(at 241.3 109.22)
 		(size 26.67 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -5745,9 +5713,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "bada82cd-2b15-46ab-9896-d0e84e8bddba")
+		(uuid "8e85c82b-0dc0-4eee-b65d-794598d9520b")
 		(property "Sheetname" "Power"
-			(at 238.76 108.5084 0)
+			(at 241.3 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,7 +5724,7 @@
 			)
 		)
 		(property "Sheetfile" "power_sequencer_switch.kicad_sch"
-			(at 238.76 130.1246 0)
+			(at 241.3 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,10 +5734,53 @@
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97"
-					(page "5")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(page "3")
 				)
 			)
+		)
+	)
+	(sheet
+		(at 209.55 109.22)
+		(size 25.4 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dceac55c-f5c9-4827-a11c-1eb1f12ac530")
+		(property "Sheetname" "I_O"
+			(at 209.55 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i_o_sequencer_switch.kicad_sch"
+			(at 209.55 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

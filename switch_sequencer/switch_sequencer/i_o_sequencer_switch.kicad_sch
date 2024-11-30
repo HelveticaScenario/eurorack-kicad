@@ -1367,7 +1367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a25efb-09ed-4694-bde3-863b626171a6")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR028"
 			(at 27.94 142.24 0)
 			(effects
 				(font
@@ -1413,12 +1413,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "858aed99-bef8-431d-ae8d-7a59adc197ee")
+			(uuid "730b0205-416c-4ddd-8488-7802451fd73c")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR011")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1434,7 +1434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21accf39-56cb-4908-b47e-83c5302c6272")
-		(property "Reference" "J6"
+		(property "Reference" "J9"
 			(at 138.43 21.59 0)
 			(effects
 				(font
@@ -1528,18 +1528,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "c9453f3e-0d5c-49e6-a246-82535eba0850")
+			(uuid "d18d74b8-c4f8-45bd-b047-caa31e040684")
 		)
 		(pin "2"
-			(uuid "087ec507-3865-44f8-b3cc-c793464c34e6")
+			(uuid "9731cea7-ca7c-4003-8915-7f1f94af56f5")
 		)
 		(pin "1"
-			(uuid "f1372291-d8d8-4e9f-834f-42be6eed4919")
+			(uuid "65927a2f-6126-4a9e-a562-3e88f0a4925b")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J6")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1555,7 +1555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22b81348-7eca-4225-87a8-4462057b0c47")
-		(property "Reference" "J8"
+		(property "Reference" "J11"
 			(at 189.23 21.59 0)
 			(effects
 				(font
@@ -1649,18 +1649,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "1422b822-0403-4c77-9190-be6217fceb77")
+			(uuid "f11acb87-e37c-4742-b90f-7cec07b11f40")
 		)
 		(pin "2"
-			(uuid "d4debff9-0670-40d2-b21f-1103a6846dbc")
+			(uuid "e763ebe5-9772-402b-920a-85f7c40e6092")
 		)
 		(pin "1"
-			(uuid "f1175b5e-62f4-4839-b4bc-55927ce86d01")
+			(uuid "1d543fd8-8296-41ad-9de6-9cb0b7201707")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J8")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -1676,7 +1676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25d78600-e17e-4750-b8b0-555730f51ef9")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR032"
 			(at 88.9 69.85 0)
 			(effects
 				(font
@@ -1721,12 +1721,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "54e611e9-31df-4af9-a4ee-b97243d2de72")
+			(uuid "44426bca-7f30-4e35-a0b5-17576f2d8aaf")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR058")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1742,7 +1742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26668cf2-d39f-4479-a56d-edf65a0d5e9c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR023"
 			(at 27.94 129.54 0)
 			(effects
 				(font
@@ -1788,12 +1788,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "88acb30c-ede8-4663-9324-74809e782dfe")
+			(uuid "618f531e-b494-4487-9c81-8973266fbaea")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR06")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1809,7 +1809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3209f007-611f-47ea-9ee6-9a00e796efae")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR026"
 			(at 27.94 137.16 0)
 			(effects
 				(font
@@ -1855,12 +1855,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "43df10e5-737a-4696-960a-dad2223280f8")
+			(uuid "7b65367b-c8d0-489f-b084-0c0259270ab4")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR09")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1876,7 +1876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c1077a-5790-4f27-bebe-2e03227f160a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR029"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -1921,12 +1921,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6117ef7a-b8b7-4be8-ab08-982a2332c2d4")
+			(uuid "c3d12af3-1db7-454b-8ac7-34433955ef71")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR012")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1942,7 +1942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34840762-9abb-4ae3-bcda-9e96c6928793")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR037"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -1987,12 +1987,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "01a10086-b0fd-49ce-b4ac-ff8beae7eafb")
+			(uuid "e7112242-21bf-468d-806c-74297457610f")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR017")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2008,7 +2008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c1cd509-346a-4e9e-aa21-a6fa6e2adf4f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR025"
 			(at 27.94 134.62 0)
 			(effects
 				(font
@@ -2054,12 +2054,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e039195-542b-429f-864c-6d23a04c9ee0")
+			(uuid "05fd7bc0-477a-4d43-b3e6-9ffba146f28f")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR08")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2075,7 +2075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ace794-2ef1-42fe-a1c2-d0e00e5dcc3c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR027"
 			(at 27.94 139.7 0)
 			(effects
 				(font
@@ -2121,12 +2121,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "11a9d9de-4ce0-4c0b-847a-1ad6751d67df")
+			(uuid "57eb6025-9a30-48ac-8e02-9f6a90f2366b")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR010")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2142,7 +2142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "504e0b35-7c3b-40bd-81a3-c947fef6236b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR036"
 			(at 160.02 43.18 0)
 			(effects
 				(font
@@ -2187,12 +2187,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7eb5734-4b7b-4b2d-a09b-ae0af447e1ec")
+			(uuid "6246b35f-3800-491d-b120-2245d75e7760")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR016")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2208,7 +2208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50629a0d-0c2a-4f6c-a47b-f559521124eb")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR035"
 			(at 134.62 43.18 0)
 			(effects
 				(font
@@ -2253,12 +2253,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9992242-d687-4ef3-9827-d66a82f1f40f")
+			(uuid "e2af69ac-eac9-479e-91b5-3331afae15fd")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR015")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2359,35 +2359,35 @@
 			)
 		)
 		(pin "8"
-			(uuid "e337e6b5-23fd-47d5-9b9c-f7388e2fe109")
+			(uuid "854ce25b-d163-475e-9ee3-c4688d36a1cb")
 		)
 		(pin "7"
-			(uuid "63aa798f-7a2d-4c58-a6ab-bc088500fe7e")
+			(uuid "a4665bfc-1e52-4faa-a287-f98b9763d754")
 		)
 		(pin "3"
-			(uuid "756fa733-c036-4ab7-b634-a349b836796c")
+			(uuid "a0792660-b3d1-46e8-8f4c-7c53a89cfbdd")
 		)
 		(pin "4"
-			(uuid "3a798b94-4974-45b0-b4e4-fd41ed09935d")
+			(uuid "51f42225-cf0f-4aa8-b9ce-8215152b3063")
 		)
 		(pin "9"
-			(uuid "e628f06d-c198-431d-9172-c20fd833f362")
+			(uuid "f51105bd-dea9-462a-8140-74e75c60bae0")
 		)
 		(pin "6"
-			(uuid "50c21b66-2d65-46a4-a088-73c4d6456d03")
+			(uuid "803311db-8706-4e9f-8bfe-ffbb1686db9b")
 		)
 		(pin "1"
-			(uuid "9097bf3e-560d-43b4-b583-aa9302b53dfe")
+			(uuid "6599cd27-2016-476b-8948-63e39a0a8a3f")
 		)
 		(pin "2"
-			(uuid "dfb4cbf3-4426-4e1b-b845-97e704042f62")
+			(uuid "1d444251-4882-4c7f-ae84-bae0b5121dd6")
 		)
 		(pin "5"
-			(uuid "c9890583-585b-4e65-baa8-cf9548732c52")
+			(uuid "9f0d78b9-46c3-4c74-b519-058b52610381")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
 					(reference "J2")
 					(unit 1)
 				)
@@ -2404,7 +2404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ca90dc-5dbd-4bd9-bc46-14976c3745c3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR031"
 			(at 83.82 43.18 0)
 			(effects
 				(font
@@ -2449,12 +2449,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2620be95-49e5-4135-830f-1971e781c014")
+			(uuid "4a505fd0-6421-4baf-b50e-1c47dce06432")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR013")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2470,7 +2470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f15764-c34c-4952-a879-0e9928a4a4e6")
-		(property "Reference" "J20"
+		(property "Reference" "J6"
 			(at 92.71 48.26 0)
 			(effects
 				(font
@@ -2564,18 +2564,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "8421d8cb-157f-45a2-863c-f192676469a3")
+			(uuid "01a2c421-2310-4645-8e30-798145bb8fe9")
 		)
 		(pin "2"
-			(uuid "309ae083-aea4-4853-ab01-efad3a101f3c")
+			(uuid "27e7e783-5839-40e0-a139-d46da7b666a7")
 		)
 		(pin "1"
-			(uuid "a3d56f3f-6c23-4223-9b4c-dfdc266bde3a")
+			(uuid "ff294365-f924-4f81-9894-ef7319ce58ff")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J20")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a466fed-eff6-4a63-81fa-80dd0896bc76")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR019"
 			(at 27.94 115.57 0)
 			(effects
 				(font
@@ -2637,12 +2637,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "68e562e3-f9df-4c36-82e2-83d711f9c42b")
+			(uuid "b592080b-2575-4bd5-9dbb-a76099fb0496")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR02")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2658,7 +2658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e690153-6ac8-4b9e-915f-1dfea5954fd4")
-		(property "Reference" "J7"
+		(property "Reference" "J10"
 			(at 163.83 21.59 0)
 			(effects
 				(font
@@ -2752,18 +2752,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "c01f6089-a732-4430-b8be-31a724333a77")
+			(uuid "a1836d56-72f2-4e3a-924d-1432987699e4")
 		)
 		(pin "2"
-			(uuid "7a647a02-b11a-47e6-a672-a8f21a59686a")
+			(uuid "01b139f6-4c3e-436c-a037-cfca85cdd9f3")
 		)
 		(pin "1"
-			(uuid "3d4b03ab-b635-4e66-a7b1-44613928f358")
+			(uuid "05355aea-e94f-4028-9920-f926bba9221f")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J7")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2779,7 +2779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65937025-20c4-42f0-b67a-7f1ba0597ff3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR022"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -2825,12 +2825,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "97ffa597-9b36-42df-bc61-3c2e308b21ef")
+			(uuid "97d77bbe-db81-4bc9-87ef-9987c26d3331")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR05")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2846,7 +2846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "670bd915-366d-4202-8fb4-c9ad04a246bb")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR034"
 			(at 118.11 69.85 0)
 			(effects
 				(font
@@ -2891,12 +2891,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b344d314-8b49-41c3-a4a1-5b366f780586")
+			(uuid "f7a002cb-0366-4969-a376-181c9679069a")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR059")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2912,7 +2912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d84a933-4194-48c4-b137-0a4553f08beb")
-		(property "Reference" "J21"
+		(property "Reference" "J8"
 			(at 121.92 48.26 0)
 			(effects
 				(font
@@ -3006,18 +3006,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "69ec62ad-4fba-4fdd-afbf-ca3243848f55")
+			(uuid "39567aea-f2b1-4c8f-81ce-9b104f7baec6")
 		)
 		(pin "2"
-			(uuid "3cba25cf-c79e-4dfb-83dc-67d38215acbd")
+			(uuid "62018a15-ece3-4158-8a2a-8552ad728d13")
 		)
 		(pin "1"
-			(uuid "b0fe5b89-0d11-4cd0-ac14-a47b148d5710")
+			(uuid "58c1c7c9-73af-439d-a8a5-0520e0fd930f")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J21")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3033,7 +3033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e0b4170-bc19-4f57-ab03-f952946f714d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR038"
 			(at 210.82 43.18 0)
 			(effects
 				(font
@@ -3078,12 +3078,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "efcf1df3-1938-4590-8881-732d457a3b73")
+			(uuid "34752c8b-502d-4189-b9d7-3f2a32fc7cc4")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR018")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3184,35 +3184,35 @@
 			)
 		)
 		(pin "8"
-			(uuid "b35f0bbf-45cd-4ef4-b75a-48cbfa91df5e")
+			(uuid "8c8ebe14-9a68-42ac-9154-4412e6d38713")
 		)
 		(pin "7"
-			(uuid "3b2aa501-8af8-4bdf-813f-f4dc52f9cd07")
+			(uuid "9cbbe701-21e5-4107-954b-f1d75eaa5993")
 		)
 		(pin "3"
-			(uuid "02d87d04-b71b-4011-acb3-696a65a70b68")
+			(uuid "411f51ad-9e20-46ad-91cd-ae25d2090e97")
 		)
 		(pin "4"
-			(uuid "b44c0a98-501d-423f-b335-657403c5a24d")
+			(uuid "bbefcc3a-61d6-4997-afe7-6bfb32fae3ad")
 		)
 		(pin "9"
-			(uuid "84513fc3-ce82-42e4-96d2-96ac64feb7d0")
+			(uuid "58a5e51f-ec64-4c93-a458-8c342855b68d")
 		)
 		(pin "6"
-			(uuid "78843290-d67b-481a-8032-ec15b47e1c8c")
+			(uuid "1c60daa2-882a-4a19-8811-32aee64a6e1a")
 		)
 		(pin "1"
-			(uuid "77265ae2-7776-4ac6-8cb9-744a8deff788")
+			(uuid "eb9b463e-1f98-4578-8514-ee8437c182bb")
 		)
 		(pin "2"
-			(uuid "16cd6888-aa72-43e4-8d4b-af5035b9aaec")
+			(uuid "c7b2b27d-53dc-4ad1-8421-aafa449f1726")
 		)
 		(pin "5"
-			(uuid "58af39ec-2a08-4727-9a5d-66e21ef27ee4")
+			(uuid "93898376-4ffe-4939-8b33-23fea573cb6f")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
 					(reference "J1")
 					(unit 1)
 				)
@@ -3229,7 +3229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "794e5338-4fa8-4abc-b7b6-fc51a7f29840")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR033"
 			(at 109.22 43.18 0)
 			(effects
 				(font
@@ -3274,12 +3274,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e74a6fc0-481a-4489-a25c-2a70d25f947c")
+			(uuid "7ce37efb-eede-4335-9046-c6f0b90e266d")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR014")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3295,7 +3295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d3e1053-b13d-49f0-a133-be5aa6f13cc4")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 87.63 21.59 0)
 			(effects
 				(font
@@ -3389,18 +3389,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "f145daa2-ea91-4d08-b377-ceb761f86946")
+			(uuid "7d4cb267-91f6-4b99-be8e-6881390834b8")
 		)
 		(pin "2"
-			(uuid "97774f13-3c4e-49d5-b4dd-c8eabfe9fc3a")
+			(uuid "7c945f99-2147-40e9-86ac-628cd3962aa1")
 		)
 		(pin "1"
-			(uuid "052826c1-b5d6-4582-a4cb-c10a3205e709")
+			(uuid "0e91e6b1-ba5e-4d76-a3f6-fab9bb3ba35a")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J4")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3416,7 +3416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f353608-1a7d-4cd6-8313-82a394d67661")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR024"
 			(at 27.94 132.08 0)
 			(effects
 				(font
@@ -3462,12 +3462,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d14fd292-c3bb-4d5b-af23-3a8987f33ca5")
+			(uuid "901caa91-1a4e-46c8-a630-a6c482e31f50")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR07")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94914d24-e2d9-4645-b558-1a9908bdad4f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR021"
 			(at 27.94 124.46 0)
 			(effects
 				(font
@@ -3529,12 +3529,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "758a453b-68a8-451b-a90e-d64347ef5479")
+			(uuid "7b31af41-09d3-49d3-b925-1cb8e784e23d")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR04")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3550,7 +3550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9982ac89-50be-494b-87cd-1ac073b5708e")
-		(property "Reference" "J9"
+		(property "Reference" "J12"
 			(at 214.63 21.59 0)
 			(effects
 				(font
@@ -3644,18 +3644,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "01e394b8-17f9-4780-b41d-6599c10f3456")
+			(uuid "9dbfee51-36b7-4f9b-a3e3-f105325aba9d")
 		)
 		(pin "2"
-			(uuid "5b593b71-59b9-42b2-92cb-5dcd72bd1e6d")
+			(uuid "8b977eea-ffb5-4205-ad94-5ad7fc5c62f1")
 		)
 		(pin "1"
-			(uuid "cfdf370d-79ed-4b82-9d87-96e792a5954f")
+			(uuid "be8e5076-5d91-4317-9811-f4e8383d7c2b")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J9")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -3765,17 +3765,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "2217c00a-8cbc-470e-a13f-b03995ffc0a8")
+			(uuid "67cf944a-7203-47db-bf8e-c2f6301efbe8")
 		)
 		(pin "2"
-			(uuid "5005f7f3-61dc-43ff-8233-55afc9259b04")
+			(uuid "25f09fc5-079a-45c4-ba7c-538af9ffb7ab")
 		)
 		(pin "1"
-			(uuid "b9f98f06-0ea5-4ba9-8a31-4e3a396b624e")
+			(uuid "80c8ce02-d135-41b3-b107-2b70e358b7c7")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
 					(reference "J3")
 					(unit 1)
 				)
@@ -3792,7 +3792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a376f436-0956-40b9-955e-68cce2a46d7b")
-		(property "Reference" "J11"
+		(property "Reference" "J4"
 			(at 62.23 48.26 0)
 			(effects
 				(font
@@ -3886,18 +3886,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "3ec3dd7f-a148-4d2e-bc51-67d5f94453c8")
+			(uuid "db254c89-c31d-4432-8bcb-ec04f454c643")
 		)
 		(pin "2"
-			(uuid "8f449832-01f6-4361-8a99-2a5d276222cb")
+			(uuid "8843d328-c8ce-487a-a669-44af69933ae0")
 		)
 		(pin "1"
-			(uuid "8e20a52f-0fd0-43fa-a190-0d892e9e7294")
+			(uuid "1733e4c1-d0aa-40ec-b3c3-c129a364e916")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J11")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3913,7 +3913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad647222-4d8c-4afc-935c-296c35207a7b")
-		(property "Reference" "J10"
+		(property "Reference" "J13"
 			(at 240.03 21.59 0)
 			(effects
 				(font
@@ -4007,18 +4007,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "9e2c4c83-7152-490a-9f8a-6d8497fbdde2")
+			(uuid "0a641e92-ce56-4c31-9e21-84727bcec1fd")
 		)
 		(pin "2"
-			(uuid "60928179-9cb6-4856-92a4-315cfa487c09")
+			(uuid "e04609ba-d9c6-4720-92c8-456b2735313d")
 		)
 		(pin "1"
-			(uuid "e9aba93f-1774-4eda-b0d8-04d069e9ae9e")
+			(uuid "0e09ba1a-e072-4b3e-8932-771501fa557d")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J10")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4034,7 +4034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b42a0212-69be-4b41-a764-10d84802fdf7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR020"
 			(at 27.94 121.92 0)
 			(effects
 				(font
@@ -4080,12 +4080,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1ab2aa1-a261-4676-85ea-4877a6553c61")
+			(uuid "ce368712-226d-4289-bec3-cf136eefe0d3")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR03")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4101,7 +4101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1abab8b-b3b2-4075-b6e6-a38f4bab94c0")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 113.03 21.59 0)
 			(effects
 				(font
@@ -4195,18 +4195,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "c6b321a4-150a-41ab-92f2-827e31132ed6")
+			(uuid "30adf18b-1f78-4294-a712-ce66dec350de")
 		)
 		(pin "2"
-			(uuid "9ba2cb90-8575-4426-99dd-fb1fb78474a7")
+			(uuid "de224ae5-3468-48eb-ae15-8f9cf1c4c93c")
 		)
 		(pin "1"
-			(uuid "55fdc701-21b0-4eca-8f19-6470485e0f73")
+			(uuid "a106a962-fd70-4e32-95b3-36c1a3ebb868")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "J5")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4222,7 +4222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df7e30fc-95a4-4492-a138-c43ad692d709")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR039"
 			(at 236.22 43.18 0)
 			(effects
 				(font
@@ -4267,12 +4267,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b50decee-d14c-42a5-a06e-b11f0ecfdcab")
+			(uuid "3e238aea-92a8-42f9-8ece-ec0864bf4bee")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR019")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9bfb0af-b9c0-454b-b566-e80ed189be5a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR030"
 			(at 58.42 69.85 0)
 			(effects
 				(font
@@ -4333,12 +4333,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "25e1eb45-4423-437b-8e39-71fd38df4485")
+			(uuid "cab703a7-33ad-4c70-96bd-1d7c6965395e")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
-					(reference "#PWR020")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/dceac55c-f5c9-4827-a11c-1eb1f12ac530"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

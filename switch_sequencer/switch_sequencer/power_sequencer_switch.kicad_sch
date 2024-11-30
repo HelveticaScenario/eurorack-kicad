@@ -3886,7 +3886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "166d5b2c-2116-46d5-a0e1-e32a00de91a9")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR048"
 			(at 96.52 36.83 0)
 			(effects
 				(font
@@ -3931,12 +3931,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0bef83b-c954-4e53-a5e5-e3b3963d4881")
+			(uuid "4bd1b80a-1883-493c-9f0a-ac7638046936")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR021")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4106,14 +4106,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b223697-d773-4eef-a8db-c6bf382497a2")
+			(uuid "93956c88-fe9f-4d70-b81f-50bee1994599")
 		)
 		(pin "2"
-			(uuid "62c3282a-8136-46b5-ae32-2deac75c678b")
+			(uuid "f53a18d3-a2ce-477a-8ebd-eeb124bc3b5d")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
 					(reference "L1")
 					(unit 1)
 				)
@@ -4129,7 +4129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24364024-7a28-49bd-8598-1de070776195")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 106.045 45.72 0)
 			(effects
 				(font
@@ -4230,15 +4230,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "52bb283b-6f51-4039-beb3-9560b0f4b28a")
+			(uuid "e57c080d-f206-4a0b-8a70-9159ac36aac3")
 		)
 		(pin "2"
-			(uuid "eb2422e2-0dba-43a3-b8e1-73c89af495db")
+			(uuid "6bd4692d-763e-48a4-a62f-596b96129f57")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "C1")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4254,7 +4254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295f54ae-8c5c-4339-b2de-08da584652b0")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR043"
 			(at 43.18 62.23 0)
 			(effects
 				(font
@@ -4300,12 +4300,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac5a4961-b232-43f4-9a52-63214bea18e6")
+			(uuid "e577e1d8-d2b6-47c9-9e37-c39ee883bd84")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR060")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4321,7 +4321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a8df6e3-19f0-4444-bbe9-cae5e8ee9777")
-		(property "Reference" "C12"
+		(property "Reference" "C2"
 			(at 74.93 64.7762 0)
 			(effects
 				(font
@@ -4426,15 +4426,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a689e27a-d252-4ea7-853d-cdacec822856")
+			(uuid "344a1d93-ce33-47dd-9528-6369ff479fbb")
 		)
 		(pin "2"
-			(uuid "eab37b19-c8b5-406c-a963-cdb74fdc181b")
+			(uuid "5fb1e7eb-1f2b-4b12-aaef-306e0c33940e")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "C12")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4450,7 +4450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee5e981-92d6-41ef-bc07-8f0af184a679")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR047"
 			(at 58.42 78.74 0)
 			(effects
 				(font
@@ -4495,12 +4495,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "40601e1b-f798-461f-bd99-44f24a0112d8")
+			(uuid "4ffd7c1a-dec1-45c0-8ba9-6e1cdc8f1ed2")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR061")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4516,7 +4516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39a24216-b0d2-48a1-9e41-f39ed185d064")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR042"
 			(at 40.64 43.18 0)
 			(effects
 				(font
@@ -4562,12 +4562,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a13f63f0-2819-4c11-a3c5-8c92dc5164e7")
+			(uuid "fda7d460-f7d6-43ca-945e-26d9d4db89ba")
 		)
 		(instances
-			(project ""
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR034")
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4582,7 +4582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4688b2db-8c79-46bd-a5b5-f9dd5a2b6116")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 138.43 26.3652 0)
 			(effects
 				(font
@@ -4665,27 +4665,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "82c590cc-b865-4474-9d18-ef80c498bcfc")
+			(uuid "9d26c9f1-d1fd-4122-b64a-bcb4e9b41a8c")
 		)
 		(pin "2"
-			(uuid "f0f803f5-283e-44be-8f53-5695fd23542f")
+			(uuid "c9eb581d-709d-4b93-bc92-6a9be86ec190")
 		)
 		(pin "3"
-			(uuid "e1452ddf-885a-4b42-9137-dcd2020d81af")
+			(uuid "50dcd8b0-7b16-4ca5-bd14-7774eefc82ae")
 		)
 		(pin "4"
-			(uuid "7782bffd-3dd9-493f-a3ff-79f1bcca1d93")
+			(uuid "3f446de1-0f5b-47d9-b616-99e6b924d348")
 		)
 		(pin "5"
-			(uuid "2a493cd2-ecdf-401e-b80c-bfed859fca6a")
+			(uuid "231dfab2-1574-40db-8507-0d2b0869fb3e")
 		)
 		(pin "6"
-			(uuid "738875d2-e814-42e4-865e-d3e9ffb6447c")
+			(uuid "860670f6-d384-4868-8a2f-e242f44b6bbd")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "U3")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4701,7 +4701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4759c0b0-2a26-4971-af96-edd7ce39ca1f")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 65.405 33.02 0)
 			(effects
 				(font
@@ -4747,12 +4747,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5346674c-09df-45f3-9c04-7cab42d1daaf")
+			(uuid "30b51d9e-dfc6-414d-8fa8-8a98b71edc2b")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#FLG02")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4768,7 +4768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4818243a-f7e6-4850-8253-71445c80c83f")
-		(property "Reference" "C11"
+		(property "Reference" "C1"
 			(at 41.91 63.5062 0)
 			(effects
 				(font
@@ -4873,15 +4873,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "da43646f-0977-48fc-9d68-16ab0527711a")
+			(uuid "ecf91803-9db8-44be-9b6e-5fc9a41779f5")
 		)
 		(pin "1"
-			(uuid "d39c19f4-e5c2-40ae-b33f-8943ce841ad8")
+			(uuid "186ea6e5-5d8c-4a03-b95e-1855f9755040")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "C11")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4896,7 +4896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c8b1245-dfde-46bb-8b45-fc933db2d82f")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 180.34 33.02 0)
 			(effects
 				(font
@@ -5005,15 +5005,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0893ba0d-936f-4cc4-a8ef-84eb92fdfe72")
+			(uuid "963f56bd-cb10-4391-ad8c-bcc16d4ac920")
 		)
 		(pin "2"
-			(uuid "f8641eca-002e-400c-87db-073c3f596f9b")
+			(uuid "ca3580e7-5acc-4885-9ddd-6ad0444642ce")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "C4")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5126,14 +5126,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5692564-091b-4c67-a400-318a7f71d1c3")
+			(uuid "c064e449-a4e3-4fda-82c1-8e3c68d7906e")
 		)
 		(pin "2"
-			(uuid "6fc29b5a-ee00-444c-89e0-ca63b413f17d")
+			(uuid "983ee053-0793-4f93-a02f-23b937a98d15")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
 					(reference "R1")
 					(unit 1)
 				)
@@ -5150,7 +5150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1f6df7-2dbb-4cf7-8319-c0ce7b779e7d")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG03"
 			(at 71.12 60.325 0)
 			(effects
 				(font
@@ -5195,12 +5195,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b49760e-e6e4-4624-8603-2123bbb9d05f")
+			(uuid "5c18e22b-98ef-4c3b-a560-625196f92eef")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#FLG07")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5215,7 +5215,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70a55b2b-40c6-4748-a575-f71c819ecb44")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR050"
 			(at 212.09 41.91 0)
 			(effects
 				(font
@@ -5260,12 +5260,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "29e46872-32a1-49e4-8f80-69b32aa37626")
+			(uuid "eed45d3c-1559-4522-b7b3-7617a9435003")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR023")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5281,7 +5281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f7bd13-15c4-468c-9e3f-e63a13fd68a8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR041"
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -5327,12 +5327,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9784027b-9190-4456-a9c8-9ada986909c0")
+			(uuid "c5b34a5b-fe60-4f1d-83b2-ed9d170689a7")
 		)
 		(instances
-			(project ""
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR033")
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5347,7 +5347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "776eed0d-d1e9-4798-9b1b-47ec465d2491")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 191.77 33.02 0)
 			(effects
 				(font
@@ -5447,15 +5447,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3d53b04-8e75-4f10-bf75-f974fd9def86")
+			(uuid "a2f85637-9165-4134-9b27-b5ddbf4c5ba9")
 		)
 		(pin "2"
-			(uuid "282d97d8-7667-4bfc-ae93-cf47d266ed64")
+			(uuid "d8e15d94-feea-4a55-80e5-7c1b6ab32dd0")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "C5")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5566,14 +5566,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc1ece91-669a-4e6f-a2a9-519f06846367")
+			(uuid "011e6a06-a5dc-4a3b-b39d-315f2e2b2892")
 		)
 		(pin "2"
-			(uuid "a2d889ae-13a3-40c8-8abc-94fb726de549")
+			(uuid "9df9f58f-798d-4ffd-8a51-c3713cdc4808")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
 					(reference "R2")
 					(unit 1)
 				)
@@ -5590,7 +5590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3936a4c-7826-4f8c-b90b-9ebf40047252")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR044"
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -5636,12 +5636,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "322b97c0-dbb6-4b90-9dff-092da4644e87")
+			(uuid "50093fbd-33db-4204-92ee-0fdf859cd8a2")
 		)
 		(instances
-			(project ""
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR035")
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5752,14 +5752,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "688ce961-90cb-4e45-a068-3509a6da0b22")
+			(uuid "d5933b59-48a5-4f62-acc3-750b463460d9")
 		)
 		(pin "2"
-			(uuid "39f6b54a-35da-4d79-a12c-5fc9098f8851")
+			(uuid "79f7630a-23c4-42b3-83a6-52b1e8d6d4de")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
 					(reference "R3")
 					(unit 1)
 				)
@@ -5775,7 +5775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8d10bd5-ccd0-4b4b-bef0-03a938cc824e")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 204.47 33.02 0)
 			(effects
 				(font
@@ -5876,15 +5876,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "371d8a98-fb84-422c-8517-ecf922d199ab")
+			(uuid "2230dd22-c98b-4e12-a121-7789ef845a0c")
 		)
 		(pin "2"
-			(uuid "35cfb5a9-bb9f-4cf3-8581-eb588bfa3dbd")
+			(uuid "c6936f7b-c096-42d0-9ad2-4d6647646440")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "C6")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5900,7 +5900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfda1970-4819-47ae-a976-e21a84d9d98e")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 65.405 43.18 0)
 			(effects
 				(font
@@ -5946,12 +5946,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "884b6906-f8ab-430c-93eb-e01723b049d1")
+			(uuid "eba6b672-600d-4e2d-90ab-778aa888fcec")
 		)
 		(instances
-			(project ""
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#FLG05")
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5967,7 +5967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d06a116d-ce63-46ab-9531-23f08e88a09a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR040"
 			(at 40.64 33.02 0)
 			(effects
 				(font
@@ -6013,12 +6013,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1d7e2fb-de8f-403c-9a06-493a95584464")
+			(uuid "c533b3a1-9bf4-475b-993b-d81d0235a945")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR028")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6033,7 +6033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d08d9d38-31f8-4e47-bf22-ebb215e55251")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 119.38 45.72 0)
 			(effects
 				(font
@@ -6134,15 +6134,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a52fbf46-2972-4a97-98e7-0bd17028f60a")
+			(uuid "cd802e9c-7c35-4c31-a94c-c771cd78310d")
 		)
 		(pin "2"
-			(uuid "cac7ad5c-913e-4599-b795-7f4d2799ff17")
+			(uuid "5bc167ae-1f84-4605-b6b1-7b530bd04548")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "C2")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6158,7 +6158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db958131-8296-4c5b-b889-26461a016ee0")
-		(property "Reference" "U9"
+		(property "Reference" "U3"
 			(at 58.42 55.88 0)
 			(effects
 				(font
@@ -6202,18 +6202,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "79645e16-0257-4b45-80c5-890d88c53725")
+			(uuid "b0998fca-af96-46c8-95bf-11674d89b318")
 		)
 		(pin "1"
-			(uuid "9a4f25d4-ca35-487c-86c9-0ef7954890c5")
+			(uuid "47bd5a5f-3252-4e99-8bac-36aea988be95")
 		)
 		(pin "3"
-			(uuid "e234c3e2-4988-416a-9294-d3ce5af4849e")
+			(uuid "d049643a-98f1-4184-96b6-d2be6c41616b")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "U9")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6228,7 +6228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc10b57a-f7b0-4a0b-b129-a5d3b6ea7878")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR049"
 			(at 96.52 59.69 0)
 			(effects
 				(font
@@ -6273,12 +6273,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e328582c-ac6a-429d-8c0e-0e8145f31664")
+			(uuid "9c2895bf-c04e-4620-a355-1e4d8374560b")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR022")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de3167e6-1078-437b-b3b9-eb4420739bbf")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR046"
 			(at 45.72 43.18 0)
 			(effects
 				(font
@@ -6340,12 +6340,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec00b6d7-5b4e-4ece-a363-050ed934f2ff")
+			(uuid "e1f258aa-3ae0-4dae-90c2-45c5ce21452b")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR030")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6361,7 +6361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f8b1e8-a6a6-43e8-9665-e5912ce9c9e9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR045"
 			(at 55.88 35.56 0)
 			(effects
 				(font
@@ -6407,12 +6407,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec4f97c3-d309-4fe1-8f0e-427440d0c764")
+			(uuid "601dbc7b-e7ab-4bb3-972d-27590a83f350")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR026")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6427,7 +6427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4d96324-c7ac-4089-a9e6-c87539c07103")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 151.13 27.3304 90)
 			(effects
 				(font
@@ -6525,15 +6525,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c46c6780-66f2-4535-a2ef-fd6f520cbbae")
+			(uuid "02864d33-7cb6-4ef0-88a2-983d51083cbb")
 		)
 		(pin "2"
-			(uuid "438cea1d-88fb-4517-ba52-8a16f51e4d9a")
+			(uuid "1bb7d89e-93b6-4c01-860c-009df8ca148a")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "C3")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0003507-f4ce-4311-92a4-288664a1d7e1")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 213.995 38.1 0)
 			(effects
 				(font
@@ -6595,12 +6595,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d80d0708-d009-4790-8617-fc7e975cd5a7")
+			(uuid "f884da99-b4b9-41b4-b205-302bc26c9087")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#FLG03")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -6615,7 +6615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2b7a542-169b-4cce-b103-f6e50d0afe35")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR051"
 			(at 212.09 59.69 0)
 			(effects
 				(font
@@ -6660,12 +6660,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5589dbec-4680-4bcf-90d7-54e0e441d1e5")
+			(uuid "162a71e3-bafc-4eb7-b29a-2b85135dccca")
 		)
 		(instances
 			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR024")
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6680,7 +6680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcd86d8d-4370-4d55-a4d7-c51bc2a6afc5")
-		(property "Reference" "J13"
+		(property "Reference" "J14"
 			(at 42.8513 28.448 0)
 			(effects
 				(font
@@ -6763,34 +6763,42 @@
 			)
 		)
 		(pin "6"
-			(uuid "25dc63e9-608f-454f-a4c4-c4abddef0a11")
+			(uuid "1da0b849-032d-486d-aa3a-555f1baeb0d7")
 		)
 		(pin "10"
-			(uuid "62c55cce-fe56-4704-b02a-413bfbece027")
+			(uuid "da9ed2d1-a55f-45ed-b52a-1422c49183e1")
 		)
 		(pin "2"
-			(uuid "89297096-a570-4d59-a176-bf6ab55625b5")
+			(uuid "d7045484-9562-4f2b-abab-71e924d248a1")
 		)
 		(pin "8"
-			(uuid "01be445d-03b0-4cb6-bf04-9e34a5c836cc")
+			(uuid "8af6eac6-4ecc-4651-85f1-9a4ea33354bd")
 		)
 		(pin "4"
-			(uuid "7916cadd-e28b-46b9-bdb5-d69d93b18cb1")
+			(uuid "ee125961-45f0-4863-978e-a6250c4f1314")
 		)
 		(pin "3"
-			(uuid "1b00fa87-d1aa-4c24-b790-b4a77c5101fc")
+			(uuid "8786303d-83b1-4143-b4a8-ea525d0cae2e")
 		)
 		(pin "7"
-			(uuid "5d015233-9517-44da-8470-c0fc98648ebf")
+			(uuid "dd5c2535-0090-4a13-a726-e2298060b134")
 		)
 		(pin "1"
-			(uuid "abc82a1c-deeb-47c5-8c30-d347c40235c9")
+			(uuid "3291ecef-c851-45e5-b8c5-416ebdc17cb1")
 		)
 		(pin "9"
-			(uuid "715dabab-b4fc-44e6-b910-3f8ee55e24f5")
+			(uuid "42a44cbe-d832-4c4f-9f4d-2365418471a4")
 		)
 		(pin "5"
-			(uuid "7b76a675-39aa-4376-ac04-2fc268eab17a")
+			(uuid "8e9e6ef8-b69b-4a26-a8de-528fd07cb757")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "J14")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
