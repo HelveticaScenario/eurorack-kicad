@@ -686,10 +686,22 @@
 		)
 	)
 	(junction
+		(at 118.11 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "110b019f-7a8d-495b-a77d-49a148204c13")
+	)
+	(junction
 		(at 58.42 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e29a913-69b5-43cd-9eaf-447f7d8550e2")
+	)
+	(junction
+		(at 88.9 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3dd66b6-2330-4f12-91d2-99619aa1ebb7")
 	)
 	(wire
 		(pts
@@ -700,6 +712,46 @@
 			(type default)
 		)
 		(uuid "06540447-7d7e-414e-b5b4-3704cc0b1cd6")
+	)
+	(wire
+		(pts
+			(xy 95.25 57.15) (xy 95.25 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d45c17-54a4-4791-ae49-4022f575f329")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c985fe-596a-457e-87ca-478a6f7b604e")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 95.25 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04e7eca-3ffa-41f7-8591-cd28aa1eb501")
+	)
+	(wire
+		(pts
+			(xy 118.11 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05b4aa8-bc83-421a-8588-8e1af131096f")
 	)
 	(wire
 		(pts
@@ -1085,6 +1137,28 @@
 			)
 		)
 	)
+	(global_label "RESET"
+		(shape input)
+		(at 99.06 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a14cb080-7675-48c8-8552-04d1c29b9a26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.7903 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COM_IO"
 		(shape input)
 		(at 68.58 53.34 0)
@@ -1239,6 +1313,28 @@
 			)
 		)
 	)
+	(global_label "CLOCK"
+		(shape input)
+		(at 128.27 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f86b6793-8a52-4208-99ef-0579cf4a300b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4238 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NORMAL_5"
 		(shape input)
 		(at 34.29 105.41 180)
@@ -1317,7 +1413,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d56c0d0-cee5-4fe3-94ff-649f52c32363")
+			(uuid "858aed99-bef8-431d-ae8d-7a59adc197ee")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -1432,13 +1528,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "8c702961-b0f0-4af5-a354-abe2246e8957")
+			(uuid "c9453f3e-0d5c-49e6-a246-82535eba0850")
 		)
 		(pin "2"
-			(uuid "3da79825-3d7e-45b2-93c2-abbc7b658ffc")
+			(uuid "087ec507-3865-44f8-b3cc-c793464c34e6")
 		)
 		(pin "1"
-			(uuid "1fb7f4b3-fdfe-4fe9-868e-d7becdb7e49a")
+			(uuid "f1372291-d8d8-4e9f-834f-42be6eed4919")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -1553,18 +1649,84 @@
 			)
 		)
 		(pin "3"
-			(uuid "61a273e6-2712-4c18-9ddb-73faef6d6597")
+			(uuid "1422b822-0403-4c77-9190-be6217fceb77")
 		)
 		(pin "2"
-			(uuid "2e12c1c3-3111-48c3-b575-bab2fe2d6116")
+			(uuid "d4debff9-0670-40d2-b21f-1103a6846dbc")
 		)
 		(pin "1"
-			(uuid "f8f4869a-3d06-445b-8ccd-8664d8de8812")
+			(uuid "f1175b5e-62f4-4839-b4bc-55927ce86d01")
 		)
 		(instances
 			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GNDA")
+		(at 88.9 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d78600-e17e-4750-b8b0-555730f51ef9")
+		(property "Reference" "#PWR058"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(analog) ground power-flag symbol"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e611e9-31df-4af9-a4ee-b97243d2de72")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1626,7 +1788,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c0462ee-52de-4978-a291-93110050d6e7")
+			(uuid "88acb30c-ede8-4663-9324-74809e782dfe")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -1693,7 +1855,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c755b77-b103-440d-afd4-716a728adb2a")
+			(uuid "43df10e5-737a-4696-960a-dad2223280f8")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -1759,7 +1921,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0f72144-d905-4739-8830-93a389a48a46")
+			(uuid "6117ef7a-b8b7-4be8-ab08-982a2332c2d4")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -1825,7 +1987,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8bb09f1f-aac3-41e8-aa9e-697f5ba67233")
+			(uuid "01a10086-b0fd-49ce-b4ac-ff8beae7eafb")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -1892,7 +2054,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "36fa6835-ee32-4e00-b430-564f7da435bb")
+			(uuid "8e039195-542b-429f-864c-6d23a04c9ee0")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -1959,7 +2121,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0eea2c36-e83b-4c57-8148-8f3ba22db7df")
+			(uuid "11a9d9de-4ce0-4c0b-847a-1ad6751d67df")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2025,7 +2187,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "642782fa-48b0-4c13-ad93-5693f9d5be5d")
+			(uuid "f7eb5734-4b7b-4b2d-a09b-ae0af447e1ec")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2091,7 +2253,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc8837ae-0f68-442a-8ff2-3dc410bba51b")
+			(uuid "c9992242-d687-4ef3-9827-d66a82f1f40f")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2197,31 +2359,31 @@
 			)
 		)
 		(pin "8"
-			(uuid "c33a4e21-ca8b-4bd1-a591-cb60d59c4f2b")
+			(uuid "e337e6b5-23fd-47d5-9b9c-f7388e2fe109")
 		)
 		(pin "7"
-			(uuid "de24fc10-7cef-48a7-9758-8316f6eb97b3")
+			(uuid "63aa798f-7a2d-4c58-a6ab-bc088500fe7e")
 		)
 		(pin "3"
-			(uuid "07e6bb63-2ce6-452d-abe2-8731af00465e")
+			(uuid "756fa733-c036-4ab7-b634-a349b836796c")
 		)
 		(pin "4"
-			(uuid "ba90172b-87c7-4614-a32c-2e6b5a602d4c")
+			(uuid "3a798b94-4974-45b0-b4e4-fd41ed09935d")
 		)
 		(pin "9"
-			(uuid "e83f9a5d-5eef-4a10-9267-65a4b296068b")
+			(uuid "e628f06d-c198-431d-9172-c20fd833f362")
 		)
 		(pin "6"
-			(uuid "b646e77c-1544-45e3-a99d-4111f6a34790")
+			(uuid "50c21b66-2d65-46a4-a088-73c4d6456d03")
 		)
 		(pin "1"
-			(uuid "046756e1-fa4c-4421-a3eb-81fe6827500c")
+			(uuid "9097bf3e-560d-43b4-b583-aa9302b53dfe")
 		)
 		(pin "2"
-			(uuid "99d032ff-8145-43a8-ad2c-68f39b7dfd63")
+			(uuid "dfb4cbf3-4426-4e1b-b845-97e704042f62")
 		)
 		(pin "5"
-			(uuid "2c54fa43-4b19-489a-9b60-b91dc9d05ee7")
+			(uuid "c9890583-585b-4e65-baa8-cf9548732c52")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2287,12 +2449,133 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1337af4-21c5-4519-b555-fed807be93c5")
+			(uuid "2620be95-49e5-4135-830f-1971e781c014")
 		)
 		(instances
 			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 93.98 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f15764-c34c-4952-a879-0e9928a4a4e6")
+		(property "Reference" "J20"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_sm"
+			(at 99.822 75.692 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 93.853 72.517 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 91.44 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 91.44 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 91.44 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "C"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "Jack"
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8421d8cb-157f-45a2-863c-f192676469a3")
+		)
+		(pin "2"
+			(uuid "309ae083-aea4-4853-ab01-efad3a101f3c")
+		)
+		(pin "1"
+			(uuid "a3d56f3f-6c23-4223-9b4c-dfdc266bde3a")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -2354,7 +2637,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d900133f-da6f-4f21-8340-04fb28b44acc")
+			(uuid "68e562e3-f9df-4c36-82e2-83d711f9c42b")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2469,13 +2752,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "cc1797de-b939-48fb-aec6-ccf650adbb31")
+			(uuid "c01f6089-a732-4430-b8be-31a724333a77")
 		)
 		(pin "2"
-			(uuid "1cb98499-7951-4bfd-888f-84f7f0f17fdc")
+			(uuid "7a647a02-b11a-47e6-a672-a8f21a59686a")
 		)
 		(pin "1"
-			(uuid "15869a32-630f-4ef6-89f5-174478b25e01")
+			(uuid "3d4b03ab-b635-4e66-a7b1-44613928f358")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2542,12 +2825,199 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f294be2-8c80-4ff8-9ce2-3684ea2e705b")
+			(uuid "97ffa597-9b36-42df-bc61-3c2e308b21ef")
 		)
 		(instances
 			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GNDA")
+		(at 118.11 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "670bd915-366d-4202-8fb4-c9ad04a246bb")
+		(property "Reference" "#PWR059"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(analog) ground power-flag symbol"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b344d314-8b49-41c3-a4a1-5b366f780586")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 123.19 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d84a933-4194-48c4-b137-0a4553f08beb")
+		(property "Reference" "J21"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_sm"
+			(at 129.032 75.692 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 123.063 72.517 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 123.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 120.65 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 120.65 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 120.65 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "C"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "Jack"
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "69ec62ad-4fba-4fdd-afbf-ca3243848f55")
+		)
+		(pin "2"
+			(uuid "3cba25cf-c79e-4dfb-83dc-67d38215acbd")
+		)
+		(pin "1"
+			(uuid "b0fe5b89-0d11-4cd0-ac14-a47b148d5710")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/658b39a3-409f-4989-b1a2-579902bf4911"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -2608,7 +3078,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f78a2c9-1a30-40fc-9dcd-ef7c384fe692")
+			(uuid "efcf1df3-1938-4590-8881-732d457a3b73")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2714,31 +3184,31 @@
 			)
 		)
 		(pin "8"
-			(uuid "afcd2074-25ce-43b5-a1d8-bbdfdb6309f7")
+			(uuid "b35f0bbf-45cd-4ef4-b75a-48cbfa91df5e")
 		)
 		(pin "7"
-			(uuid "24e865e9-7327-4e67-b14e-e7c6f7e4e8ed")
+			(uuid "3b2aa501-8af8-4bdf-813f-f4dc52f9cd07")
 		)
 		(pin "3"
-			(uuid "df9e52a6-6a43-423d-96e8-5738345c0953")
+			(uuid "02d87d04-b71b-4011-acb3-696a65a70b68")
 		)
 		(pin "4"
-			(uuid "09c9a4ae-8e62-4618-99b9-dc69b87ed857")
+			(uuid "b44c0a98-501d-423f-b335-657403c5a24d")
 		)
 		(pin "9"
-			(uuid "15f01d13-d7b3-4710-b45b-e31f9f6abeae")
+			(uuid "84513fc3-ce82-42e4-96d2-96ac64feb7d0")
 		)
 		(pin "6"
-			(uuid "f3839b82-9b69-4a54-8105-9217f3f7dc2d")
+			(uuid "78843290-d67b-481a-8032-ec15b47e1c8c")
 		)
 		(pin "1"
-			(uuid "062b588e-08b0-4619-a76b-0603702c441c")
+			(uuid "77265ae2-7776-4ac6-8cb9-744a8deff788")
 		)
 		(pin "2"
-			(uuid "bbedc4dc-44c1-4821-b733-fdf343827c47")
+			(uuid "16cd6888-aa72-43e4-8d4b-af5035b9aaec")
 		)
 		(pin "5"
-			(uuid "9ddbc049-ce15-4cc3-b8a1-7e66d2b1ff30")
+			(uuid "58af39ec-2a08-4727-9a5d-66e21ef27ee4")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2804,7 +3274,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "38bc6620-eb2a-4374-9603-e9b3f0de3d4c")
+			(uuid "e74a6fc0-481a-4489-a25c-2a70d25f947c")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2919,13 +3389,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "091dcb84-1b86-4817-b1eb-edb388fa898c")
+			(uuid "f145daa2-ea91-4d08-b377-ceb761f86946")
 		)
 		(pin "2"
-			(uuid "ec96b175-4453-484a-a895-63d57ae25b19")
+			(uuid "97774f13-3c4e-49d5-b4dd-c8eabfe9fc3a")
 		)
 		(pin "1"
-			(uuid "8e94f684-9a66-45d2-80ce-7150c83554cc")
+			(uuid "052826c1-b5d6-4582-a4cb-c10a3205e709")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -2992,7 +3462,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "24041a69-6f1c-4649-bef4-e95dae13b060")
+			(uuid "d14fd292-c3bb-4d5b-af23-3a8987f33ca5")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3059,7 +3529,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "50045064-d171-4d5b-a710-32b11225c16b")
+			(uuid "758a453b-68a8-451b-a90e-d64347ef5479")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3174,13 +3644,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "6ac824a4-6371-4f86-84a5-194bbe30fbf6")
+			(uuid "01e394b8-17f9-4780-b41d-6599c10f3456")
 		)
 		(pin "2"
-			(uuid "75941ed1-1a27-40d3-ac39-91e23ebc0545")
+			(uuid "5b593b71-59b9-42b2-92cb-5dcd72bd1e6d")
 		)
 		(pin "1"
-			(uuid "992193a1-6810-48ca-9ea9-6c6958f93861")
+			(uuid "cfdf370d-79ed-4b82-9d87-96e792a5954f")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3295,13 +3765,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "2908e7fe-ea49-44a8-8b0a-0ae4046d6ce7")
+			(uuid "2217c00a-8cbc-470e-a13f-b03995ffc0a8")
 		)
 		(pin "2"
-			(uuid "f9a40cc2-e265-46f6-b33d-85ab26b51e3d")
+			(uuid "5005f7f3-61dc-43ff-8233-55afc9259b04")
 		)
 		(pin "1"
-			(uuid "84395e22-b80c-4a82-b48f-cebbb1724caa")
+			(uuid "b9f98f06-0ea5-4ba9-8a31-4e3a396b624e")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3416,13 +3886,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "7c79b89b-1491-46b6-9ad0-1431da0b9672")
+			(uuid "3ec3dd7f-a148-4d2e-bc51-67d5f94453c8")
 		)
 		(pin "2"
-			(uuid "807bdcf4-08e6-4a4f-98c5-9fcedb2e941b")
+			(uuid "8f449832-01f6-4361-8a99-2a5d276222cb")
 		)
 		(pin "1"
-			(uuid "62814592-c483-43a6-be62-e3fff75e265d")
+			(uuid "8e20a52f-0fd0-43fa-a190-0d892e9e7294")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3537,13 +4007,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "0199bfdd-aba0-4438-b034-c654fad753a9")
+			(uuid "9e2c4c83-7152-490a-9f8a-6d8497fbdde2")
 		)
 		(pin "2"
-			(uuid "b441a042-bd9e-4a62-89f7-658c04db5f7a")
+			(uuid "60928179-9cb6-4856-92a4-315cfa487c09")
 		)
 		(pin "1"
-			(uuid "9b97b7f9-49be-4c04-94c2-a3552e0b534c")
+			(uuid "e9aba93f-1774-4eda-b0d8-04d069e9ae9e")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3610,7 +4080,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7af57e24-7f38-4988-9988-5ae8c0869ad4")
+			(uuid "d1ab2aa1-a261-4676-85ea-4877a6553c61")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3725,13 +4195,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "1ae9b280-7a7c-492a-bf80-66c6bb9912de")
+			(uuid "c6b321a4-150a-41ab-92f2-827e31132ed6")
 		)
 		(pin "2"
-			(uuid "f2b720f2-b403-4795-8b9c-b12e7c3db052")
+			(uuid "9ba2cb90-8575-4426-99dd-fb1fb78474a7")
 		)
 		(pin "1"
-			(uuid "935a2fe0-30c8-471e-a539-45e9fdee8c4e")
+			(uuid "55fdc701-21b0-4eca-8f19-6470485e0f73")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3797,7 +4267,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6f01c4c-eab5-4f9d-952e-4ed87ea20707")
+			(uuid "b50decee-d14c-42a5-a06e-b11f0ecfdcab")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3863,7 +4333,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "60569dd4-4f7b-43cf-a669-3bcac0554394")
+			(uuid "25e1eb45-4423-437b-8e39-71fd38df4485")
 		)
 		(instances
 			(project "switch_sequencer"

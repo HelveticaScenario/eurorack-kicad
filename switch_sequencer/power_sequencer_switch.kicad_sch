@@ -189,6 +189,199 @@
 				)
 			)
 		)
+		(symbol "4ms_Capacitor:0.1uF_0805_50V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1uF_0805_50V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "4ms_Capacitor:C_0805"
+				(at -2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1uF, 50V, 0805, MLCC, X5R or similar"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "0.1uF, 50V, 0805, MLCC, X5R or similar"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "GCJ21BL81H104KA01L"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "0.1uF/50V"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB ID" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Production Stage" "A"
+				(at -2.54 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0.1uF_0805_50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0.1uF_0805_50V_1_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "4ms_Capacitor:10uF_0603_10V"
 			(pin_numbers hide)
 			(pin_names
@@ -2606,6 +2799,142 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:LD1117S50TR_SOT223"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LD1117S50TR_SOT223"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 5.0V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LD1117S50TR_SOT223_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LD1117S50TR_SOT223_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2830,6 +3159,12 @@
 		(uuid "1cc97ad5-750c-4301-a38b-53eb85bf6cd5")
 	)
 	(junction
+		(at 39.37 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "231b4b01-6457-467b-8bff-956fb3d0470f")
+	)
+	(junction
 		(at 212.09 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2846,6 +3181,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c070be6-d902-4aa0-88ac-66e1e57548ee")
+	)
+	(junction
+		(at 58.42 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50c3962b-c328-48d3-b3fc-c122ff62f4b6")
 	)
 	(junction
 		(at 49.53 35.56)
@@ -2888,6 +3229,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f21212-d1d1-4cc4-b72b-2808162cdfc2")
+	)
+	(junction
+		(at 71.12 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b064c411-4208-44e6-b57e-c8fe11e16ce1")
 	)
 	(junction
 		(at 49.53 33.02)
@@ -2957,6 +3304,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 69.85) (xy 72.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ecd826-535c-4b68-b980-1a0f6c12bb34")
+	)
+	(wire
+		(pts
 			(xy 49.53 45.72) (xy 63.5 45.72)
 		)
 		(stroke
@@ -2964,6 +3321,16 @@
 			(type default)
 		)
 		(uuid "1702be55-33c4-4566-9884-75977357b072")
+	)
+	(wire
+		(pts
+			(xy 72.39 62.23) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1758b523-5368-40f6-bbe5-45b7b4a43a25")
 	)
 	(wire
 		(pts
@@ -3017,6 +3384,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 69.85) (xy 58.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4346705a-8d12-49d0-9ee1-0c5e107964d3")
+	)
+	(wire
+		(pts
 			(xy 116.84 53.34) (xy 138.43 53.34)
 		)
 		(stroke
@@ -3054,6 +3431,16 @@
 			(type default)
 		)
 		(uuid "57487ac9-830a-4957-b6d1-d01b46368688")
+	)
+	(wire
+		(pts
+			(xy 58.42 69.85) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ebba23-8ecf-4466-a6be-9ecf77600018")
 	)
 	(wire
 		(pts
@@ -3177,6 +3564,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 62.23) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f8fa2d-0080-401d-ba17-db56ded0b2ec")
+	)
+	(wire
+		(pts
 			(xy 36.83 38.1) (xy 36.83 40.64)
 		)
 		(stroke
@@ -3257,6 +3654,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 69.85) (xy 58.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7482284-e2a1-4c9e-a29c-fbacbab06345")
+	)
+	(wire
+		(pts
 			(xy 49.53 43.18) (xy 49.53 45.72)
 		)
 		(stroke
@@ -3304,6 +3711,16 @@
 			(type default)
 		)
 		(uuid "cc0b7769-6d33-4fc5-9143-564429824c08")
+	)
+	(wire
+		(pts
+			(xy 39.37 67.31) (xy 39.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd94fc6b-a846-49e9-90d3-329b4820c951")
 	)
 	(wire
 		(pts
@@ -3357,6 +3774,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 62.23) (xy 50.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efad3bf2-8438-4651-90fa-4964c85044f4")
+	)
+	(wire
+		(pts
 			(xy 149.86 43.18) (xy 146.05 43.18)
 		)
 		(stroke
@@ -3384,6 +3811,16 @@
 			(type default)
 		)
 		(uuid "fab634c7-2f34-4cd4-a03f-72db0517167f")
+	)
+	(wire
+		(pts
+			(xy 66.04 62.23) (xy 71.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1611a6-8a1d-4885-95c5-6e4a920aa7c1")
 	)
 	(text "Note:\nCan substitute AP62200TWU for AP62201WU or AP62200WU by changing:\n33.2k => 40.2k\n10k => 13k\n\n-01WU operates only in PWM mode (no PFM)"
 		(exclude_from_sim no)
@@ -3417,6 +3854,28 @@
 			(justify left bottom)
 		)
 		(uuid "bee8aa9d-4aa1-4b4d-9063-78681276679e")
+	)
+	(global_label "5V"
+		(shape input)
+		(at 72.39 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06d02a62-9709-4723-9725-7c40af38d99e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.6733 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "4ms_Power-symbol:+12V")
@@ -3472,7 +3931,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "34a4a3d1-f8a5-4b20-8210-b0b2e15db3b6")
+			(uuid "f0bef83b-c954-4e53-a5e5-e3b3963d4881")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3647,10 +4106,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8926a750-2023-4ebb-a124-dbdd217d5a55")
+			(uuid "1b223697-d773-4eef-a8db-c6bf382497a2")
 		)
 		(pin "2"
-			(uuid "cbb28b8c-0ef8-4b5d-bb41-f023ecf82a7e")
+			(uuid "62c3282a-8136-46b5-ae32-2deac75c678b")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -3771,15 +4230,277 @@
 			)
 		)
 		(pin "1"
-			(uuid "e051cf2c-0457-45b4-892e-eda97d765942")
+			(uuid "52bb283b-6f51-4039-beb3-9560b0f4b28a")
 		)
 		(pin "2"
-			(uuid "acb6f1be-6f32-493d-9bc7-37529052711a")
+			(uuid "eb2422e2-0dba-43a3-b8e1-73c89af495db")
 		)
 		(instances
 			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:+12V")
+		(at 39.37 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "295f54ae-8c5c-4339-b2de-08da584652b0")
+		(property "Reference" "#PWR060"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 35.56 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac5a4961-b232-43f4-9a52-63214bea18e6")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:10uF_0603_10V")
+		(at 72.39 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a8df6e3-19f0-4444-bbe9-cae5e8ee9777")
+		(property "Reference" "C12"
+			(at 74.93 64.7762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF_0603_10V"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF, Min. 10V X5R 10%"
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10uF, Min. 10V X5R 10%"
+			(at 69.85 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 69.85 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM188R61A106KE69D"
+			(at 69.85 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF/10V"
+			(at 74.93 67.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C19702"
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a689e27a-d252-4ea7-853d-cdacec822856")
+		)
+		(pin "2"
+			(uuid "eab37b19-c8b5-406c-a963-cdb74fdc181b")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ee5e981-92d6-41ef-bc07-8f0af184a679")
+		(property "Reference" "#PWR061"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40601e1b-f798-461f-bd99-44f24a0112d8")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3795,7 +4516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39a24216-b0d2-48a1-9e41-f39ed185d064")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 40.64 43.18 0)
 			(effects
 				(font
@@ -3841,12 +4562,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e33f82fd-64f1-4939-8803-f84c4d38afb8")
+			(uuid "a13f63f0-2819-4c11-a3c5-8c92dc5164e7")
 		)
 		(instances
 			(project ""
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR029")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3944,22 +4665,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "cab2e695-30ff-4f0e-9be3-9cf88458ee52")
+			(uuid "82c590cc-b865-4474-9d18-ef80c498bcfc")
 		)
 		(pin "2"
-			(uuid "7abd71a2-0884-4a19-9bc7-35779388337d")
+			(uuid "f0f803f5-283e-44be-8f53-5695fd23542f")
 		)
 		(pin "3"
-			(uuid "8648a3d4-81e5-497a-b6c3-0d2bf7f5ece8")
+			(uuid "e1452ddf-885a-4b42-9137-dcd2020d81af")
 		)
 		(pin "4"
-			(uuid "3b9a7dc3-de00-45b3-a034-62f49db8b3a6")
+			(uuid "7782bffd-3dd9-493f-a3ff-79f1bcca1d93")
 		)
 		(pin "5"
-			(uuid "06d9781a-783f-44f8-8841-59fc04a158c0")
+			(uuid "2a493cd2-ecdf-401e-b80c-bfed859fca6a")
 		)
 		(pin "6"
-			(uuid "b0a99b7f-d655-425c-b812-0a17560c98fc")
+			(uuid "738875d2-e814-42e4-865e-d3e9ffb6447c")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -4026,12 +4747,141 @@
 			)
 		)
 		(pin "1"
-			(uuid "33a1b610-9bb5-4c6b-9844-e2b4fa229020")
+			(uuid "5346674c-09df-45f3-9c04-7cab42d1daaf")
 		)
 		(instances
 			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:0.1uF_0805_50V")
+		(at 39.37 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4818243a-f7e6-4850-8253-71445c80c83f")
+		(property "Reference" "C11"
+			(at 41.91 63.5062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF_0805_50V"
+			(at 39.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0805"
+			(at 36.83 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1uF, 50V, 0805, MLCC, X5R or similar"
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, 50V, 0805, MLCC, X5R or similar"
+			(at 36.83 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 36.83 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GCJ21BL81H104KA01L"
+			(at 36.83 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF/50V"
+			(at 41.91 66.0462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 36.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da43646f-0977-48fc-9d68-16ab0527711a")
+		)
+		(pin "1"
+			(uuid "d39c19f4-e5c2-40ae-b33f-8943ce841ad8")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4155,10 +5005,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1fe3bad-c5bd-4e80-a920-0f8f09c5c106")
+			(uuid "0893ba0d-936f-4cc4-a8ef-84eb92fdfe72")
 		)
 		(pin "2"
-			(uuid "54d8c349-5d38-4ef4-b879-dbc7901a6317")
+			(uuid "f8641eca-002e-400c-87db-073c3f596f9b")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -4276,15 +5126,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "273bd974-8539-45d6-a19e-f393478fbccd")
+			(uuid "d5692564-091b-4c67-a400-318a7f71d1c3")
 		)
 		(pin "2"
-			(uuid "d7bfe264-069c-4c1f-9aa0-52b870f3408f")
+			(uuid "6fc29b5a-ee00-444c-89e0-ca63b413f17d")
 		)
 		(instances
 			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71.12 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e1f6df7-2dbb-4cf7-8319-c0ce7b779e7d")
+		(property "Reference" "#FLG07"
+			(at 71.12 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b49760e-e6e4-4624-8603-2123bbb9d05f")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -4344,7 +5260,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "664d3371-acf9-4ab3-b8e9-be350ad3f304")
+			(uuid "29e46872-32a1-49e4-8f80-69b32aa37626")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -4365,7 +5281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f7bd13-15c4-468c-9e3f-e63a13fd68a8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR033"
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -4411,12 +5327,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c485cb71-1e15-409f-abe1-fd737a8ee396")
+			(uuid "9784027b-9190-4456-a9c8-9ada986909c0")
 		)
 		(instances
 			(project ""
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR025")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4531,10 +5447,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5736fb0-07df-4b34-9753-f58b0634d9fb")
+			(uuid "a3d53b04-8e75-4f10-bf75-f974fd9def86")
 		)
 		(pin "2"
-			(uuid "f9ca8446-1da8-46ff-a526-5bf1b1e00288")
+			(uuid "282d97d8-7667-4bfc-ae93-cf47d266ed64")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -4650,10 +5566,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c208b84-d88a-4900-ac0d-0ad61192a53e")
+			(uuid "dc1ece91-669a-4e6f-a2a9-519f06846367")
 		)
 		(pin "2"
-			(uuid "b0333470-cc55-406d-aa64-cf8cabdf6967")
+			(uuid "a2d889ae-13a3-40c8-8abc-94fb726de549")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -4674,7 +5590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3936a4c-7826-4f8c-b90b-9ebf40047252")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR035"
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -4720,12 +5636,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "157ea48b-ff0e-40f6-a489-2f70a459082d")
+			(uuid "322b97c0-dbb6-4b90-9dff-092da4644e87")
 		)
 		(instances
 			(project ""
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#PWR027")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4836,10 +5752,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c92e158b-dc68-49f9-b8ef-6fcf8b2bedec")
+			(uuid "688ce961-90cb-4e45-a068-3509a6da0b22")
 		)
 		(pin "2"
-			(uuid "196183fc-95d4-42f9-b112-95c879503f2e")
+			(uuid "39f6b54a-35da-4d79-a12c-5fc9098f8851")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -4960,10 +5876,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a1f6116-1132-4a52-9ed8-4f71b65fddf1")
+			(uuid "371d8a98-fb84-422c-8517-ecf922d199ab")
 		)
 		(pin "2"
-			(uuid "2df8f58a-e44b-4623-9ff2-bedf554d3570")
+			(uuid "35cfb5a9-bb9f-4cf3-8581-eb588bfa3dbd")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -4984,7 +5900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfda1970-4819-47ae-a976-e21a84d9d98e")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG05"
 			(at 65.405 43.18 0)
 			(effects
 				(font
@@ -5030,12 +5946,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f51ed8f4-e89d-4bf4-be81-3ac7d4a808d9")
+			(uuid "884b6906-f8ab-430c-93eb-e01723b049d1")
 		)
 		(instances
 			(project ""
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "#FLG01")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -5097,7 +6013,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec747f6c-49c5-4db5-a026-af553d51b017")
+			(uuid "c1d7e2fb-de8f-403c-9a06-493a95584464")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -5218,15 +6134,86 @@
 			)
 		)
 		(pin "1"
-			(uuid "67e57284-a2c2-42b6-9a45-645ba35bf0ff")
+			(uuid "a52fbf46-2972-4a97-98e7-0bd17028f60a")
 		)
 		(pin "2"
-			(uuid "7dea3e0e-5e32-4f36-b3da-d880d9942549")
+			(uuid "cac7ad5c-913e-4599-b795-7f4d2799ff17")
 		)
 		(instances
 			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LD1117S50TR_SOT223")
+		(at 58.42 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db958131-8296-4c5b-b889-26461a016ee0")
+		(property "Reference" "U9"
+			(at 58.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117S50TR_SOT223"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 58.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223"
+			(at 58.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79645e16-0257-4b45-80c5-890d88c53725")
+		)
+		(pin "1"
+			(uuid "9a4f25d4-ca35-487c-86c9-0ef7954890c5")
+		)
+		(pin "3"
+			(uuid "e234c3e2-4988-416a-9294-d3ce5af4849e")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -5286,7 +6273,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "510e7afe-db4f-463f-914c-6568fc6b1267")
+			(uuid "e328582c-ac6a-429d-8c0e-0e8145f31664")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -5353,7 +6340,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c25d15d-cda4-4362-8715-61263f4c2b79")
+			(uuid "ec00b6d7-5b4e-4ece-a363-050ed934f2ff")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -5420,7 +6407,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b21508b4-0cc0-42a4-9e70-5875716ded66")
+			(uuid "ec4f97c3-d309-4fe1-8f0e-427440d0c764")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -5538,10 +6525,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4436227-9e57-49b0-9975-64f08dfb48b8")
+			(uuid "c46c6780-66f2-4535-a2ef-fd6f520cbbae")
 		)
 		(pin "2"
-			(uuid "8276caa4-6c66-47d0-8f2e-007e8edb3c7d")
+			(uuid "438cea1d-88fb-4517-ba52-8a16f51e4d9a")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -5608,7 +6595,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d1857ca-902b-45fa-8df8-7bbab481d52d")
+			(uuid "d80d0708-d009-4790-8617-fc7e975cd5a7")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -5673,7 +6660,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "84d758d9-f4c5-4227-b32f-a6fe938a1d86")
+			(uuid "5589dbec-4680-4bcf-90d7-54e0e441d1e5")
 		)
 		(instances
 			(project "switch_sequencer"
@@ -5693,7 +6680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcd86d8d-4370-4d55-a4d7-c51bc2a6afc5")
-		(property "Reference" "J12"
+		(property "Reference" "J13"
 			(at 42.8513 28.448 0)
 			(effects
 				(font
@@ -5776,42 +6763,34 @@
 			)
 		)
 		(pin "6"
-			(uuid "a905024b-df08-4159-a595-5e30b3313231")
+			(uuid "25dc63e9-608f-454f-a4c4-c4abddef0a11")
 		)
 		(pin "10"
-			(uuid "498e265a-3ed8-4354-bde4-4703d3e3d4d6")
+			(uuid "62c55cce-fe56-4704-b02a-413bfbece027")
 		)
 		(pin "2"
-			(uuid "6e7a31ac-2093-416c-849d-602fe1a8ab5b")
+			(uuid "89297096-a570-4d59-a176-bf6ab55625b5")
 		)
 		(pin "8"
-			(uuid "ea4b7252-556c-4c83-a6ed-ffd814070c60")
+			(uuid "01be445d-03b0-4cb6-bf04-9e34a5c836cc")
 		)
 		(pin "4"
-			(uuid "613a9bf1-1205-4d92-b955-a69df047129d")
+			(uuid "7916cadd-e28b-46b9-bdb5-d69d93b18cb1")
 		)
 		(pin "3"
-			(uuid "c83aff42-7d75-4969-a37d-840ad1863b54")
+			(uuid "1b00fa87-d1aa-4c24-b790-b4a77c5101fc")
 		)
 		(pin "7"
-			(uuid "f7ebe720-fd9a-44c0-b7cf-1e906a297ed6")
+			(uuid "5d015233-9517-44da-8470-c0fc98648ebf")
 		)
 		(pin "1"
-			(uuid "cda49eb7-cc07-43b1-8fc9-4e89c9e2b627")
+			(uuid "abc82a1c-deeb-47c5-8c30-d347c40235c9")
 		)
 		(pin "9"
-			(uuid "4ae0f72c-32ed-45f4-b6c4-18b7947dc2bb")
+			(uuid "715dabab-b4fc-44e6-b910-3f8ee55e24f5")
 		)
 		(pin "5"
-			(uuid "b831290b-922f-4ac7-85fd-05ec3102b2dc")
-		)
-		(instances
-			(project ""
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/2b1f5cdb-90a3-4ec5-b6e1-18ae5a178b97/bada82cd-2b15-46ab-9896-d0e84e8bddba"
-					(reference "J12")
-					(unit 1)
-				)
-			)
+			(uuid "7b76a675-39aa-4376-ac04-2fc268eab17a")
 		)
 	)
 )

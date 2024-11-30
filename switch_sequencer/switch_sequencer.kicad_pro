@@ -602,6 +602,10 @@
     [
       "7fbfe606-9f28-4840-b0db-dfed757f4d20",
       "2 Attenuverters"
+    ],
+    [
+      "bda4f2da-7791-426e-9143-dc3fdd5eb0a0",
+      "Sample and hold"
     ]
   ],
   "text_variables": {}
