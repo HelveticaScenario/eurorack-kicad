@@ -6,14 +6,14 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.049999999999999996,
-        "copper_line_width": 0.19999999999999998,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
+        "courtyard_line_width": 0.05,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -24,13 +24,13 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.09999999999999999,
+        "fab_line_width": 0.1,
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.09999999999999999,
+        "other_line_width": 0.1,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -41,18 +41,24 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.09999999999999999,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.09999999999999999,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -60,20 +66,28 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -83,9 +97,14 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -106,15 +125,15 @@
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.09999999999999999,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -162,7 +181,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -189,7 +212,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -572,12 +600,84 @@
       "Root"
     ],
     [
-      "dceac55c-f5c9-4827-a11c-1eb1f12ac530",
-      "I_O"
+      "7dc0a39b-b136-4016-be0c-c023d8387e8a",
+      "Reset Led"
     ],
     [
       "8e85c82b-0dc0-4eee-b65d-794598d9520b",
       "Power"
+    ],
+    [
+      "ab8d2706-56a5-4587-b9ef-c598dc5bc3f9",
+      "Signal 1"
+    ],
+    [
+      "d8422442-063e-469c-9c55-c5e9b5255364",
+      "Led"
+    ],
+    [
+      "f6bf03c5-1acc-4c33-9962-bfdc3f3d33ad",
+      "Signal 2"
+    ],
+    [
+      "d8422442-063e-469c-9c55-c5e9b5255364",
+      "Led"
+    ],
+    [
+      "56a49501-ca12-4951-9aa9-3235726846b6",
+      "Signal 3"
+    ],
+    [
+      "d8422442-063e-469c-9c55-c5e9b5255364",
+      "Led"
+    ],
+    [
+      "a947920c-59f2-438b-89ba-8e48f95d6dbc",
+      "Signal 4"
+    ],
+    [
+      "d8422442-063e-469c-9c55-c5e9b5255364",
+      "Led"
+    ],
+    [
+      "7e64556a-f431-4fba-8c1d-6e9af7db61e9",
+      "Signal 5"
+    ],
+    [
+      "d8422442-063e-469c-9c55-c5e9b5255364",
+      "Led"
+    ],
+    [
+      "3b32ef6f-f7de-4ddd-97a9-3d5452522cd1",
+      "Signal 6"
+    ],
+    [
+      "d8422442-063e-469c-9c55-c5e9b5255364",
+      "Led"
+    ],
+    [
+      "ff53a658-11dc-478f-9769-67012b38ead8",
+      "Signal 7"
+    ],
+    [
+      "d8422442-063e-469c-9c55-c5e9b5255364",
+      "Led"
+    ],
+    [
+      "5043bc26-4ce4-47be-bac8-88b06297739f",
+      "Signal 8"
+    ],
+    [
+      "d8422442-063e-469c-9c55-c5e9b5255364",
+      "Led"
+    ],
+    [
+      "4c22d006-f8e0-4fe5-9164-b59b12367ed8",
+      "Mux"
+    ],
+    [
+      "62063eaf-8a8e-4b69-9d16-9268e74da748",
+      "Clock Led"
     ]
   ],
   "text_variables": {}

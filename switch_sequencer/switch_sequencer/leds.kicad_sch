@@ -1,0 +1,1074 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "92abc521-fad4-4e0e-910e-9e9ac373d098")
+	(paper "A4")
+	(lib_symbols)
+	(no_connect
+		(at 92.71 67.31)
+		(uuid "59d9094d-2b8b-47cb-a832-808e84f35672")
+	)
+	(wire
+		(pts
+			(xy 30.48 67.31) (xy 33.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0078f426-0151-43f9-9c0b-67c7bab6fc69")
+	)
+	(wire
+		(pts
+			(xy 90.17 40.64) (xy 93.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d25bdfd-afce-43b2-ae44-dfdf99a88852")
+	)
+	(wire
+		(pts
+			(xy 151.13 40.64) (xy 156.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4738da18-ded1-4c97-b39c-18fd2537e7ad")
+	)
+	(wire
+		(pts
+			(xy 110.49 40.64) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59dbf83a-c3ca-4a7b-84a1-2dc8093656eb")
+	)
+	(wire
+		(pts
+			(xy 237.49 40.64) (xy 242.57 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abdbadd-972b-464a-8caf-4ff600e50410")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 53.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee1f617-61e6-493c-80ce-35f02b4c39e5")
+	)
+	(wire
+		(pts
+			(xy 283.21 54.61) (xy 30.48 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ecc90a-f5f2-403d-a0b9-245ae32be1c3")
+	)
+	(wire
+		(pts
+			(xy 172.72 40.64) (xy 177.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70352cda-c2f0-4da2-94a0-6d1490fa725a")
+	)
+	(wire
+		(pts
+			(xy 69.85 40.64) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c18e53-1991-413a-9073-4f0704de3e31")
+	)
+	(wire
+		(pts
+			(xy 215.9 40.64) (xy 220.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5582c5-1860-42a1-927b-fa4228205ad2")
+	)
+	(wire
+		(pts
+			(xy 30.48 54.61) (xy 30.48 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e67430-7b2c-4e0f-809f-0eb6d3e0cc2a")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed0e4ea-b47f-429e-a042-a3af88256206")
+	)
+	(wire
+		(pts
+			(xy 49.53 40.64) (xy 53.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0f2b70-922c-4ba3-b135-8de68c53685c")
+	)
+	(wire
+		(pts
+			(xy 130.81 40.64) (xy 134.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf12926-fd71-4f3e-b8ad-3158b7889680")
+	)
+	(wire
+		(pts
+			(xy 283.21 40.64) (xy 283.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf92f1ee-b254-45c2-99b3-62db9c915d0f")
+	)
+	(wire
+		(pts
+			(xy 259.08 40.64) (xy 264.16 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17a71ab-740e-4c72-b1f0-2e3aef0f7965")
+	)
+	(wire
+		(pts
+			(xy 280.67 40.64) (xy 283.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda018a3-fd02-455c-a06a-d4b771aa5dd7")
+	)
+	(wire
+		(pts
+			(xy 194.31 40.64) (xy 199.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7a92b4-606e-4413-9eef-381320b20ee9")
+	)
+	(hierarchical_label "WS2812_DATA_IN"
+		(shape input)
+		(at 33.02 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8162c3d-41d6-401b-92ce-30371c85cee3")
+	)
+	(sheet
+		(at 242.57 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e1d8acd-466e-421e-843b-56104b9051b3")
+		(property "Sheetname" "Led 11"
+			(at 242.57 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 242.57 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 242.57 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70c87dac-d399-4cbb-bd53-7ce94d229e8c")
+		)
+		(pin "DOUT" output
+			(at 259.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2817064-a3ff-48e6-a88e-1b804e18942f")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 60.96)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f7232f8-13df-429d-90c7-616d5130361d")
+		(property "Sheetname" "Led 13"
+			(at 33.02 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 33.02 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 33.02 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be7101d1-feb6-4475-8c28-23f951983416")
+		)
+		(pin "DOUT" output
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9a218d9-70f4-4615-9634-1c950f86541a")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "235d63c6-da5f-46c1-8e76-f4638e14c221")
+		(property "Sheetname" "Led 5"
+			(at 114.3 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 114.3 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 114.3 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "85756fd2-2699-4401-8a51-97cde91f01ff")
+		)
+		(pin "DOUT" output
+			(at 130.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22a516f9-3f19-4e99-bbd4-ff7e7004c154")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "248823e2-1f31-451d-a01e-451a328cd0bd")
+		(property "Sheetname" "Led 10"
+			(at 220.98 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 220.98 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 220.98 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9eec157a-fdeb-4fe7-81ad-88f09d44f0a3")
+		)
+		(pin "DOUT" output
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cfa0bb52-4b35-4030-9df9-bd4ca88ea922")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c0434d0-e04a-49ea-9c05-a82b1c421139")
+		(property "Sheetname" "Led 3"
+			(at 73.66 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 73.66 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DOUT" output
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b52cbd42-0c25-4ba7-8878-7990e251f036")
+		)
+		(pin "DIN" input
+			(at 73.66 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fec725ed-fb15-4ebc-8b75-acd198bf498a")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33f44a05-8ae7-4a66-a5b5-ebb97b30ac89")
+		(property "Sheetname" "Led 7"
+			(at 156.21 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 156.21 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 156.21 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "767ba626-a47f-4289-9a50-f2b3e7c3e55f")
+		)
+		(pin "DOUT" output
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c821e97f-e088-498b-8c1e-c6aba48798ed")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49da3756-dbc4-42b3-b160-866d708f67f8")
+		(property "Sheetname" "Led 8"
+			(at 177.8 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 177.8 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 177.8 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6e65a56-acd7-43a5-b466-d2e8e034f2a1")
+		)
+		(pin "DOUT" output
+			(at 194.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "61c8c91a-3ccc-4e5a-ae23-de1ab1b11e3a")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "500669bc-310f-4a66-8c37-208d93b42702")
+		(property "Sheetname" "Led 6"
+			(at 134.62 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 134.62 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 134.62 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20ee2c55-cb6b-445d-8a01-e2e434887a2d")
+		)
+		(pin "DOUT" output
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5086c660-a4c6-4848-9d8c-73aac97ba43e")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5017bed4-d205-4a0c-ac67-892c6c6357bc")
+		(property "Sheetname" "Led 9"
+			(at 199.39 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 199.39 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 199.39 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2256251-1008-425f-9733-493d8cd8fee7")
+		)
+		(pin "DOUT" output
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "854f7003-2801-429f-8245-9920c6b68ddd")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 264.16 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8eaba153-ccf3-4f78-80f7-f6a55aeaf418")
+		(property "Sheetname" "Led 12"
+			(at 264.16 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 264.16 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 264.16 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2eba2abc-56ea-4fb6-a5d8-99c581a5b7bc")
+		)
+		(pin "DOUT" output
+			(at 280.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e4ed749-0123-4061-933d-046a15179507")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9568684e-185d-4df4-bea9-5467c3cd710a")
+		(property "Sheetname" "Led 1"
+			(at 33.02 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 33.02 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DOUT" output
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8736960d-97bf-4130-a300-33a0c0a130fb")
+		)
+		(pin "DIN" input
+			(at 33.02 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f340285-c38d-4b1d-964a-4ca50a0b9f36")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 60.96)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab27072d-cb09-45ba-a21f-1e5fa6c8af07")
+		(property "Sheetname" "Led 15"
+			(at 76.2 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 76.2 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 76.2 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8dab5f1-4285-4666-aace-3fdf413e93c2")
+		)
+		(pin "DOUT" output
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b5e77fc-1e25-447f-bf4d-046367f40035")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 60.96)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab9d500d-ab41-4122-b53e-d269cb32e90f")
+		(property "Sheetname" "Led 14"
+			(at 53.34 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 53.34 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 53.34 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c19762a-1a68-441b-bcaf-34b39d25a6cd")
+		)
+		(pin "DOUT" output
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ccc29093-ea34-4bc8-adca-2edfc734d2f5")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c52f871a-b606-487e-a595-029c17aa7ffa")
+		(property "Sheetname" "Led 4"
+			(at 93.98 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 93.98 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DOUT" output
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e450b55-93d3-4fea-b746-8af68af06a78")
+		)
+		(pin "DIN" input
+			(at 93.98 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc65d088-fc87-474e-801e-807597c17767")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 34.29)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df2b63e3-44c1-4161-8842-8b1c1fbd5bf9")
+		(property "Sheetname" "Led 2"
+			(at 53.34 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 53.34 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DOUT" output
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7df994e6-ed5b-4613-8325-0c5accf8acd1")
+		)
+		(pin "DIN" input
+			(at 53.34 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b23a1aa-9337-49f0-8c37-2cbed8af8106")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/235c182e-f8eb-45f9-913d-a3ffe96204cb"
+					(page "6")
+				)
+			)
+		)
+	)
+)
