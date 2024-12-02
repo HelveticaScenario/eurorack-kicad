@@ -37,4 +37,5 @@
   (lib (name "teensy4p0")(type "KiCad")(uri "${KIPRJMOD}/../../teensy4p0/DEV-15583.kicad_sym")(options "")(descr ""))
   (lib (name "TLV9364")(type "KiCad")(uri "${KIPRJMOD}/../../TLV9364/KiCADv6/2024-09-30_00-47-09.kicad_sym")(options "")(descr ""))
   (lib (name "TMUX4051")(type "KiCad")(uri "${KIPRJMOD}/../../TMUX4051/2024-11-03_21-52-36.kicad_sym")(options "")(descr ""))
+  (lib (name "D6R90")(type "KiCad")(uri "${KIPRJMOD}/../../D6R90/2024-12-02_02-02-47.kicad_sym")(options "")(descr ""))
 )
