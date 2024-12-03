@@ -39,5 +39,5 @@
   (lib (name "D6R90")(type "KiCad")(uri "${KIPRJMOD}/../../D6R90/2024-12-02_02-02-47.kicad_sym")(options "")(descr ""))
   (lib (name "LTST-C195TBJRKT")(type "KiCad")(uri "${KIPRJMOD}/../../LTST-C195TBJRKT/LTST-C195TBJRKT.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
-  (lib (name "pico")(type "KiCad")(uri "D:/Documents/Code/eurorack/pico/pico.kicad_sym")(options "")(descr ""))
+  (lib (name "DMG2305UX-7")(type "KiCad")(uri "${KIPRJMOD}/../../DMG2305UX_7/DMG2305UX-7.kicad_sym")(options "")(descr ""))
 )

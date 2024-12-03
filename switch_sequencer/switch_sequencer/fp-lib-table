@@ -41,5 +41,5 @@
   (lib (name "4ms_TestPoint")(type "KiCad")(uri "${KIPRJMOD}/../../4ms-kicad-lib/footprints/4ms_TestPoint.pretty")(options "")(descr ""))
   (lib (name "LTST-C195TBJRKT")(type "KiCad")(uri "${KIPRJMOD}/../../LTST-C195TBJRKT")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
-  (lib (name "pico")(type "KiCad")(uri "D:/Documents/Code/eurorack/pico")(options "")(descr ""))
+  (lib (name "DMG2305UX_7")(type "KiCad")(uri "${KIPRJMOD}/../../DMG2305UX_7")(options "")(descr ""))
 )
