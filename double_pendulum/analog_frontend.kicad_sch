@@ -5,48 +5,48 @@
 	(uuid "3c8d64aa-1f8b-4d4e-8a23-0a165b5c4070")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+		(symbol "4ms_Jack:3.5mm_Mono_Switched_sm"
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "J"
+				(at -5.334 9.144 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "3.5mm_Mono_Switched_sm"
+				(at 5.842 -17.272 0)
 				(effects
 					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
+			(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+				(at -0.127 -14.097 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "test point"
+			(property "Datasheet" ""
+				(at -1.27 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,7 +55,56 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "WQP-WQP518MA"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Production Stage" "C"
+				(at -2.54 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "Jack"
+				(at -4.064 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "ki_keywords" "PJ398SM PJ301SM WQP518MA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,19 +113,34 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "3.5mm_Mono_Switched_sm_0_0"
+				(rectangle
+					(start -6.35 5.08)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(hide yes)
+					(fill
+						(type none)
+					)
 				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -1.27 2.54) (xy 0 5.08) (xy 3.81 5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -86,11 +150,11 @@
 					)
 				)
 			)
-			(symbol "TestPoint_1_1"
+			(symbol "3.5mm_Mono_Switched_sm_1_1"
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at 5.08 5.08 180)
+					(length 1.27)
+					(name "SIG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -100,7 +164,43 @@
 					(number "1"
 						(effects
 							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "SHEILD"
+						(effects
+							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 1.27 180)
+					(length 1.27)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -1048,207 +1148,6 @@
 				)
 			)
 		)
-		(symbol "eurocad:PJ301M-12"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -8.89 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PJ301M-12"
-				(at -3.81 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PJ301M-12_0_1"
-				(rectangle
-					(start -11.43 3.81)
-					(end -10.16 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 -1.27) (xy -2.54 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 2.54 -2.54) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy -6.35 3.81) (xy -7.62 2.54) (xy -8.89 3.81) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 -3.81)
-					(end -10.16 5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PJ301M-12_1_1"
-				(pin passive line
-					(at 11.43 3.81 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -2.54 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1347,22 +1246,10 @@
 		)
 	)
 	(junction
-		(at 44.45 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19fb3c00-5a12-454a-af74-93d69a665d52")
-	)
-	(junction
 		(at 80.01 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40eb4bf8-ee2b-4c1e-9287-37b2f71fb951")
-	)
-	(junction
-		(at 86.36 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43c28a5f-c2b7-4da4-aa90-52d159440a62")
 	)
 	(junction
 		(at 81.28 29.21)
@@ -1371,34 +1258,16 @@
 		(uuid "47d3cf4e-f420-4454-b1a4-c2e3c0d6fcd0")
 	)
 	(junction
-		(at 43.18 64.77)
+		(at 33.02 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "49f865cc-787b-4bb5-a099-e0132922725b")
+		(uuid "76cb90ba-dcf9-4c71-a4cc-163303dd073e")
 	)
 	(junction
-		(at 85.09 105.41)
+		(at 33.02 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad35effd-95dd-4e33-b4e1-6f8482b15ba8")
-	)
-	(junction
-		(at 44.45 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af86a6bb-5b7c-4754-b2d5-dbb72d4b38cf")
-	)
-	(junction
-		(at 43.18 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1a8f890-4d70-475c-befb-239e64df0524")
-	)
-	(junction
-		(at 90.17 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da44e884-9b47-4ca7-90c4-8b1641330e94")
+		(uuid "e8a19e7b-df59-4e11-ad68-77710023a2c9")
 	)
 	(junction
 		(at 81.28 68.58)
@@ -1407,20 +1276,20 @@
 		(uuid "f991256c-fee4-47b5-acfe-fe8def1045fb")
 	)
 	(no_connect
-		(at 147.32 66.04)
+		(at 64.77 138.43)
 		(uuid "521a5139-0532-4174-ba5d-79d3cdc38da8")
 	)
 	(no_connect
-		(at 147.32 60.96)
+		(at 64.77 133.35)
 		(uuid "63d81a80-e5f8-4ef3-9db2-c919798d67f4")
 	)
 	(no_connect
-		(at 162.56 63.5)
+		(at 80.01 135.89)
 		(uuid "dbf51852-7486-4949-b60d-a84bc1b86bea")
 	)
 	(wire
 		(pts
-			(xy 90.17 68.58) (xy 105.41 68.58)
+			(xy 81.28 68.58) (xy 105.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 71.12) (xy 44.45 71.12)
+			(xy 43.18 71.12) (xy 45.72 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 105.41) (xy 85.09 105.41)
+			(xy 80.01 105.41) (xy 90.17 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1480,26 +1349,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 68.58) (xy 90.17 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56e6f23a-7001-4826-b6a9-5a2338d65bca")
-	)
-	(wire
-		(pts
-			(xy 45.72 30.48) (xy 44.45 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c1a768-f2fd-4955-8cea-63ccabe25c7c")
-	)
-	(wire
-		(pts
 			(xy 63.5 26.67) (xy 66.04 26.67)
 		)
 		(stroke
@@ -1510,37 +1359,27 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 62.23) (xy 45.72 64.77)
+			(xy 39.37 81.28) (xy 33.02 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f33e164-54f1-48f9-9dbc-aa022a5c440f")
+		(uuid "7692c30a-45ee-4108-810f-07ee6ed36507")
 	)
 	(wire
 		(pts
-			(xy 43.18 64.77) (xy 43.18 68.58)
+			(xy 39.37 34.29) (xy 39.37 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8782a14f-11a5-49c7-8e01-c0559a28d27b")
+		(uuid "935a262f-9319-4e0a-b936-4da05a863414")
 	)
 	(wire
 		(pts
-			(xy 44.45 71.12) (xy 43.18 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1860444-8281-4af2-b4d1-950a10e59f81")
-	)
-	(wire
-		(pts
-			(xy 81.28 29.21) (xy 86.36 29.21)
+			(xy 81.28 29.21) (xy 90.17 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 30.48) (xy 43.18 30.48)
+			(xy 43.18 30.48) (xy 45.72 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1590,33 +1429,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 24.13) (xy 43.18 27.94)
+			(xy 39.37 40.64) (xy 33.02 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7ae06e4-8495-4005-a845-bffab123ad9d")
-	)
-	(wire
-		(pts
-			(xy 45.72 64.77) (xy 43.18 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08d6771-e17c-4584-a703-69e58a76e8d9")
-	)
-	(wire
-		(pts
-			(xy 85.09 105.41) (xy 90.17 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8401f41-91b6-425e-973a-51885c2af478")
+		(uuid "ea809cae-578f-45d6-85af-49f6ecaa49cd")
 	)
 	(wire
 		(pts
@@ -1630,16 +1449,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 20.32) (xy 45.72 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec027422-9e43-4bfd-92be-a4e002c159f2")
-	)
-	(wire
-		(pts
 			(xy 64.77 107.95) (xy 64.77 114.3)
 		)
 		(stroke
@@ -1650,23 +1459,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 29.21) (xy 90.17 29.21)
+			(xy 39.37 74.93) (xy 39.37 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f303cbee-5fb4-4c2a-a959-1d27f16af1f1")
-	)
-	(wire
-		(pts
-			(xy 45.72 24.13) (xy 43.18 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f713b64a-efb3-47b9-8a5c-c3488551c868")
+		(uuid "f5dcbf8b-c3a6-4c64-be02-f35ded3b3f77")
 	)
 	(global_label "MUXOUT"
 		(shape input)
@@ -1686,28 +1485,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RES3B"
-		(shape input)
-		(at 58.42 46.99 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1737b710-6e7c-4d3a-8481-2a4c6da7d0ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 37.8968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1756,28 +1533,6 @@
 			)
 		)
 	)
-	(global_label "RES5B"
-		(shape input)
-		(at 156.21 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e58e691-ff70-42c8-a587-be960c714bfd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3032 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RES9B"
 		(shape input)
 		(at 80.01 114.3 270)
@@ -1796,28 +1551,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RES8B"
-		(shape input)
-		(at 156.21 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b76fb9e-afb6-4e6e-a183-83b909ba7716")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3032 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1879,6 +1612,28 @@
 		(uuid "443b30e8-cab6-447c-abca-c576291730dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.5518 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 96.52 121.92 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "462e560c-c6ff-4c76-ad10-56b8464e690d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 116.6367 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,28 +1771,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RES8B"
-		(shape input)
-		(at 60.96 118.11 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93c9d571-1bce-484b-b2a2-e0461aae0a9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 109.0168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2284,28 +2017,6 @@
 			)
 		)
 	)
-	(global_label "RES3B"
-		(shape input)
-		(at 156.21 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c357bb17-7b3a-466a-a0f3-94e803ab05bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3032 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RES7A"
 		(shape input)
 		(at 143.51 129.54 180)
@@ -2368,28 +2079,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RES5B"
-		(shape input)
-		(at 60.96 78.74 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db03252f-a41c-4ff0-91a9-eef0cc745c31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 69.6468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2473,6 +2162,28 @@
 		(uuid "e755c6f2-d765-4b77-a1b1-8cca066c3def")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.6318 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 91.44 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec09555c-488f-4c7d-8157-202ec9ff22bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 41.7067 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 20.32 180)
+		(at 33.02 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2708,7 +2419,7 @@
 		(fields_autoplaced yes)
 		(uuid "2559f9e8-76c8-4b5b-be69-ac4e0e5d3a15")
 		(property "Reference" "#PWR011"
-			(at 45.72 13.97 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 15.24 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 20.32 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 20.32 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 20.32 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,26 +2475,71 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 44.45 30.48 0)
+		(lib_id "4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 38.1 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b13b097-a1a4-436d-b4a6-3201390e2a87")
-		(property "Reference" "TP_JACK1"
-			(at 46.99 27.1779 0)
+		(uuid "38484cde-942f-45c1-b91e-7fab7a50eacc")
+		(property "Reference" "J4"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_sm"
+			(at 43.942 93.472 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 37.973 90.297 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 35.56 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 46.99 28.4479 0)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 35.56 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,76 +2548,65 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 49.53 30.48 0)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 35.56 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 49.53 30.48 0)
+		(property "Production Stage" "C"
+			(at 35.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 44.45 30.48 0)
+		(property "Display" "Jack"
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "438e2d29-32c8-41fc-bf41-62760eaa9637")
+		)
+		(pin "2"
+			(uuid "cc70f9c0-f622-4f9d-9847-b8e0a983428e")
 		)
 		(pin "1"
-			(uuid "4a7f7bda-db32-44db-a94c-631dca3252d4")
+			(uuid "e6722544-0275-4730-9ff3-313a5cbeac25")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "TP_JACK1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 86.36 29.21 0)
+		(lib_id "power:GND")
+		(at 33.02 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a688c76-2bfb-4d62-ad0b-3e761639e01c")
-		(property "Reference" "TP_IN1"
-			(at 88.9 25.9079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 88.9 27.1779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 91.44 29.21 0)
+		(uuid "4391a7a6-9c8b-4108-8fcc-5bcd20df73dc")
+		(property "Reference" "#PWR05"
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,8 +2614,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 91.44 29.21 0)
+		(property "Value" "GND"
+			(at 33.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,8 +2631,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 86.36 29.21 0)
+		(property "Datasheet" ""
+			(at 33.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,48 +2650,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "73a3c3ae-1e2e-49e4-9191-82680c1397f0")
+			(uuid "2550d4b9-d995-4831-81a0-8d6ef3dc303e")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "TP_IN1")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 90.17 68.58 0)
+		(lib_id "power:GND")
+		(at 156.21 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b9350f9-b8a1-427f-a3ed-2f53bafa07dc")
-		(property "Reference" "TP_IN2"
-			(at 92.71 65.2779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 92.71 66.5479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 95.25 68.58 0)
+		(uuid "4adc32a0-8882-4c19-a497-6e3d416306a0")
+		(property "Reference" "#PWR055"
+			(at 162.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,8 +2680,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 95.25 68.58 0)
+		(property "Value" "GND"
+			(at 160.02 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,8 +2698,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 90.17 68.58 0)
+		(property "Datasheet" ""
+			(at 156.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,12 +2717,253 @@
 			)
 		)
 		(pin "1"
-			(uuid "810d2753-f345-4ed2-8f90-5f68821966a1")
+			(uuid "fd372d2f-f5b6-4d1a-946c-9272aff4e9e1")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "TP_IN2")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_IC:TL072")
+		(at 91.44 53.34 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55daf05d-4c15-471b-93b5-9fe8cfb157b6")
+		(property "Reference" "U3"
+			(at 95.25 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 95.25 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TL072 Dual Opamp TSSOP-8"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "TL072 Dual Opamp"
+			(at 88.9 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C90748"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c6ad3587-0efc-4442-9fd8-11edbf7ff062")
+		)
+		(pin "6"
+			(uuid "36828094-0a76-46b1-bdd6-736de1c7ce15")
+		)
+		(pin "2"
+			(uuid "bf7e5f49-3145-4aeb-938e-c72dc0ab9ec8")
+		)
+		(pin "4"
+			(uuid "5d1169ba-c099-422e-8fb8-da3e7d28ba33")
+		)
+		(pin "1"
+			(uuid "f7ab229a-8537-47c6-a072-0de17914da1c")
+		)
+		(pin "7"
+			(uuid "4f756226-f972-424d-bba1-afc6ce4db0cd")
+		)
+		(pin "3"
+			(uuid "ccd09ccc-a200-4748-b4b3-b98f1011436e")
+		)
+		(pin "8"
+			(uuid "9ac8f22c-d952-4a9a-a4ce-7236ffb15d49")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63ea7cbc-e5b4-488c-b390-c2db83006794")
+		(property "Reference" "#PWR024"
+			(at 162.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe38fe1f-a4c6-4445-89f9-3bbc623de3eb")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e2f616c-26c5-46d7-8807-73edc6254af8")
+		(property "Reference" "#PWR025"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d390a06-bd34-453b-b69e-c799a5ddb542")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3073,85 +3075,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ff09bd0-abd2-4d65-ba79-852962cf3da0")
-		(property "Reference" "TP_IN3"
-			(at 87.63 102.1079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 87.63 103.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 90.17 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f026fbcb-c324-4807-aa6c-f8898c5b0e75")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "TP_IN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 45.72 62.23 180)
+		(at 91.44 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92fcc898-52e0-46fa-abf3-e6d319dfcaff")
-		(property "Reference" "#PWR012"
-			(at 45.72 55.88 0)
+		(uuid "7f949188-9be5-4930-b563-123161c1c02e")
+		(property "Reference" "#PWR020"
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 57.15 0)
+			(at 91.44 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 62.23 0)
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 62.23 0)
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 62.23 0)
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,12 +3129,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fb6eed8-bbfd-435d-b808-7c46cb3b59d1")
+			(uuid "d2168c43-e81e-44f6-84d9-271d2bca935e")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "#PWR012")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3312,33 +3246,34 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_IC:TL072")
-		(at 154.94 63.5 0)
-		(unit 2)
+		(lib_id "power:GND")
+		(at 96.52 134.62 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b747e061-3375-45f8-92f9-0a59ad2dda0d")
-		(property "Reference" "U2"
-			(at 154.94 53.34 0)
+		(uuid "98884eec-805d-4cef-a3d7-ba3d04d10755")
+		(property "Reference" "#PWR016"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TL072"
-			(at 154.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
-			(at 154.94 63.5 0)
+		(property "Footprint" ""
+			(at 96.52 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +3282,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 63.5 0)
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e150856e-d8f1-4394-8d22-ee61201a2350")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_IC:TL072")
+		(at 72.39 135.89 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b747e061-3375-45f8-92f9-0a59ad2dda0d")
+		(property "Reference" "U2"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+			(at 72.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3356,7 @@
 			)
 		)
 		(property "Description" "TL072 Dual Opamp TSSOP-8"
-			(at 154.94 63.5 0)
+			(at 72.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3365,7 @@
 			)
 		)
 		(property "Specifications" "TL072 Dual Opamp"
-			(at 152.4 71.374 0)
+			(at 69.85 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3375,7 @@
 			)
 		)
 		(property "JLCPCB ID" "C90748"
-			(at 154.94 63.5 0)
+			(at 72.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,33 +3417,35 @@
 		)
 	)
 	(symbol
-		(lib_id "eurocad:PJ301M-12")
-		(at 31.75 68.58 0)
-		(unit 1)
+		(lib_id "PCM_4ms_IC:TL072")
+		(at 96.52 128.27 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf3b2b7e-4c23-4896-962d-1d984256c0f3")
-		(property "Reference" "J6"
-			(at 29.845 58.42 0)
+		(uuid "bb28ba8d-2be1-4212-84af-598efd750f1b")
+		(property "Reference" "U2"
+			(at 100.33 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "PJ301M-12"
-			(at 29.845 60.96 0)
+		(property "Value" "TL072"
+			(at 100.33 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Eurocad:PJ301M-12"
-			(at 31.75 68.58 0)
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,15 +3454,35 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 68.58 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 31.75 68.58 0)
+		(property "Description" "TL072 Dual Opamp TSSOP-8"
+			(at 96.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "TL072 Dual Opamp"
+			(at 93.98 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C90748"
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,134 +3491,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d6dca93-d225-45fb-baa6-9be87fcdefd9")
-		)
-		(pin "3"
-			(uuid "d9affab5-9ab8-4d23-b87c-217a1962916f")
+			(uuid "2982f967-1df6-4c8b-9565-c830836f08c1")
 		)
 		(pin "2"
-			(uuid "6ddace0a-bd78-4913-a741-7db4f916c20c")
+			(uuid "dd341ea4-ea27-47c7-a135-5cbae007e63f")
+		)
+		(pin "4"
+			(uuid "cde7bf12-3fc6-4846-9a60-fdf9a9059472")
+		)
+		(pin "3"
+			(uuid "6de06f88-950c-42c7-a647-fed37b407e2b")
+		)
+		(pin "7"
+			(uuid "ebc18342-0362-4742-a320-6ede9b6a7301")
+		)
+		(pin "5"
+			(uuid "b3968949-8381-4f7f-8074-a3aff4a96563")
+		)
+		(pin "8"
+			(uuid "139699f7-1ce3-45b4-8b8c-0d70a8e3d773")
+		)
+		(pin "6"
+			(uuid "bd2ea09c-9ad5-49d0-8dbe-6830980f4d41")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "J6")
-					(unit 1)
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 60.96 78.74 0)
+		(lib_id "4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 38.1 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c313c980-9228-41c0-b487-787c44fce567")
-		(property "Reference" "#PWR025"
-			(at 60.96 85.09 0)
+		(uuid "bf3e4ec7-3abd-4cad-bb57-b08e651723cc")
+		(property "Reference" "J2"
+			(at 36.83 25.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_sm"
+			(at 43.942 52.832 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 60.96 83.82 0)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 37.973 49.657 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a2ccd2a-82ed-4566-906f-6e6bd4d396aa")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "eurocad:PJ301M-12")
-		(at 31.75 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2d45f9b-7dc5-4d4f-ac58-e172ef5bbec7")
-		(property "Reference" "J5"
-			(at 29.845 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PJ301M-12"
-			(at 29.845 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Eurocad:PJ301M-12"
-			(at 31.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 27.94 0)
+			(at 36.83 34.29 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 31.75 27.94 0)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,19 +3577,68 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c4ce33d7-53bf-463d-9ff2-68d322678bb7")
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 35.56 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 35.56 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 35.56 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "C"
+			(at 35.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "Jack"
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "3ad36b90-a464-4d12-b694-c3bf7739239b")
+			(uuid "596294f5-419b-4de1-b6e9-defb1882ba89")
 		)
 		(pin "2"
-			(uuid "50cb9df7-1308-4703-ac9d-4c30bf94190a")
+			(uuid "17495ed0-b3a1-4c90-a79f-3318fca93ad3")
+		)
+		(pin "1"
+			(uuid "2c20d0c2-f0ff-4d7b-934e-9e81fa671d41")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3739,206 +3761,6 @@
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d591cb1f-4f0a-4f23-b6c9-67c34431555b")
-		(property "Reference" "#PWR024"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0ccd6e7-a588-45b2-88e7-c675ed2e9f9f")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 44.45 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e419114f-67bb-433a-984c-9a41cd47b94d")
-		(property "Reference" "TP_JACK2"
-			(at 46.99 67.8179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 69.0879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 49.53 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 44.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "795a1e5a-409c-4f36-aa29-c03a94ba3fd2")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "TP_JACK2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e44fcca3-eec8-4291-bb80-54654a7f1166")
-		(property "Reference" "#PWR028"
-			(at 60.96 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "659e223c-10ab-4fba-a4ef-3e2a1c52e254")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/26532e5c-5b25-4a49-b3a4-1524ac34f5ee"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)

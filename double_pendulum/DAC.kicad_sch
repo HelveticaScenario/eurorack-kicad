@@ -5,48 +5,48 @@
 	(uuid "c6e79af1-7bd8-4ad0-84a2-00550bc905bf")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+		(symbol "4ms_Jack:3.5mm_Mono_Switched_sm"
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "J"
+				(at -5.334 9.144 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "3.5mm_Mono_Switched_sm"
+				(at 5.842 -17.272 0)
 				(effects
 					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
+			(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+				(at -0.127 -14.097 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "test point"
+			(property "Datasheet" ""
+				(at -1.27 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,7 +55,56 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "WQP-WQP518MA"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Production Stage" "C"
+				(at -2.54 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "Jack"
+				(at -4.064 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "ki_keywords" "PJ398SM PJ301SM WQP518MA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,19 +113,34 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "3.5mm_Mono_Switched_sm_0_0"
+				(rectangle
+					(start -6.35 5.08)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(hide yes)
+					(fill
+						(type none)
+					)
 				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -1.27 2.54) (xy 0 5.08) (xy 3.81 5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -86,11 +150,11 @@
 					)
 				)
 			)
-			(symbol "TestPoint_1_1"
+			(symbol "3.5mm_Mono_Switched_sm_1_1"
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at 5.08 5.08 180)
+					(length 1.27)
+					(name "SIG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -100,14 +164,50 @@
 					(number "1"
 						(effects
 							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "SHEILD"
+						(effects
+							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 1.27 180)
+					(length 1.27)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
 				)
 			)
 		)
-		(symbol "MCP4922:MCP4922-E_P"
+		(symbol "Analog_DAC:MCP4922-ESL"
 			(pin_names
 				(offset 1.016)
 			)
@@ -115,43 +215,34 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -4.5299 22.7766 0)
+				(at -10.16 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "MCP4922-E_P"
-				(at -6.1723 -32.2075 0)
+			(property "Value" "MCP4922-ESL"
+				(at 3.81 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "MCP4922-E_P:DIP254P762X533-14"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -160,396 +251,296 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Microchip"
+			(property "Description" "Dual 12-bit Digital to Analog Converter, SPI Interface, SOIC-14"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Microchip MCP4922-E/P, 2-channel 12 bit Serial DAC, 14-Pin PDIP | Microchip Technology Inc. MCP4922-E/P\n                        \n"
+			(property "ki_keywords" "Dual DAC 1ch 12bit SPI"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "PACKAGE" "DIP-14"
+			(property "ki_fp_filters" "DIP* PDIP* SO* SOIC* TSSOP*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MPN" "MCP4922-E/P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "MCP4922-ESL_0_1"
+				(polyline
+					(pts
+						(xy -11.43 8.89) (xy 6.35 8.89) (xy 15.24 0) (xy 6.35 -8.89) (xy -11.43 -8.89) (xy -11.43 8.89)
 					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "DIP-14 Microchip"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "OC_FARNELL" "1292244"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP4922-E/P/Microchip/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "MCP4922-E/P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER" "Microchip"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "OC_NEWARK" "61K2950"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MCP4922-E/P/Microchip/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "MCP4922-E_P_0_0"
-				(rectangle
-					(start -12.7 -27.94)
-					(end 12.7 20.32)
 					(stroke
-						(width 0.4064)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
+			)
+			(symbol "MCP4922-ESL_1_1"
 				(pin power_in line
-					(at -17.78 15.24 0)
-					(length 5.08)
+					(at -2.54 12.7 270)
+					(length 3.81)
 					(name "VDD"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 12.7 180)
+				(pin passive line
+					(at 15.24 -5.08 180)
 					(length 5.08)
-					(name "VOUTB"
+					(name "VoutB"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "VREFB"
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 3.81)
+					(name "VrefB"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at -17.78 -22.86 0)
-					(length 5.08)
+					(at -2.54 -12.7 90)
+					(length 3.81)
 					(name "AVSS"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "12"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "VREFA"
+				(pin passive line
+					(at 2.54 12.7 270)
+					(length 3.81)
+					(name "VrefA"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "13"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 15.24 180)
+				(pin passive line
+					(at 15.24 5.08 180)
 					(length 5.08)
-					(name "VOUTA"
+					(name "VoutA"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "14"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin no_connect line
-					(at -17.78 -12.7 0)
-					(length 5.08)
-					(name "NC_2"
+					(at -5.08 -8.89 90)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "~CS"
+					(at -15.24 0 0)
+					(length 3.81)
+					(name "~{CS}"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
+					(at -15.24 2.54 0)
+					(length 3.81)
 					(name "SCK"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -17.78 -2.54 0)
-					(length 5.08)
+					(at -15.24 5.08 0)
+					(length 3.81)
 					(name "SDI"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin no_connect line
-					(at -17.78 -15.24 0)
-					(length 5.08)
-					(name "NC_3"
+					(at -7.62 -8.89 90)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin no_connect line
-					(at -17.78 -17.78 0)
-					(length 5.08)
+					(at -10.16 -8.89 90)
+					(length 2.54) hide
 					(name "NC"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -17.78 -5.08 0)
-					(length 5.08)
-					(name "~LDAC"
+					(at -15.24 -2.54 0)
+					(length 3.81)
+					(name "~{LDAC}"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "~SHDN"
+					(at -15.24 -5.08 0)
+					(length 3.81)
+					(name "~{SHDN}"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -836,207 +827,6 @@
 				)
 			)
 		)
-		(symbol "eurocad:PJ301M-12"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -8.89 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PJ301M-12"
-				(at -3.81 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PJ301M-12_0_1"
-				(rectangle
-					(start -11.43 3.81)
-					(end -10.16 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 -1.27) (xy -2.54 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 2.54 -2.54) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy -6.35 3.81) (xy -7.62 2.54) (xy -8.89 3.81) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 -3.81)
-					(end -10.16 5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PJ301M-12_1_1"
-				(pin passive line
-					(at 11.43 3.81 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -2.54 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1141,28 +931,10 @@
 		(uuid "052924b3-3036-4ef2-b859-1109440d9c9e")
 	)
 	(junction
-		(at 194.31 106.68)
+		(at 233.68 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b8c3472-f637-4844-a6ea-3b5f080d9a2e")
-	)
-	(junction
-		(at 224.79 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "365c948d-cc8a-406c-8fa5-8357c4627775")
-	)
-	(junction
-		(at 219.71 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "384ad2a0-f975-4453-a07c-7c9786d90aba")
-	)
-	(junction
-		(at 219.71 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "495f9f54-f446-440b-9f20-62fd3827a358")
+		(uuid "06503def-c131-4cce-9de8-b8ec56c7edd9")
 	)
 	(junction
 		(at 213.36 59.69)
@@ -1177,46 +949,22 @@
 		(uuid "7dc96b1f-fe71-4102-a6be-0f03961a9900")
 	)
 	(junction
-		(at 223.52 88.9)
+		(at 233.68 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8df63aa5-6d35-4221-94a0-1a4f87a4a414")
+		(uuid "83a4a4f5-1237-4149-a443-05a1abb56f4c")
 	)
 	(junction
-		(at 195.58 57.15)
+		(at 234.95 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99c979d4-db11-437d-9511-aef9710c040e")
+		(uuid "b532ed97-2745-42f3-a018-707cae6f8089")
 	)
 	(junction
-		(at 223.52 113.03)
+		(at 234.95 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6b38e36-480e-4440-bdb9-e043c19e2312")
-	)
-	(junction
-		(at 195.58 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8d9e44d-569c-4db2-967d-5807532524c6")
-	)
-	(junction
-		(at 220.98 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6b02915-51a0-4d10-b5f5-fd96c6c84146")
-	)
-	(junction
-		(at 194.31 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddf82ce8-0bc5-4ecb-988d-26c02a7decca")
-	)
-	(junction
-		(at 224.79 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc26516e-933c-401e-8585-a04682b9c890")
+		(uuid "d23cb5c8-27a5-4621-ba80-fbcdd27def72")
 	)
 	(junction
 		(at 212.09 109.22)
@@ -1224,31 +972,35 @@
 		(color 0 0 0 0)
 		(uuid "fe1346cc-1bce-427c-86f7-ede742e51871")
 	)
-	(junction
-		(at 220.98 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff03214a-3a27-4e2e-9496-b6cfb91a2c73")
+	(no_connect
+		(at 29.21 38.1)
+		(uuid "0348c744-3a09-4b00-9812-dfeb1da8b312")
 	)
 	(no_connect
-		(at 40.64 57.15)
-		(uuid "68dfd1d7-3cdb-4ecb-9584-e73ae4ee44e0")
+		(at 88.9 41.91)
+		(uuid "37629f56-b0b6-4d87-b197-75eedb4ad106")
 	)
 	(no_connect
-		(at 99.06 58.42)
-		(uuid "c5009b80-c21c-414a-aa7d-f8f50b509c23")
+		(at 88.9 39.37)
+		(uuid "4d2649e6-8042-44f7-9a2b-8eb4b31d3189")
 	)
 	(no_connect
-		(at 99.06 55.88)
-		(uuid "f299289c-9268-45d1-bacd-4241f57de578")
-	)
-	(no_connect
-		(at 40.64 54.61)
-		(uuid "fe745dfc-0e1b-4857-8e0c-d0a7514f3a15")
+		(at 29.21 40.64)
+		(uuid "5768c28b-4d24-4e64-bfb5-41808a015e8a")
 	)
 	(wire
 		(pts
-			(xy 219.71 106.68) (xy 223.52 106.68)
+			(xy 228.6 67.31) (xy 234.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036f342f-1a0a-4547-93bc-c12aab1ada90")
+	)
+	(wire
+		(pts
+			(xy 217.17 106.68) (xy 223.52 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1258,23 +1010,23 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 106.68) (xy 219.71 106.68)
+			(xy 227.33 92.71) (xy 233.68 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bffcb35-9e18-4fdc-a080-458e87754377")
+		(uuid "065032d2-cd41-4b59-9841-06da5bd5f0a9")
 	)
 	(wire
 		(pts
-			(xy 224.79 39.37) (xy 224.79 35.56)
+			(xy 227.33 110.49) (xy 227.33 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24f20dff-937d-46e8-b5e7-c394afa24722")
+		(uuid "292e3009-cae6-4574-87cc-8600d255a8d1")
 	)
 	(wire
 		(pts
@@ -1288,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 57.15) (xy 195.58 57.15)
+			(xy 194.31 57.15) (xy 198.12 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1338,13 +1090,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 63.5) (xy 224.79 59.69)
+			(xy 227.33 86.36) (xy 227.33 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45cb7b1d-374f-4f04-a7c1-75b9aa08b54a")
+		(uuid "52ca1e2f-3a51-4380-b34c-926fbe026a0a")
 	)
 	(wire
 		(pts
@@ -1358,16 +1110,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 33.02) (xy 224.79 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5757f8e4-76f8-4099-ae5a-26f7d1a549ff")
-	)
-	(wire
-		(pts
 			(xy 212.09 116.84) (xy 196.85 116.84)
 		)
 		(stroke
@@ -1378,47 +1120,27 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 82.55) (xy 223.52 82.55)
+			(xy 228.6 43.18) (xy 234.95 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f9c5a33-ccec-43c9-b35f-5172d18db222")
+		(uuid "71aeda29-2c1a-4cdd-9c21-8b62a3f38537")
 	)
 	(wire
 		(pts
-			(xy 222.25 63.5) (xy 224.79 63.5)
+			(xy 227.33 116.84) (xy 233.68 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79afc1d6-b35d-464b-b759-f68e0d7266d3")
+		(uuid "73db4865-3168-44bf-a7f5-36088d0b922b")
 	)
 	(wire
 		(pts
-			(xy 194.31 30.48) (xy 195.58 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f72e550-57ff-4c0d-ad61-145d2d0600f8")
-	)
-	(wire
-		(pts
-			(xy 222.25 66.04) (xy 222.25 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86899685-d93a-426d-93a5-821a4bede949")
-	)
-	(wire
-		(pts
-			(xy 212.09 82.55) (xy 219.71 82.55)
+			(xy 212.09 82.55) (xy 223.52 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1458,36 +1180,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 57.15) (xy 224.79 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9261fd50-9056-4586-8bab-22a1c733dbec")
-	)
-	(wire
-		(pts
-			(xy 222.25 41.91) (xy 222.25 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a99d3b-ef43-4830-9b0b-71ba1a1543e5")
-	)
-	(wire
-		(pts
-			(xy 193.04 80.01) (xy 194.31 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97144d19-0367-469c-803a-879128b5d48a")
-	)
-	(wire
-		(pts
 			(xy 213.36 40.64) (xy 213.36 33.02)
 		)
 		(stroke
@@ -1498,13 +1190,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 39.37) (xy 224.79 39.37)
+			(xy 228.6 36.83) (xy 228.6 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a08d5ac1-2968-4d8a-990b-55e8f36a298f")
+		(uuid "a6cc7d6c-2c7e-407b-941c-d1cb726226e1")
 	)
 	(wire
 		(pts
@@ -1518,43 +1210,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 88.9) (xy 223.52 88.9)
+			(xy 228.6 60.96) (xy 228.6 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac74c985-7587-4989-a654-365e4023b1c2")
-	)
-	(wire
-		(pts
-			(xy 223.52 88.9) (xy 223.52 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adc35933-bc4d-4277-b7b3-e5aadf8f7f2b")
-	)
-	(wire
-		(pts
-			(xy 195.58 57.15) (xy 198.12 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae954f74-f756-4235-91ce-3ab726ff1768")
-	)
-	(wire
-		(pts
-			(xy 220.98 115.57) (xy 220.98 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b60f53cd-f1f5-4460-bef7-7e985f93acf0")
+		(uuid "b1ce2d00-ef6d-41a3-88e6-86da5ee4cd8c")
 	)
 	(wire
 		(pts
@@ -1578,33 +1240,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 113.03) (xy 223.52 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5e67359-4243-44e9-8763-43624ee5f00b")
-	)
-	(wire
-		(pts
-			(xy 194.31 106.68) (xy 196.85 106.68)
+			(xy 193.04 106.68) (xy 196.85 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8a4a280-0927-4a63-8f66-934613ed2b9d")
-	)
-	(wire
-		(pts
-			(xy 220.98 91.44) (xy 220.98 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc6a5acc-1a32-417e-b724-1c48b680d13c")
 	)
 	(wire
 		(pts
@@ -1618,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 30.48) (xy 198.12 30.48)
+			(xy 194.31 30.48) (xy 198.12 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1628,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 33.02) (xy 220.98 33.02)
+			(xy 213.36 33.02) (xy 224.79 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1638,27 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 113.03) (xy 223.52 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea83250c-b194-4890-b713-8ed056b3d16c")
-	)
-	(wire
-		(pts
-			(xy 193.04 106.68) (xy 194.31 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f402c70b-55c1-412f-af5c-512adc0bb547")
-	)
-	(wire
-		(pts
-			(xy 218.44 57.15) (xy 220.98 57.15)
+			(xy 218.44 57.15) (xy 224.79 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 80.01) (xy 196.85 80.01)
+			(xy 193.04 80.01) (xy 196.85 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1686,9 +1308,9 @@
 		)
 		(uuid "fcfec65b-a789-4ce2-bc30-67d5f2905267")
 	)
-	(global_label "VOUTC"
+	(global_label "5V"
 		(shape input)
-		(at 134.62 35.56 0)
+		(at 173.99 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1696,9 +1318,9 @@
 			)
 			(justify left)
 		)
-		(uuid "11bb75ff-c040-4232-85ef-58c269bad917")
+		(uuid "124369cb-b202-4c8b-a45e-dcd36edff02e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.5924 35.56 0)
+			(at 173.99 83.6167 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1332,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 99.06 40.64 180)
+		(at 106.68 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1718,14 +1340,36 @@
 			)
 			(justify right)
 		)
-		(uuid "314b47fc-a0ca-48ad-9167-a79c3a582e1a")
+		(uuid "172e28c2-b9b5-4678-b4ff-ab74dc5f9357")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.7767 40.64 0)
+			(at 106.68 54.8133 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 46.99 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18aa3fcc-f034-46e3-b362-25f8370bf3b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 17.5767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1752,68 +1396,46 @@
 			)
 		)
 	)
-	(global_label "CS_DAC2"
+	(global_label "VOUTD"
 		(shape input)
-		(at 99.06 48.26 180)
+		(at 119.38 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "3db52597-5bf3-4842-ad36-ef3e32130d87")
+		(uuid "434c2bd6-69cf-4898-9369-bdc25a89ae07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7896 48.26 0)
+			(at 128.3524 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCK_DAC"
-		(shape input)
-		(at 99.06 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "655a9831-70ee-4c89-b2ad-481d405ef794")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7291 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "5V"
 		(shape input)
-		(at 40.64 34.29 180)
+		(at 175.26 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "66042fc3-9a2a-483a-997d-c561fd7e85e4")
+		(uuid "60ed51ba-3e4e-4cc9-b5aa-af5ce1dfce05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.3567 34.29 0)
+			(at 175.26 31.5467 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1831,6 +1453,50 @@
 		(uuid "6c01e877-ab0f-412c-a567-8da6d320a70c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.0676 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI_DAC"
+		(shape input)
+		(at 29.21 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e828bf2-d441-411e-8ff5-213f939ceeeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.5443 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 46.99 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72231306-50c2-4048-ac58-032e0f2cb8a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 53.5433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,9 +1528,9 @@
 			)
 		)
 	)
-	(global_label "SDI_DAC"
+	(global_label "SCK_DAC"
 		(shape input)
-		(at 99.06 53.34 180)
+		(at 29.21 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1872,9 +1538,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8587ac50-770a-4563-b33b-b0cc626ab77a")
+		(uuid "82897821-efb2-4c16-bd88-ac73da7eafca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.3943 53.34 0)
+			(at 17.8791 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,9 +1550,31 @@
 			)
 		)
 	)
-	(global_label "VOUTD"
+	(global_label "SDI_DAC"
 		(shape input)
-		(at 134.62 38.1 0)
+		(at 88.9 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8870cce8-0915-4776-ae5f-97174293c4ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.2343 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 41.91 22.86 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1894,9 +1582,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9aec927f-5951-4917-84c6-70c51cb47bcd")
+		(uuid "9b5da9e3-57df-43db-ac68-8a98f590e8d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.5924 38.1 0)
+			(at 41.91 17.5767 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,9 +1594,9 @@
 			)
 		)
 	)
-	(global_label "VOUTA"
+	(global_label "5V"
 		(shape input)
-		(at 76.2 34.29 0)
+		(at 101.6 24.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1916,9 +1604,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9f37f15f-6ff6-4743-9795-dc35d9768afd")
+		(uuid "ae4d65ec-b1ba-4954-9b85-0906a247b408")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.991 34.29 0)
+			(at 101.6 18.8467 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +1618,7 @@
 	)
 	(global_label "SCK_DAC"
 		(shape input)
-		(at 40.64 49.53 180)
+		(at 88.9 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1938,9 +1626,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9fdfcfe0-fb9a-4cb3-a0a8-4c6794711f97")
+		(uuid "af2ecfea-8863-4bcb-a8d0-7fb8d0392c1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.3091 49.53 0)
+			(at 77.5691 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,9 +1638,53 @@
 			)
 		)
 	)
-	(global_label "VOUTB"
+	(global_label "CS_DAC1"
 		(shape input)
-		(at 76.2 36.83 0)
+		(at 29.21 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2b0ebc6-f6b9-4218-934e-d19fff05982e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.9396 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS_DAC2"
+		(shape input)
+		(at 88.9 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c51703fb-b1bd-4160-b141-4def72de85c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.6296 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 106.68 24.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1960,9 +1692,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ccb227a9-126a-4ab1-8210-b13d857c3b87")
+		(uuid "c6266431-e1d7-4e24-92f3-047b22890ec2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.1724 36.83 0)
+			(at 106.68 18.8467 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,90 +1704,46 @@
 			)
 		)
 	)
-	(global_label "CS_DAC1"
+	(global_label "VOUTB"
 		(shape input)
-		(at 40.64 46.99 180)
+		(at 59.69 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "ccd68891-e3a7-4090-ab9c-677f90a9b90d")
+		(uuid "d949de55-e8b5-4cac-b018-b8cd7f7c198e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.3696 46.99 0)
+			(at 68.6624 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "VOUTC"
 		(shape input)
-		(at 40.64 39.37 180)
+		(at 119.38 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "cd21e9af-abd0-4c3b-a314-dc6f334ee3d1")
+		(uuid "db7ea44d-74e1-43ca-a713-dbc5940a1a9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.3567 39.37 0)
+			(at 128.3524 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 40.64 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cda41195-5555-4286-88e7-e88681f67982")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.3567 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 99.06 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0f1de36-b5b4-498f-add5-2e5cf4070e72")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.7767 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2082,71 +1770,19 @@
 			)
 		)
 	)
-	(global_label "SDI_DAC"
+	(global_label "VOUTA"
 		(shape input)
-		(at 40.64 52.07 180)
+		(at 59.69 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "edcee827-9366-430c-8619-39cbaf57a172")
+		(uuid "e95c12d6-0b97-4ba7-a979-bddb0ac43165")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9743 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 99.06 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef5691cd-77dc-41a3-a593-ae5d30607fb4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.7767 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 219.71 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e473c73-82b2-4e6e-8132-358c31bd8241")
-		(property "Reference" "TP_VOUTC_BUF1"
-			(at 222.25 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 222.25 80.5179 0)
+			(at 68.481 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,75 +1791,35 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 224.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 219.71 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1993c41b-f740-420a-8249-8e0bc61f9075")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "TP_VOUTC_BUF1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 40.64 72.39 270)
-		(unit 1)
+		(lib_id "PCM_4ms_IC:TL072")
+		(at 175.26 43.18 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "209b90e2-11e9-474b-a2b6-ac318875252c")
-		(property "Reference" "#PWR07"
-			(at 34.29 72.39 0)
+		(uuid "0e910ecb-f091-49e0-90ce-d106e33d93b4")
+		(property "Reference" "U9"
+			(at 175.26 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 36.83 72.3899 90)
+		(property "Value" "TL072"
+			(at 175.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 72.39 0)
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+			(at 175.26 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +1828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 72.39 0)
+			(at 175.26 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,8 +1836,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 72.39 0)
+		(property "Description" "TL072 Dual Opamp TSSOP-8"
+			(at 175.26 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,39 +1845,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6f024c21-9e4b-4751-b7c4-fdfd95690b9b")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 194.31 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28fcd169-12f2-4713-b4e5-a7ace93ccd97")
-		(property "Reference" "TP_VOUTD_DAC1"
-			(at 196.85 103.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 196.85 104.6479 0)
+		(property "Specifications" "TL072 Dual Opamp"
+			(at 172.72 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,444 +1855,78 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 199.39 106.68 0)
+		(property "JLCPCB ID" "C90748"
+			(at 175.26 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 194.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9c786e6-4011-4c7b-9da4-c9c5d923b009")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "TP_VOUTD_DAC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32d87df4-9a3d-4b80-9277-f2835bbcf4da")
-		(property "Reference" "#PWR027"
-			(at 222.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7143e04-679f-4020-b9b6-efcd98fd2719")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 195.58 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46aba1e6-e597-4c2c-8f2b-d87f34eb66be")
-		(property "Reference" "TP_VOUTA_DAC1"
-			(at 198.12 27.1779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 198.12 28.4479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 200.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 195.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec366452-7d97-478b-8d97-379283fecc26")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "TP_VOUTA_DAC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCP4922:MCP4922-E_P")
-		(at 58.42 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5201dac6-d072-4d65-bfd6-4ea1e79080e7")
-		(property "Reference" "U4"
-			(at 58.42 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP4922-E_P"
-			(at 58.42 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MCP4922:DIP254P762X533-14"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Microchip"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Microchip MCP4922-E/P, 2-channel 12 bit Serial DAC, 14-Pin PDIP | Microchip Technology Inc. MCP4922-E/P\n                        \n"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "DIP-14"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MCP4922-E/P"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "DIP-14 Microchip"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "1292244"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP4922-E/P/Microchip/view-part/?ref=snap"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MCP4922-E/P"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" "Microchip"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" "61K2950"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MCP4922-E/P/Microchip/view-part/?ref=eda"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "d0d4d260-de7f-48d6-9e02-9d4a669c50c1")
 		)
 		(pin "6"
-			(uuid "34c578cb-1ea5-4fa2-bb06-65ddfc2c483b")
-		)
-		(pin "14"
-			(uuid "b2a5c103-a13d-4303-8c58-a170a8343734")
-		)
-		(pin "8"
-			(uuid "5e4bc70f-4c45-487d-a102-a4a49d0a2e26")
-		)
-		(pin "10"
-			(uuid "4da4e4c2-0c75-4fb3-8f70-0fa3cb78500f")
-		)
-		(pin "11"
-			(uuid "4bf0c216-a57f-4045-ac86-f232b09de338")
+			(uuid "c30d6f89-c809-4746-8064-17774961492a")
 		)
 		(pin "5"
-			(uuid "421a03d1-bc85-41e6-84da-26d754b766c5")
-		)
-		(pin "1"
-			(uuid "0deef7f1-b63d-46c3-9e49-c27c3cea63f7")
-		)
-		(pin "2"
-			(uuid "b7356e76-21b6-4f27-973f-2376403dceef")
-		)
-		(pin "9"
-			(uuid "849328a2-a0d1-4a22-be0e-35bd971ad3a7")
-		)
-		(pin "4"
-			(uuid "2cd8ea3f-2d1d-40ad-8b0b-3c5e9c94e01b")
-		)
-		(pin "12"
-			(uuid "e4bf9aba-d49b-4889-89d0-5375213d46d2")
+			(uuid "c438aaa5-269a-4f20-a9d9-187a2c9b0703")
 		)
 		(pin "3"
-			(uuid "ff1860f5-1a72-46d3-8785-c95fb7a9153b")
+			(uuid "aaef4795-28fc-4d3c-b3ba-fbbe9507cafa")
 		)
-		(pin "13"
-			(uuid "b1182c75-a638-49df-9f9c-3c6e56b39d61")
+		(pin "4"
+			(uuid "b7e9ab54-8673-4ae7-81c6-7d63e704f437")
+		)
+		(pin "2"
+			(uuid "6a2c2dc7-ddd1-4082-821c-897e6c156071")
+		)
+		(pin "1"
+			(uuid "4a0cb94b-aa3d-45a7-9b5d-2895b08e2f00")
+		)
+		(pin "8"
+			(uuid "1e74609c-9658-44a7-a911-8016b4b690d6")
+		)
+		(pin "7"
+			(uuid "61fe52c7-843b-43a2-bf64-3f3d90d0b352")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "U4")
-					(unit 1)
+					(reference "U9")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "eurocad:PJ301M-12")
-		(at 236.22 59.69 180)
+		(lib_id "power:GND")
+		(at 234.95 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5d07d0c3-9dd9-4f23-ac5b-91c15addaed8")
-		(property "Reference" "VOUTB1"
-			(at 248.92 59.0549 0)
+		(uuid "242ac434-65e2-4bf3-a87c-8592bc2e4e43")
+		(property "Reference" "#PWR021"
+			(at 234.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "PJ301M-12"
-			(at 248.92 61.5949 0)
+		(property "Value" "GND"
+			(at 234.95 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Eurocad:PJ301M-12"
-			(at 236.22 59.69 0)
+		(property "Footprint" ""
+			(at 234.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,15 +1935,16 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 59.69 0)
+			(at 234.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 236.22 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,19 +1953,309 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c30976f-27f0-4735-aaaf-37c37f5177e8")
-		)
-		(pin "3"
-			(uuid "f87b106b-55ab-468f-9c7f-d6475ff915dd")
-		)
-		(pin "2"
-			(uuid "37cd3828-3653-43cb-8a7f-ad50a719e3a0")
+			(uuid "b6e4b7cf-64c5-439a-b0aa-a3de24b49920")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "VOUTB1")
+					(reference "#PWR021")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30110c55-ed39-4184-bfff-15228d5fd48f")
+		(property "Reference" "#PWR022"
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "272d66b5-4959-43ad-9045-9b8165910e2c")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 229.87 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a3d2068-dd53-4cbd-8596-8a45b6905cc2")
+		(property "Reference" "J3"
+			(at 231.14 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_sm"
+			(at 224.028 55.372 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 229.997 52.197 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 232.41 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 232.41 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 232.41 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "C"
+			(at 232.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "Jack"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "273dcb07-d73c-4d40-b215-a6126520dbe6")
+		)
+		(pin "2"
+			(uuid "e20b335e-e521-4c4b-9092-ff76d6cc0ade")
+		)
+		(pin "1"
+			(uuid "897070ce-4d36-4fb4-b090-c30baa1cdd0e")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_IC:TL072")
+		(at 173.99 95.25 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c20f34-9a87-4664-ba3a-272c016d1f6d")
+		(property "Reference" "U5"
+			(at 177.8 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 177.8 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TL072 Dual Opamp TSSOP-8"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "TL072 Dual Opamp"
+			(at 171.45 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C90748"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "716d87af-cfd0-4ebe-bc81-0696e2801c55")
+		)
+		(pin "5"
+			(uuid "6f540d13-563e-4ee8-8723-4f7259a74d9e")
+		)
+		(pin "3"
+			(uuid "aaef4795-28fc-4d3c-b3ba-fbbe9507cafc")
+		)
+		(pin "4"
+			(uuid "950b0d81-cf22-4f8f-94c9-3a211265bd2f")
+		)
+		(pin "2"
+			(uuid "6a2c2dc7-ddd1-4082-821c-897e6c156073")
+		)
+		(pin "1"
+			(uuid "4a0cb94b-aa3d-45a7-9b5d-2895b08e2f02")
+		)
+		(pin "8"
+			(uuid "57a0c651-751b-465b-b393-6eeded98bf07")
+		)
+		(pin "7"
+			(uuid "82391473-3a5d-4397-90d5-742a520629b5")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "U5")
+					(unit 3)
 				)
 			)
 		)
@@ -2876,74 +2366,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 220.98 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a930a6a-1bb0-4047-949f-ef9628d8340e")
-		(property "Reference" "TP_VOUTB_BUF1"
-			(at 223.52 53.8479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 223.52 55.1179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 226.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 220.98 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93eb8624-7ce0-4356-b3b9-8f1f284e0f11")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "TP_VOUTB_BUF1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_4ms_IC:TL072")
 		(at 205.74 59.69 0)
 		(unit 2)
@@ -3022,19 +2444,19 @@
 			(uuid "3b984de4-bb62-4d7c-b0be-071317146fab")
 		)
 		(pin "3"
-			(uuid "aaef4795-28fc-4d3c-b3ba-fbbe9507cafa")
+			(uuid "aaef4795-28fc-4d3c-b3ba-fbbe9507cafb")
 		)
 		(pin "4"
-			(uuid "b7e9ab54-8673-4ae7-81c6-7d63e704f437")
+			(uuid "b7e9ab54-8673-4ae7-81c6-7d63e704f439")
 		)
 		(pin "2"
-			(uuid "6a2c2dc7-ddd1-4082-821c-897e6c156071")
+			(uuid "6a2c2dc7-ddd1-4082-821c-897e6c156072")
 		)
 		(pin "1"
-			(uuid "4a0cb94b-aa3d-45a7-9b5d-2895b08e2f00")
+			(uuid "4a0cb94b-aa3d-45a7-9b5d-2895b08e2f01")
 		)
 		(pin "8"
-			(uuid "1e74609c-9658-44a7-a911-8016b4b690d6")
+			(uuid "1e74609c-9658-44a7-a911-8016b4b690d8")
 		)
 		(pin "7"
 			(uuid "48926dad-2bec-4098-b341-a362fbe31252")
@@ -3044,78 +2466,6 @@
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
 					(reference "U9")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "eurocad:PJ301M-12")
-		(at 234.95 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b6740f2-39be-405e-a132-c2d745f2f849")
-		(property "Reference" "VOUTD1"
-			(at 247.65 108.5849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PJ301M-12"
-			(at 247.65 111.1249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Eurocad:PJ301M-12"
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f27ebd9-6487-477d-aed0-57e50ff49ec2")
-		)
-		(pin "3"
-			(uuid "9d7cabb1-1692-49b0-b712-12ded66a1799")
-		)
-		(pin "2"
-			(uuid "5ce0590e-0f05-44c5-9a7a-902f838677dd")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "VOUTD1")
-					(unit 1)
 				)
 			)
 		)
@@ -3193,16 +2543,16 @@
 			)
 		)
 		(pin "6"
-			(uuid "716d87af-cfd0-4ebe-bc81-0696e2801c55")
+			(uuid "716d87af-cfd0-4ebe-bc81-0696e2801c56")
 		)
 		(pin "5"
-			(uuid "6f540d13-563e-4ee8-8723-4f7259a74d9e")
+			(uuid "6f540d13-563e-4ee8-8723-4f7259a74d9f")
 		)
 		(pin "3"
 			(uuid "36966fb6-8f24-4c90-865a-2a9d4e121edb")
 		)
 		(pin "4"
-			(uuid "b7e9ab54-8673-4ae7-81c6-7d63e704f439")
+			(uuid "b7e9ab54-8673-4ae7-81c6-7d63e704f43a")
 		)
 		(pin "2"
 			(uuid "d745365e-a969-4827-97a4-2f07b3bf92df")
@@ -3211,10 +2561,10 @@
 			(uuid "0014aaa8-c3c2-41c3-be73-744eeca67bab")
 		)
 		(pin "8"
-			(uuid "1e74609c-9658-44a7-a911-8016b4b690d8")
+			(uuid "1e74609c-9658-44a7-a911-8016b4b690d9")
 		)
 		(pin "7"
-			(uuid "82391473-3a5d-4397-90d5-742a520629b5")
+			(uuid "82391473-3a5d-4397-90d5-742a520629b6")
 		)
 		(instances
 			(project "double_pendulum"
@@ -3227,16 +2577,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 41.91 0)
+		(at 175.26 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "909fd53d-98b1-490d-99ba-932d1f74354e")
-		(property "Reference" "#PWR026"
-			(at 222.25 48.26 0)
+		(uuid "9dc63ca0-5698-4e66-95ca-1a396d42e5af")
+		(property "Reference" "#PWR027"
+			(at 175.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +2595,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 46.99 0)
+			(at 175.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +2603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 41.91 0)
+			(at 175.26 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +2612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 41.91 0)
+			(at 175.26 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +2621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 41.91 0)
+			(at 175.26 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +2630,490 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f69b86b-4b4c-44b1-b3ed-1def0a82b1cd")
+			(uuid "aa16a427-9e3d-4704-ae09-93fd3beb14a2")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 228.6 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8e0bc0c-48e7-48fe-9592-d2617fc786e8")
+		(property "Reference" "J9"
+			(at 229.87 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_sm"
+			(at 222.758 104.902 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 228.727 101.727 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 231.14 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 231.14 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 231.14 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "C"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "Jack"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "03fdb984-3ebe-42bb-bdd9-8f7733e4f367")
+		)
+		(pin "2"
+			(uuid "3e124673-77fa-4f9b-8658-fe4f58f21b0b")
+		)
+		(pin "1"
+			(uuid "013b2dc4-84da-4dc5-b74d-4c9700501168")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_DAC:MCP4922-ESL")
+		(at 44.45 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3829626-8c29-487d-b1f1-9acad4ced1e5")
+		(property "Reference" "U1"
+			(at 68.58 24.1614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP4922-ESL"
+			(at 68.58 26.7014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm"
+			(at 44.45 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf"
+			(at 44.45 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 12-bit Digital to Analog Converter, SPI Interface, SOIC-14"
+			(at 44.45 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19713958-aff2-4178-b3b7-adc0f286ab56")
+		)
+		(pin "12"
+			(uuid "cb030aa6-e683-4573-9bbe-9f539e6ad642")
+		)
+		(pin "14"
+			(uuid "d383f267-8b6c-43cf-93d6-c9ca8f38025f")
+		)
+		(pin "6"
+			(uuid "b47a2251-f672-416c-9dfa-568c084438f7")
+		)
+		(pin "2"
+			(uuid "0d763473-5314-4828-869b-929660c216c9")
+		)
+		(pin "5"
+			(uuid "ccdd3ded-d648-42ff-917e-659cbdd33f3b")
+		)
+		(pin "8"
+			(uuid "23268859-6dc7-41f9-8b07-5762de6acb8b")
+		)
+		(pin "4"
+			(uuid "8b919480-5d9c-4127-8b1b-affd15283b86")
+		)
+		(pin "9"
+			(uuid "f4224101-6a81-4d5f-b13c-b6faea548ac6")
+		)
+		(pin "7"
+			(uuid "49da00e7-b5a5-4bc0-8e07-765ad4435f9b")
+		)
+		(pin "10"
+			(uuid "75b6c3fa-6020-4cd3-b46d-20ba1650a069")
+		)
+		(pin "11"
+			(uuid "5eae0b8c-8fd3-46b8-84eb-59e41974017b")
+		)
+		(pin "13"
+			(uuid "452553f2-db1f-4a2d-93ea-dc3250b2a8c7")
+		)
+		(pin "3"
+			(uuid "5447b047-9bf6-4cba-86bf-94e9ae74a4c7")
+		)
+		(instances
+			(project ""
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c06dda4c-d099-4b52-90eb-87ce11dd4d96")
+		(property "Reference" "#PWR054"
+			(at 234.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2acca7e3-f355-4b09-82e9-f1857dcd9fe9")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 228.6 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c10eb7ce-0d2f-4933-88ed-b88f6606e919")
+		(property "Reference" "J10"
+			(at 229.87 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_sm"
+			(at 222.758 129.032 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 228.727 125.857 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 231.14 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 231.14 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 231.14 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "C"
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "Jack"
+			(at 229.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "20c95d55-4989-4dcb-b757-7f03cc5be2a1")
+		)
+		(pin "2"
+			(uuid "0860cd2f-d690-4817-8ecc-4eb4d80068d8")
+		)
+		(pin "1"
+			(uuid "f87d365a-25e3-4d50-b873-3891f89de3c3")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce0005a2-6f33-4857-9dbd-5af3522d2c31")
+		(property "Reference" "#PWR026"
+			(at 233.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b59877b-9577-4f1d-8bcb-fc8284f4aabc")
 		)
 		(instances
 			(project "double_pendulum"
@@ -3292,109 +3125,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 220.98 91.44 0)
+		(lib_id "4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 229.87 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9aeba21b-1ae5-436e-b663-ff229c8d2079")
-		(property "Reference" "#PWR021"
-			(at 220.98 97.79 0)
+		(uuid "d0629986-e3ca-400a-80c9-41be5ee15010")
+		(property "Reference" "J5"
+			(at 231.14 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "3.5mm_Mono_Switched_sm"
+			(at 224.028 79.502 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 220.98 96.52 0)
+		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(at 229.997 76.327 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f232d9d-5085-45d7-bcf8-ffea837911c5")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 220.98 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0f93d87-679d-43a2-9075-ff6b2026ead3")
-		(property "Reference" "#PWR022"
-			(at 220.98 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 115.57 0)
+			(at 231.14 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 229.87 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,130 +3179,85 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 115.57 0)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 232.41 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8a21923b-8a1c-4889-ac2e-397b8f97573d")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "eurocad:PJ301M-12")
-		(at 234.95 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a159a9c1-d8ec-4dd9-be98-339ad7aff919")
-		(property "Reference" "VOUTC1"
-			(at 247.65 84.4549 0)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 232.41 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Value" "PJ301M-12"
-			(at 247.65 86.9949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Eurocad:PJ301M-12"
-			(at 234.95 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 234.95 85.09 0)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 232.41 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "5e55d879-9221-4b3d-80bc-8901ecd9fc98")
+		(property "Production Stage" "C"
+			(at 232.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "Jack"
+			(at 231.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "5d3be331-8f58-4550-a32a-46a953610c8a")
+			(uuid "22da216c-432f-40fb-adba-c227ab371894")
 		)
 		(pin "2"
-			(uuid "5920ac57-8867-4d47-b547-635186239b67")
+			(uuid "1780b081-10d0-4648-bf6e-caae68d9160b")
+		)
+		(pin "1"
+			(uuid "17bd759a-e6ae-4616-98a3-3610d3bf0550")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "VOUTC1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 219.71 106.68 0)
+		(lib_id "power:GND")
+		(at 41.91 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bdcc940d-1fd6-4ad3-9323-8646a7afe3b9")
-		(property "Reference" "TP_VOUTD_BUF1"
-			(at 222.25 103.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 222.25 104.6479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 224.79 106.68 0)
+		(uuid "e7029b59-669b-45be-be52-fc89b610e82a")
+		(property "Reference" "#PWR038"
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,141 +3265,27 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 224.79 106.68 0)
+		(property "Value" "GND"
+			(at 41.9099 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 219.71 106.68 0)
+		(property "Footprint" ""
+			(at 41.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce233287-acf7-4b78-b324-bd11055ea3b6")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "TP_VOUTD_BUF1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 194.31 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0c9caf5-38c7-437b-892a-b6b93d84607a")
-		(property "Reference" "TP_VOUTC_DAC1"
-			(at 196.85 76.7079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 196.85 77.9779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 199.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 194.31 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dee6863-f1ec-4602-a6f8-1b0ef01f2f43")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "TP_VOUTC_DAC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCP4922:MCP4922-E_P")
-		(at 116.84 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d950025c-7b25-4dc6-98f5-bb93097851fd")
-		(property "Reference" "U7"
-			(at 116.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP4922-E_P"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MCP4922:DIP254P762X533-14"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 50.8 0)
+			(at 41.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,394 +3293,195 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 116.84 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MF" "Microchip"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Microchip MCP4922-E/P, 2-channel 12 bit Serial DAC, 14-Pin PDIP | Microchip Technology Inc. MCP4922-E/P\n                        \n"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "DIP-14"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MCP4922-E/P"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "DIP-14 Microchip"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "1292244"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP4922-E/P/Microchip/view-part/?ref=snap"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MCP4922-E/P"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" "Microchip"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" "61K2950"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MCP4922-E/P/Microchip/view-part/?ref=eda"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "8351c320-0f81-4f7d-8da7-5ad5b418d317")
-		)
-		(pin "6"
-			(uuid "d4b71eb4-c95a-44b2-b5b4-28500ea71b66")
-		)
-		(pin "14"
-			(uuid "10d67c56-7756-440f-8c2c-4559f14661e3")
-		)
-		(pin "8"
-			(uuid "11bf4090-2243-49ad-bcdc-0bff59231223")
-		)
-		(pin "10"
-			(uuid "b44e41cf-ea17-47b2-a805-674974be986a")
-		)
-		(pin "11"
-			(uuid "7a3d649a-3b82-4696-a903-942e57feadae")
-		)
-		(pin "5"
-			(uuid "6415f607-8464-458e-a027-3485d7cda262")
 		)
 		(pin "1"
-			(uuid "98fb012c-bbd9-4eae-959d-3778e0893e15")
+			(uuid "25c9c6f0-25d4-4bb5-86bd-9b28dfbd381b")
 		)
-		(pin "2"
-			(uuid "3718c166-093c-40c6-98ef-3a71b656ec58")
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 		)
-		(pin "9"
-			(uuid "98520a61-f119-4072-9d1f-52d77b91edfd")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea803c6c-0a81-41d2-85b7-002c4ea89976")
+		(property "Reference" "#PWR03"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "d7b363e6-3a58-4ea6-9bc5-d7d839ab147c")
+		(property "Value" "GND"
+			(at 101.5999 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5637f29c-d659-4337-a617-e672c8290ed8")
+		)
+		(instances
+			(project "double_pendulum"
+				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_DAC:MCP4922-ESL")
+		(at 104.14 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f482d89c-371c-4fb1-a574-c589231e27c5")
+		(property "Reference" "U11"
+			(at 128.27 25.4314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP4922-ESL"
+			(at 128.27 27.9714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 12-bit Digital to Analog Converter, SPI Interface, SOIC-14"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a81242a-3123-41e6-8a68-1b8ec2e3731d")
 		)
 		(pin "12"
-			(uuid "cb60dc93-2a8b-493d-a548-ab3588acc40f")
+			(uuid "97a2d852-fbf0-4434-b1c6-fa02b77c6797")
 		)
-		(pin "3"
-			(uuid "fb62b36e-15d6-479c-975f-4e1d24b26999")
+		(pin "14"
+			(uuid "b67f4318-7625-4984-aa4f-972a336cb18c")
+		)
+		(pin "6"
+			(uuid "7eff3e79-8163-4d10-b4ab-7e87e5ac637f")
+		)
+		(pin "2"
+			(uuid "e1fcc1a4-4560-4df0-a887-bb0827c6f0ea")
+		)
+		(pin "5"
+			(uuid "04b95c34-f23c-4ae6-b821-8a482032024c")
+		)
+		(pin "8"
+			(uuid "5d4e2544-8d62-4bfd-a9de-b9608df219b6")
+		)
+		(pin "4"
+			(uuid "51d5dd68-01f6-40a4-a6f1-47fd0ee2a79a")
+		)
+		(pin "9"
+			(uuid "c87e1c91-1259-4adc-b022-0bea8c2a7cd2")
+		)
+		(pin "7"
+			(uuid "549f0375-4dcc-4af2-9cb5-d2423b130e45")
+		)
+		(pin "10"
+			(uuid "d76d78ff-141b-4ba0-8ce0-1134de1d7cf7")
+		)
+		(pin "11"
+			(uuid "d1d4b944-d689-4b02-abc7-df2c845f3c12")
 		)
 		(pin "13"
-			(uuid "2ab81919-e498-4ff2-be95-71e1404f266f")
+			(uuid "3481e18a-db76-4443-b953-a7f4fab6add3")
+		)
+		(pin "3"
+			(uuid "e1f2f0d6-2694-4ebb-bf4b-f369376966cc")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de4df9b2-65c5-416a-b439-244a2d47d84f")
-		(property "Reference" "#PWR08"
-			(at 92.71 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "188bb397-59d7-4762-9bb4-de30710c62f2")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 195.58 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e51731bd-37f1-484e-a52e-b4d853c3e665")
-		(property "Reference" "TP_VOUTB_DAC1"
-			(at 198.12 53.8479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 198.12 55.1179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 200.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 195.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fac46ede-26d6-47ae-9018-ad0079ee588b")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "TP_VOUTB_DAC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 220.98 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2459902-8641-4e25-b254-841016ece64f")
-		(property "Reference" "TP_VOUTA_BUF1"
-			(at 223.52 29.7179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 223.52 30.9879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 220.98 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd5f660c-a54b-48b7-bfa6-803bea3ae798")
-		)
-		(instances
-			(project "double_pendulum"
-				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "TP_VOUTA_BUF1")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -4147,19 +3566,19 @@
 			(uuid "c141c081-eaa1-4148-b173-5534a3c295b6")
 		)
 		(pin "3"
-			(uuid "aaef4795-28fc-4d3c-b3ba-fbbe9507cafc")
+			(uuid "aaef4795-28fc-4d3c-b3ba-fbbe9507cafd")
 		)
 		(pin "4"
-			(uuid "b7e9ab54-8673-4ae7-81c6-7d63e704f43a")
+			(uuid "b7e9ab54-8673-4ae7-81c6-7d63e704f43b")
 		)
 		(pin "2"
-			(uuid "6a2c2dc7-ddd1-4082-821c-897e6c156073")
+			(uuid "6a2c2dc7-ddd1-4082-821c-897e6c156074")
 		)
 		(pin "1"
-			(uuid "4a0cb94b-aa3d-45a7-9b5d-2895b08e2f02")
+			(uuid "4a0cb94b-aa3d-45a7-9b5d-2895b08e2f03")
 		)
 		(pin "8"
-			(uuid "1e74609c-9658-44a7-a911-8016b4b690d9")
+			(uuid "1e74609c-9658-44a7-a911-8016b4b690da")
 		)
 		(pin "7"
 			(uuid "7708dbc1-b422-49b5-b6ae-27d9a87e55fe")
@@ -4174,35 +3593,34 @@
 		)
 	)
 	(symbol
-		(lib_id "eurocad:PJ301M-12")
-		(at 236.22 35.56 180)
+		(lib_id "power:GND")
+		(at 173.99 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd0868fd-f225-4f94-97f8-0b12fcae0636")
-		(property "Reference" "VOUTA1"
-			(at 248.92 34.9249 0)
+		(uuid "f7679dc8-e260-4867-9881-071b71b6ebaa")
+		(property "Reference" "#PWR023"
+			(at 173.99 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "PJ301M-12"
-			(at 248.92 37.4649 0)
+		(property "Value" "GND"
+			(at 173.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Eurocad:PJ301M-12"
-			(at 236.22 35.56 0)
+		(property "Footprint" ""
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,15 +3629,16 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 35.56 0)
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 236.22 35.56 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,18 +3647,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c3d1590-9cfd-4449-89f1-db973bafc322")
-		)
-		(pin "3"
-			(uuid "5a5e02d8-b5d5-4a20-8fbe-100267a8831c")
-		)
-		(pin "2"
-			(uuid "3624632f-b8e0-425d-a6fe-24a5852718dd")
+			(uuid "0add51db-23ab-4a77-9ad2-bc235b12683f")
 		)
 		(instances
 			(project "double_pendulum"
 				(path "/f831b1c3-68ad-4f3d-9475-e92132623ee7/8ca3eef1-6b9c-4d1d-9253-242b5735f963"
-					(reference "VOUTA1")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
