@@ -678,6 +678,10 @@
     [
       "62063eaf-8a8e-4b69-9d16-9268e74da748",
       "Clock Led"
+    ],
+    [
+      "095f5296-3dad-4b30-a98d-097ba174bc8d",
+      "Mode Led"
     ]
   ],
   "text_variables": {}

@@ -681,10 +681,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a739f85-4e8a-463e-ae4c-242b62880647")
+			(uuid "74aca705-4eba-420e-9628-00e1b1e341fe")
 		)
 		(instances
 			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/095f5296-3dad-4b30-a98d-097ba174bc8d"
+					(reference "#PWR089")
+					(unit 1)
+				)
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/62063eaf-8a8e-4b69-9d16-9268e74da748"
 					(reference "#PWR045")
 					(unit 1)
@@ -782,10 +786,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8d98cf3-0d37-473a-ae7d-c231f9bc1fc6")
+			(uuid "bfde0ce6-154e-450a-aedb-abebccfcff89")
 		)
 		(instances
 			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/095f5296-3dad-4b30-a98d-097ba174bc8d"
+					(reference "#PWR088")
+					(unit 1)
+				)
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/62063eaf-8a8e-4b69-9d16-9268e74da748"
 					(reference "#PWR041")
 					(unit 1)
@@ -962,13 +970,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "1e1f1363-e1ba-480d-ade9-150373a1c807")
+			(uuid "1ce4f31f-a6cd-4e39-a634-2bae51ff40ee")
 		)
 		(pin "1"
-			(uuid "25056699-5714-4ce8-b927-df0b9101e799")
+			(uuid "17836c50-2b53-4762-846d-0b107d050933")
 		)
 		(instances
 			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/095f5296-3dad-4b30-a98d-097ba174bc8d"
+					(reference "C25")
+					(unit 1)
+				)
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/62063eaf-8a8e-4b69-9d16-9268e74da748"
 					(reference "C24")
 					(unit 1)
@@ -1067,19 +1079,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "511b9f42-1f3d-421c-98f5-04008414c80c")
+			(uuid "9ab67dcc-7ced-4127-8f1a-97c0bc206a32")
 		)
 		(pin "3"
-			(uuid "ed7586f1-e722-4793-87f6-959729e2e737")
+			(uuid "e9d3458b-1bff-4c62-94c0-5cb1bf0eb9fa")
 		)
 		(pin "4"
-			(uuid "55613903-b836-4c97-8792-62983c94cc22")
+			(uuid "d24c4c9e-e273-4b90-8b64-b4bcfd03e792")
 		)
 		(pin "1"
-			(uuid "ad47f21a-c07b-46a0-98cf-d635ba7b0bd8")
+			(uuid "c7471072-5148-49bf-a0b6-1641ded51172")
 		)
 		(instances
 			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/095f5296-3dad-4b30-a98d-097ba174bc8d"
+					(reference "D20")
+					(unit 1)
+				)
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/62063eaf-8a8e-4b69-9d16-9268e74da748"
 					(reference "D18")
 					(unit 1)

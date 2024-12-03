@@ -1325,102 +1325,6 @@
 				)
 			)
 		)
-		(symbol "4ms_Power-symbol:GNDA"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "(analog) ground power-flag symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Power Flag Symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:LD1117S50TR_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1721,12 +1625,6 @@
 		(uuid "837bbe9c-b5f2-4f6d-98e2-b199c0b6cfaa")
 	)
 	(junction
-		(at 49.53 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85e79d90-ab79-409e-8a5b-36a655f16005")
-	)
-	(junction
 		(at 68.58 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1791,6 +1689,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6851405-787d-4bc2-8737-b6cd93abc6eb")
+	)
+	(junction
+		(at 49.53 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b0bb47-e9d1-4771-92e6-e1ec0c3f677c")
 	)
 	(junction
 		(at 91.44 87.63)
@@ -2317,6 +2221,72 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_Power-symbol:-12VA")
+		(at 41.91 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f21c4f4-0f20-4eb6-9b23-97fdb17a7f92")
+		(property "Reference" "#PWR048"
+			(at 45.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12VA"
+			(at 38.1 102.8701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68294b5b-4cdf-4bb3-8682-e260d077ccef")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
 		(at 102.87 90.17 0)
 		(unit 1)
@@ -2435,6 +2405,71 @@
 			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 49.53 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b2ace52-b5dc-47a7-8f5b-49309fdaf9cc")
+		(property "Reference" "#PWR020"
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.372 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01548e96-4d71-45d2-8fac-fdbb3a11502d")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3396,6 +3431,72 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_Power-symbol:+12V")
+		(at 41.91 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63e626a6-382a-41b2-9cd0-9c27d0caa5ea")
+		(property "Reference" "#PWR049"
+			(at 45.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 38.1 87.6301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e1e933e-2e85-4d6d-8c4a-f3f0a37754d2")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 71.12 62.23 0)
 		(unit 1)
@@ -3907,72 +4008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Power-symbol:-12VA")
-		(at 41.91 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a447b982-43fe-4de8-818e-a83ff8cb8d89")
-		(property "Reference" "#PWR048"
-			(at 45.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12VA"
-			(at 38.1 87.6301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f5c757f-b74b-4dc1-8d25-fa4e64088770")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4ms_Capacitor:0.1uF_0603_16V")
 		(at 68.58 100.33 0)
 		(unit 1)
@@ -4221,17 +4256,16 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Power-symbol:GNDA")
-		(at 49.53 35.56 90)
+		(lib_id "4ms_Power-symbol:GND")
+		(at 118.11 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6209ef5-b4e5-42df-a5ea-4fbfd79857f1")
-		(property "Reference" "#PWR020"
-			(at 55.88 35.56 0)
+		(uuid "be3c2c01-7314-4cfb-89f7-b1374520f73d")
+		(property "Reference" "#PWR050"
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,17 +4273,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 53.34 35.5599 90)
+		(property "Value" "GND"
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 35.56 0)
+			(at 118.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 35.56 0)
+			(at 118.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,8 +4299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "(analog) ground power-flag symbol"
-			(at 49.53 35.56 0)
+		(property "Description" ""
+			(at 118.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,12 +4309,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "29aba5e2-ce25-4738-bf4e-a3e4bf2d829d")
+			(uuid "8ddff8d9-9b24-4b27-9edf-823d95312308")
 		)
 		(instances
-			(project ""
+			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
-					(reference "#PWR020")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4926,139 +4959,6 @@
 			(project "switch_sequencer"
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GNDA")
-		(at 118.11 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e62cfdf5-5462-43eb-a27a-9a9de5ec6a13")
-		(property "Reference" "#PWR050"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 121.92 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "(analog) ground power-flag symbol"
-			(at 118.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42e957ed-9e88-4e0a-9ff4-cdb0c68eb3b4")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:+12V")
-		(at 41.91 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1590970-b1f0-4f64-9df3-0be7c4ecf235")
-		(property "Reference" "#PWR049"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 38.1 102.8701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d44a963f-093d-4428-87b5-4b6759c6177d")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/8e85c82b-0dc0-4eee-b65d-794598d9520b"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)

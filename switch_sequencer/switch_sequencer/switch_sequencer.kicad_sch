@@ -212,107 +212,6 @@
 				)
 			)
 		)
-		(symbol "4ms_Hardware:Faceplate"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(property "Reference" "FP"
-				(at 0 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Faceplate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Posin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Production Stage" "F"
-				(at -3.7084 -3.3782 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Faceplate_0_1"
-				(rectangle
-					(start -5.08 1.27)
-					(end 5.08 -1.27)
-					(stroke
-						(width 0.0254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "4ms_IC:TL072"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1167,6 +1066,289 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "D6R90:D6R90F2LFS"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 13.335 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "D6R90F2LFS"
+				(at 20.32 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "D6R90_CNK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "D6R90F2LFS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "D6R90F2LFS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D6R90_CNK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D6R90F2LFS_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 17.78 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 17.78 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 12.7 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.715) (xy 14.605 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 12.7 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -10.16) (xy 17.78 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.7 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.7 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -7.62 180)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 0 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2423,6 +2605,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Reference_Voltage:LM4040DBZ-3"
 			(pin_names
 				(offset 0.0254) hide)
@@ -2619,8 +2883,84 @@
 		(uuid "9d49dbea-f7af-43e2-b3cd-36b1d2f0f87e")
 	)
 	(no_connect
+		(at 88.9 111.76)
+		(uuid "253de449-92d5-4b8d-bdc1-1bdac712e502")
+	)
+	(no_connect
+		(at 124.46 114.3)
+		(uuid "29d98037-ee23-4b75-b0d7-9052777b0111")
+	)
+	(no_connect
+		(at 88.9 104.14)
+		(uuid "4b801bd0-ec54-4e1b-82ee-9ea1a6df0b33")
+	)
+	(no_connect
+		(at 88.9 99.06)
+		(uuid "6085378d-9f9f-4c6e-bfba-57d1ed7966f4")
+	)
+	(no_connect
+		(at 88.9 114.3)
+		(uuid "7f97915a-6d91-4269-8ea1-ebfe4abd8272")
+	)
+	(no_connect
+		(at 88.9 119.38)
+		(uuid "7faf6708-c869-4574-bc32-d8fe669139cb")
+	)
+	(no_connect
+		(at 124.46 132.08)
+		(uuid "86aa120d-982c-4538-87c8-0db791139d7b")
+	)
+	(no_connect
+		(at 124.46 96.52)
+		(uuid "86aef902-32c6-4877-9353-8799ff3b1ca9")
+	)
+	(no_connect
+		(at 88.9 101.6)
+		(uuid "8ba838ef-23a5-476a-b629-63b683cc6f92")
+	)
+	(no_connect
+		(at 88.9 132.08)
+		(uuid "94ff57e9-bfc9-417a-b391-203ed05e1083")
+	)
+	(no_connect
+		(at 124.46 129.54)
+		(uuid "9b8538e2-a8d0-4f5c-b63c-5a3357fe9f3c")
+	)
+	(no_connect
+		(at 106.68 142.24)
+		(uuid "ac837af2-79f7-4f95-818e-5c3941a3ff4c")
+	)
+	(no_connect
+		(at 88.9 106.68)
+		(uuid "b138d274-5587-40aa-9390-f2942ce514a4")
+	)
+	(no_connect
+		(at 104.14 142.24)
+		(uuid "bc568fea-7aae-48a1-84c4-e2d9678450fe")
+	)
+	(no_connect
 		(at 227.33 34.29)
 		(uuid "c2c75a17-4c83-455b-aa0b-7713e498469b")
+	)
+	(no_connect
+		(at 109.22 142.24)
+		(uuid "c862970e-f457-41c9-a3af-2fee282402f1")
+	)
+	(no_connect
+		(at 124.46 104.14)
+		(uuid "ef410c19-5525-4911-9baf-67f473cdb3c2")
+	)
+	(no_connect
+		(at 88.9 93.98)
+		(uuid "f3d711db-e43a-44e0-a15b-5afcadd55ca9")
+	)
+	(no_connect
+		(at 124.46 119.38)
+		(uuid "fdfd906c-c681-4914-9974-ded73c5d7abb")
+	)
+	(no_connect
+		(at 88.9 109.22)
+		(uuid "fec9439f-5353-4e84-9688-39ed27029315")
 	)
 	(wire
 		(pts
@@ -2774,16 +3114,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 34.29) (xy 96.52 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8c139e-ef94-4630-916a-728d9ee1854e")
-	)
-	(wire
-		(pts
 			(xy 138.43 107.95) (xy 144.78 107.95)
 		)
 		(stroke
@@ -2791,6 +3121,16 @@
 			(type default)
 		)
 		(uuid "a24d2666-4ee8-40ad-acc8-926ea311a49a")
+	)
+	(wire
+		(pts
+			(xy 62.23 34.29) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a436658a-1f6c-4b2c-8e44-bad765364143")
 	)
 	(wire
 		(pts
@@ -2861,6 +3201,16 @@
 			(type default)
 		)
 		(uuid "df69742a-b5f5-440b-ad19-0f68a729f4d6")
+	)
+	(wire
+		(pts
+			(xy 85.09 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df82c0e8-5007-483c-8b48-cbab7cab398b")
 	)
 	(wire
 		(pts
@@ -2956,9 +3306,9 @@
 			)
 		)
 	)
-	(global_label "BUTTON_3"
+	(global_label "BUTTON_4"
 		(shape input)
-		(at 88.9 111.76 180)
+		(at 88.9 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2966,9 +3316,9 @@
 			)
 			(justify right)
 		)
-		(uuid "16388d53-6504-4d00-b275-d27cbd004732")
+		(uuid "12b07318-69e5-4aa4-b008-237eed240964")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.541 111.76 0)
+			(at 76.541 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,6 +3480,28 @@
 			)
 		)
 	)
+	(global_label "BUTTON_1"
+		(shape input)
+		(at 88.9 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c6e13e9-58cf-47db-b90f-703cf7f3b533")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.541 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MUX_D1"
 		(shape input)
 		(at 88.9 134.62 180)
@@ -3168,6 +3540,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_9"
+		(shape input)
+		(at 124.46 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64172e82-c5cd-45b1-b187-17372b972c69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.819 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3214,9 +3608,31 @@
 			)
 		)
 	)
-	(global_label "BUTTON_1"
+	(global_label "WS2812_SIG"
 		(shape input)
-		(at 88.9 104.14 180)
+		(at 124.46 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82ecb7c5-7f70-4b1d-8fb7-bae21387a711")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.996 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_2"
+		(shape input)
+		(at 88.9 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3224,9 +3640,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7a0f71c2-ff85-41ec-afe0-a84a120a0c41")
+		(uuid "848fe251-12b3-411d-868f-7e965a938a1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.541 104.14 0)
+			(at 76.541 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,6 +3714,28 @@
 			)
 		)
 	)
+	(global_label "RESET"
+		(shape input)
+		(at 124.46 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f64e88b-0d5c-44fb-97b8-23d86d506be3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1903 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART0_TX"
 		(shape output)
 		(at 46.99 124.46 180)
@@ -3340,31 +3778,9 @@
 			)
 		)
 	)
-	(global_label "BUTTON_2"
+	(global_label "CLOCK"
 		(shape input)
-		(at 88.9 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac4122f6-7877-4bf4-a8a3-f14c4c6c7269")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.541 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WS2812_SIG"
-		(shape input)
-		(at 77.47 151.13 0)
+		(at 124.46 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3372,9 +3788,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b1d785d2-7237-4c55-bfa3-cc7dd994753e")
+		(uuid "ab19b12e-ea4b-415f-8830-bcdf59094bd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.006 151.13 0)
+			(at 133.6138 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3974,7 @@
 	)
 	(global_label "WS2812_SIG"
 		(shape input)
-		(at 90.17 34.29 180)
+		(at 62.23 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3568,7 +3984,7 @@
 		)
 		(uuid "e335bb6c-edf2-4b06-9758-ba17b3b426ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.634 34.29 0)
+			(at 47.694 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,46 +3994,46 @@
 			)
 		)
 	)
-	(global_label "CLOCK"
+	(global_label "BUTTON_3"
 		(shape input)
-		(at 124.46 111.76 0)
+		(at 88.9 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f82ebeb3-79d8-47e4-a9a8-67446797ac68")
+		(uuid "f2742e75-42af-4661-9a00-47761076191e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.6138 111.76 0)
+			(at 76.541 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "RESET"
+	(global_label "BUTTON_9"
 		(shape input)
-		(at 124.46 109.22 0)
+		(at 209.55 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "faaef88f-18da-4a77-9a2c-2d7e34163cf9")
+		(uuid "f4754241-942d-4eaa-8323-73c81c4cbaf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1903 109.22 0)
+			(at 197.191 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3828,105 +4244,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Hardware:Faceplate")
-		(at 97.79 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35e11b15-1a3e-493e-b02f-45bf54f0a43f")
-		(property "Reference" "FP1"
-			(at 97.79 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Top Rail"
-			(at 97.79 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "4ms_Faceplate:Rail_Connection_16HP"
-			(at 97.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 97.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Posin"
-			(at 97.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" ""
-			(at 97.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "F"
-			(at 94.0816 64.3382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
-					(reference "FP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4ms_Jack:3.5mm_Mono_Switched_sm")
 		(at 236.22 95.25 0)
 		(unit 1)
@@ -4048,6 +4365,146 @@
 		)
 	)
 	(symbol
+		(lib_id "D6R90:D6R90F2LFS")
+		(at 209.55 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42ce14be-fd3c-40b7-8725-b73b100bb0b6")
+		(property "Reference" "SW9"
+			(at 222.25 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "D6R90F2LFS"
+			(at 222.25 123.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "D6R90:D6R90_CNK"
+			(at 209.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "D6R90F2LFS"
+			(at 209.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b44dc5b7-389e-4f34-a4f7-196dfcdcee1c")
+		)
+		(pin "3"
+			(uuid "d13666f3-1f3d-44a2-9950-c245c0a93086")
+		)
+		(pin "2"
+			(uuid "de215bf2-24de-42fd-85f6-bcea7920380c")
+		)
+		(pin "1"
+			(uuid "b6708d0d-7f29-4d5c-8217-6d645d4ea101")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 165.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fd32e32-e190-49a9-9948-bbf09cf4461c")
+		(property "Reference" "H1"
+			(at 66.04 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_IC:TL072")
 		(at 248.92 92.71 0)
 		(unit 2)
@@ -4158,6 +4615,134 @@
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
 					(reference "U4")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5496050f-3e56-4d95-87d3-d9f1a8f552aa")
+		(property "Reference" "H3"
+			(at 66.04 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 172.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56107160-2144-4923-9bed-26808400e4ef")
+		(property "Reference" "H2"
+			(at 66.04 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "H2")
+					(unit 1)
 				)
 			)
 		)
@@ -4396,6 +4981,72 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 209.55 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67162a76-f3a4-4698-959d-612b7c2fb440")
+		(property "Reference" "#PWR087"
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e586c4e-3b48-4f78-a899-ff06916aec4f")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_IC:TL072")
 		(at 195.58 92.71 0)
 		(unit 1)
@@ -4505,6 +5156,70 @@
 			(project ""
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8261a496-7311-4faa-9e4b-6d15f7d7d64d")
+		(property "Reference" "H4"
+			(at 66.04 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Faceplate:Faceplate_Rail_Mount_Slot_Plated"
+			(at 63.5 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5055,105 +5770,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Hardware:Faceplate")
-		(at 97.79 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd1cf8ad-8608-49fb-b8d0-199a634e43fb")
-		(property "Reference" "FP2"
-			(at 97.79 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Bottom Rail"
-			(at 97.79 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "4ms_Faceplate:Rail_Connection_16HP"
-			(at 97.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 97.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Posin"
-			(at 97.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" ""
-			(at 97.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "F"
-			(at 94.0816 74.4982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
-					(reference "FP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4ms_Connector:Conn_01x03")
 		(at 52.07 127 0)
 		(unit 1)
@@ -5653,6 +6269,64 @@
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
 					(reference "#PWR028")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 27.94)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "095f5296-3dad-4b30-a98d-097ba174bc8d")
+		(property "Sheetname" "Mode Led"
+			(at 68.58 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 68.58 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DOUT" output
+			(at 85.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "39f25f26-a6ed-48bf-800a-65177158170b")
+		)
+		(pin "DIN" input
+			(at 68.58 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0fece57-9de4-4805-b18e-8f47a1213c70")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820"
+					(page "22")
 				)
 			)
 		)

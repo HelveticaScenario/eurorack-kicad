@@ -671,102 +671,6 @@
 				)
 			)
 		)
-		(symbol "4ms_Power-symbol:GNDA"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "(analog) ground power-flag symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Power Flag Symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "4ms_Resistor:1k_0402"
 			(pin_numbers hide)
 			(pin_names
@@ -1940,16 +1844,16 @@
 		(uuid "0504cc9e-f72f-4cc4-b6a1-bcd76ca3f4f4")
 	)
 	(junction
+		(at 39.37 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1feaecba-e4a3-4b16-a8c6-6cc562f6740a")
+	)
+	(junction
 		(at 83.82 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b1f948b-5af4-4c7a-b24c-e403f7ea021d")
-	)
-	(junction
-		(at 39.37 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fce572c-9206-452b-8bc3-879fd01cc824")
 	)
 	(junction
 		(at 93.98 168.91)
@@ -2326,100 +2230,6 @@
 			(justify right)
 		)
 		(uuid "dc2af7a7-7b0f-4c97-8033-90033712acaf")
-	)
-	(symbol
-		(lib_id "4ms_Power-symbol:GNDA")
-		(at 93.98 161.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b05721d-5b63-4380-8c0e-917b842c6f26")
-		(property "Reference" "#PWR067"
-			(at 93.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 93.98 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "(analog) ground power-flag symbol"
-			(at 93.98 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23249c5c-0e8b-449f-9b7e-c4f4c300a332")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/3b32ef6f-f7de-4ddd-97a9-3d5452522cd1"
-					(reference "#PWR067")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/5043bc26-4ce4-47be-bac8-88b06297739f"
-					(reference "#PWR081")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/56a49501-ca12-4951-9aa9-3235726846b6"
-					(reference "#PWR034")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/7e64556a-f431-4fba-8c1d-6e9af7db61e9"
-					(reference "#PWR060")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/a947920c-59f2-438b-89ba-8e48f95d6dbc"
-					(reference "#PWR053")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/ab8d2706-56a5-4587-b9ef-c598dc5bc3f9"
-					(reference "#PWR010")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/f6bf03c5-1acc-4c33-9962-bfdc3f3d33ad"
-					(reference "#PWR017")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/ff53a658-11dc-478f-9769-67012b38ead8"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "4ms_IC:TL072")
@@ -3493,6 +3303,99 @@
 		)
 	)
 	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 93.98 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cb702bc-2cad-4b69-b551-4bd49a114067")
+		(property "Reference" "#PWR010"
+			(at 93.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f033d992-d13f-43aa-987a-b67f8bd7fbe4")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/3b32ef6f-f7de-4ddd-97a9-3d5452522cd1"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/5043bc26-4ce4-47be-bac8-88b06297739f"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/56a49501-ca12-4951-9aa9-3235726846b6"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/7e64556a-f431-4fba-8c1d-6e9af7db61e9"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/a947920c-59f2-438b-89ba-8e48f95d6dbc"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/ab8d2706-56a5-4587-b9ef-c598dc5bc3f9"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/f6bf03c5-1acc-4c33-9962-bfdc3f3d33ad"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/ff53a658-11dc-478f-9769-67012b38ead8"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4ms_IC:TL072")
 		(at 101.6 166.37 0)
 		(unit 2)
@@ -4169,100 +4072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Power-symbol:GNDA")
-		(at 39.37 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfa4a4ca-dcf4-4791-b09f-7881070f34b2")
-		(property "Reference" "#PWR063"
-			(at 39.37 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 39.37 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "(analog) ground power-flag symbol"
-			(at 39.37 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c93f7b9-258f-4922-9aca-1c0c5f6c3fcb")
-		)
-		(instances
-			(project "switch_sequencer"
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/3b32ef6f-f7de-4ddd-97a9-3d5452522cd1"
-					(reference "#PWR063")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/5043bc26-4ce4-47be-bac8-88b06297739f"
-					(reference "#PWR077")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/56a49501-ca12-4951-9aa9-3235726846b6"
-					(reference "#PWR030")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/7e64556a-f431-4fba-8c1d-6e9af7db61e9"
-					(reference "#PWR056")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/a947920c-59f2-438b-89ba-8e48f95d6dbc"
-					(reference "#PWR037")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/ab8d2706-56a5-4587-b9ef-c598dc5bc3f9"
-					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/f6bf03c5-1acc-4c33-9962-bfdc3f3d33ad"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/ff53a658-11dc-478f-9769-67012b38ead8"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 48.26 162.56 0)
 		(unit 1)
@@ -4351,6 +4160,99 @@
 				)
 				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/ff53a658-11dc-478f-9769-67012b38ead8"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Power-symbol:GND")
+		(at 39.37 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec6e8eea-95e9-4d33-a2dc-f6b7acbb3319")
+		(property "Reference" "#PWR06"
+			(at 39.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a610edb4-2b1e-4e7b-b2b7-123b198c7c53")
+		)
+		(instances
+			(project "switch_sequencer"
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/3b32ef6f-f7de-4ddd-97a9-3d5452522cd1"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/5043bc26-4ce4-47be-bac8-88b06297739f"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/56a49501-ca12-4951-9aa9-3235726846b6"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/7e64556a-f431-4fba-8c1d-6e9af7db61e9"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/a947920c-59f2-438b-89ba-8e48f95d6dbc"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/ab8d2706-56a5-4587-b9ef-c598dc5bc3f9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/f6bf03c5-1acc-4c33-9962-bfdc3f3d33ad"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/1090b42d-0526-4901-ae26-1a4493d10820/4c22d006-f8e0-4fe5-9164-b59b12367ed8/ff53a658-11dc-478f-9769-67012b38ead8"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
