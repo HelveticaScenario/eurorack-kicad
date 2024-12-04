@@ -1312,404 +1312,187 @@
 				)
 			)
 		)
-		(symbol "LTST-C195TBJRKT:LTST-C195TBJRKT"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "SamacSys_Parts:LTST-C195TBJRKT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at -2.54 8.3988 0)
+			(property "Reference" "LED"
+				(at 29.21 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
 			(property "Value" "LTST-C195TBJRKT"
-				(at -2.54 -7.2133 0)
+				(at 29.21 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "LTST-C195TBJRKT:LED_LTST-C195TBJRKT"
+			(property "Footprint" "LTSTC195TBJRKT"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2001-079/LTST-C195TBJRKT%20.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED,SMD,0605,Bi-Colour,Blue/Red Lite-On LTST-C195TBJRKT Bi-colour Blue, Red LED, 470 / 631 nm, 4-Pin 1513 (0605), Rectangle Lens SMD Package"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "0.65"
+				(at 29.21 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Mouser Part Number" "859-LTST-C195TBJRKT"
+				(at 29.21 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "PARTREV" ""
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C195TBJRKT?qs=zkxzjn%2FNGl5uy8%252BmRt4Q0Q%3D%3D"
+				(at 29.21 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Lite-On Inc."
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 29.21 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendation"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "LTST-C195TBJRKT"
+				(at 29.21 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "LTST-C195TBJRKT_0_0"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -3.81)
-					)
+			(symbol "LTST-C195TBJRKT_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 2.794 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 6.35) (xy 0.762 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 6.35) (xy 2.794 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 2.159 0.127)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.858) (xy 2.159 7.747)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.921 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 6.096) (xy 2.921 6.985)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -2.54) (xy 0.762 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -2.54) (xy 2.794 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 5.08) (xy 0.762 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 5.08) (xy 2.794 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 6.35) (xy 2.794 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -0.254) (xy 2.54 0.508) (xy 1.778 0.254) (xy 2.286 -0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 7.366) (xy 2.54 8.128) (xy 1.778 7.874) (xy 2.286 7.366)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.016) (xy 3.302 -0.254) (xy 2.54 -0.508) (xy 3.048 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 6.604) (xy 3.302 7.366) (xy 2.54 7.112) (xy 3.048 6.604)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(text "B"
-					(at 5.0811 2.541 0)
-					(effects
-						(font
-							(size 1.2705 1.2705)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "R"
-					(at 5.0854 -5.0909 0)
-					(effects
-						(font
-							(size 1.2727 1.2727)
-						)
-						(justify left bottom)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "~"
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "A_BLUE"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -2.54 -2.54 0)
+					(at 0 0 0)
 					(length 5.08)
-					(name "~"
+					(name "A_RED"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "~"
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "K_BLUE"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "K_RED"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1838,12 +1621,6 @@
 		)
 	)
 	(junction
-		(at 114.3 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0504cc9e-f72f-4cc4-b6a1-bcd76ca3f4f4")
-	)
-	(junction
 		(at 39.37 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1854,18 +1631,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b1f948b-5af4-4c7a-b24c-e403f7ea021d")
-	)
-	(junction
-		(at 93.98 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5147f6ae-8f12-42a9-a1a6-314210940746")
-	)
-	(junction
-		(at 93.98 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53bd3973-31d7-4b41-9b7a-17ff86020d0c")
 	)
 	(junction
 		(at 59.69 139.7)
@@ -1898,14 +1663,26 @@
 		(uuid "cc86e60c-f20e-4fbb-b57f-aea1ad19a3fb")
 	)
 	(junction
+		(at 93.98 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceab7274-9275-4f42-b074-fc2183f340f4")
+	)
+	(junction
 		(at 76.2 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d6d4ce-bb50-4b3c-8aa0-6f31de8435e4")
 	)
+	(junction
+		(at 109.22 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faafc422-ea19-4c8d-8c73-753f6fc95b0a")
+	)
 	(wire
 		(pts
-			(xy 114.3 166.37) (xy 109.22 166.37)
+			(xy 109.22 166.37) (xy 123.19 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1922,6 +1699,16 @@
 			(type default)
 		)
 		(uuid "14b2b3ce-f06a-4d5b-9734-8443aa98bc6e")
+	)
+	(wire
+		(pts
+			(xy 119.38 179.07) (xy 119.38 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b92703-5f45-4bdd-bde1-fa5e916d4f92")
 	)
 	(wire
 		(pts
@@ -1945,23 +1732,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 180.34) (xy 107.95 184.15)
+			(xy 93.98 172.72) (xy 93.98 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38fcc4b8-3249-491d-9229-e5d46e75553c")
-	)
-	(wire
-		(pts
-			(xy 93.98 176.53) (xy 93.98 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "422b3b31-ae5c-4471-977b-a7e20e0fa22a")
+		(uuid "4328c66b-3430-400f-9dc0-329a70e6f044")
 	)
 	(wire
 		(pts
@@ -1995,16 +1772,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 176.53) (xy 114.3 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c6f078a-f615-45ab-a8d5-1ced97308205")
-	)
-	(wire
-		(pts
 			(xy 45.72 149.86) (xy 39.37 149.86)
 		)
 		(stroke
@@ -2015,13 +1782,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 176.53) (xy 93.98 180.34)
+			(xy 86.36 179.07) (xy 86.36 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73d29d49-280c-4664-8077-59bbf0617601")
+		(uuid "705459a2-a31e-4202-ac47-311ab20f27e4")
+	)
+	(wire
+		(pts
+			(xy 119.38 172.72) (xy 93.98 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cb9acf-7250-485d-85c9-75fa60da625b")
 	)
 	(wire
 		(pts
@@ -2035,26 +1812,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 176.53) (xy 93.98 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a148b91-862b-4152-8e71-f1440e9daad0")
-	)
-	(wire
-		(pts
-			(xy 114.3 176.53) (xy 107.95 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d10cfe2-e17a-4dbe-93cf-9c14d4e1e487")
-	)
-	(wire
-		(pts
 			(xy 76.2 138.43) (xy 76.2 148.59)
 		)
 		(stroke
@@ -2065,33 +1822,33 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 184.15) (xy 100.33 189.23)
+			(xy 109.22 175.26) (xy 109.22 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ffde38b-47a7-4979-be52-20ea1a568aa7")
+		(uuid "85f3122f-0d72-49ab-92a0-6cd8b74bd4db")
 	)
 	(wire
 		(pts
-			(xy 100.33 189.23) (xy 114.3 189.23)
+			(xy 119.38 181.61) (xy 123.19 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9973eafa-7c47-4bf8-922b-fb5ec3ae7c85")
+		(uuid "8e1461fb-0c3d-4ff4-9542-a5d7af7abc6a")
 	)
 	(wire
 		(pts
-			(xy 93.98 180.34) (xy 107.95 180.34)
+			(xy 86.36 181.61) (xy 83.82 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a17f2cd5-7dfd-464b-ace1-378259f6fb2c")
+		(uuid "97de66c9-0427-497f-9eb4-388cacc6fa95")
 	)
 	(wire
 		(pts
@@ -2125,16 +1882,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 189.23) (xy 114.3 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d72bbe17-93e6-48ae-bde6-3236ffbe898c")
-	)
-	(wire
-		(pts
 			(xy 76.2 158.75) (xy 76.2 168.91)
 		)
 		(stroke
@@ -2142,6 +1889,26 @@
 			(type default)
 		)
 		(uuid "d8d199eb-e42d-403a-ba24-41eb88e05dac")
+	)
+	(wire
+		(pts
+			(xy 123.19 181.61) (xy 123.19 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d921953a-a7e3-45e3-a555-ec80a6b58552")
+	)
+	(wire
+		(pts
+			(xy 83.82 168.91) (xy 83.82 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b6bd1b-ee4c-4a70-bf49-fe038b706774")
 	)
 	(wire
 		(pts
@@ -2162,6 +1929,16 @@
 			(type default)
 		)
 		(uuid "ed21dbb9-5b02-4196-982e-09baccfe87a5")
+	)
+	(wire
+		(pts
+			(xy 86.36 175.26) (xy 109.22 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b06b11-697c-4c10-ba6a-af7fcf87f448")
 	)
 	(wire
 		(pts
@@ -3028,8 +2805,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LTST-C195TBJRKT:LTST-C195TBJRKT")
-		(at 102.87 181.61 0)
+		(lib_id "SamacSys_Parts:LTST-C195TBJRKT")
+		(at 86.36 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3037,7 +2814,7 @@
 		(dnp no)
 		(uuid "7a7587ee-94c1-4c77-8cf0-8cc62b98a87a")
 		(property "Reference" "D11"
-			(at 90.17 181.102 0)
+			(at 91.948 189.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,34 +2822,36 @@
 			)
 		)
 		(property "Value" "LTST-C195TBJRKT"
-			(at 90.17 183.642 0)
+			(at 95.25 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LTST-C195TBJRKT:LED_LTST-C195TBJRKT"
-			(at 102.87 181.61 0)
+		(property "Footprint" "SamacSys_Parts:LTSTC195TBJRKT"
+			(at 115.57 273.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 102.87 181.61 0)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2001-079/LTST-C195TBJRKT%20.pdf"
+			(at 115.57 373.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 181.61 0)
+		(property "Description" "LED,SMD,0605,Bi-Colour,Blue/Red Lite-On LTST-C195TBJRKT Bi-colour Blue, Red LED, 470 / 631 nm, 4-Pin 1513 (0605), Rectangle Lens SMD Package"
+			(at 86.36 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +2860,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 102.87 181.61 0)
+			(at 86.36 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +2870,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Lite-On Inc."
-			(at 102.87 181.61 0)
+			(at 86.36 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,12 +2880,62 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 102.87 181.61 0)
+			(at 86.36 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.65"
+			(at 115.57 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C195TBJRKT"
+			(at 115.57 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C195TBJRKT?qs=zkxzjn%2FNGl5uy8%252BmRt4Q0Q%3D%3D"
+			(at 115.57 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 115.57 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C195TBJRKT"
+			(at 115.57 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -3311,7 +3140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cb702bc-2cad-4b69-b551-4bd49a114067")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR067"
 			(at 93.98 154.94 0)
 			(effects
 				(font
@@ -4174,7 +4003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec6e8eea-95e9-4d33-a2dc-f6b7acbb3319")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR063"
 			(at 39.37 156.21 0)
 			(effects
 				(font
