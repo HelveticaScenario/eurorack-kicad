@@ -39079,6 +39079,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Switch Sequencer Rev 1.0\nDan Lewis\ncontact@danlewis.dev\nAlex Sludds\nalexsludds@gmail.com"
+		(at 81.8 152.4 0)
+		(layer "F.SilkS")
+		(uuid "175ae607-c64a-45cd-8d32-a424b2654042")
+		(effects
+			(font
+				(size 0.8 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "3"
 		(at 41.6 67.81849 0)
 		(layer "F.SilkS")
