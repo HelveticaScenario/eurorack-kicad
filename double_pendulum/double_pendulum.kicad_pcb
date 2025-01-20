@@ -4292,7 +4292,7 @@
 		(pad "1" thru_hole oval
 			(at 0 6)
 			(size 7.366 4.191)
-			(drill oval 6.35 3.175)
+			(drill oval 6.3 3.175)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "caee29fd-77d9-47b1-97d7-52a2e7929d13")
@@ -5902,7 +5902,7 @@
 		(pad "1" thru_hole oval
 			(at 0 0)
 			(size 7.366 4.191)
-			(drill oval 6.35 3.175)
+			(drill oval 6.3 3.175)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "ff85000a-e5d9-4e2d-9e8c-fc29a6b867eb")
@@ -8326,7 +8326,7 @@
 		(pad "1" thru_hole oval
 			(at 0 0)
 			(size 7.366 4.191)
-			(drill oval 6.35 3.175)
+			(drill oval 6.3 3.175)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "6a421b97-53f5-4c19-be56-c0e322f3ab73")
@@ -16307,7 +16307,7 @@
 		(pad "1" thru_hole oval
 			(at 0 0)
 			(size 7.366 4.191)
-			(drill oval 6.35 3.175)
+			(drill oval 6.3 3.175)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "e036e6dd-8b93-493c-841c-83a2f3d7a9ab")
@@ -17666,17 +17666,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "bdad221f-4eb7-484e-ae58-3d72590a6359")
-	)
-	(gr_circle
-		(center 89.62 32.8)
-		(end 91.22 32.8)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "e12046b6-19c4-4a3f-95f6-2f1f9ec6e792")
 	)
 	(gr_circle
 		(center 43.9 155.3)
