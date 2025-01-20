@@ -4667,7 +4667,7 @@
 		(pad "1" thru_hole oval
 			(at -0.08 0.3)
 			(size 7.366 4.191)
-			(drill oval 6.35 3.175)
+			(drill oval 6.3 3.175)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "863222f5-4de7-4a3a-8035-13d356927d53")
@@ -5181,7 +5181,7 @@
 		(pad "1" thru_hole oval
 			(at -10.48 -0.8)
 			(size 7.366 4.191)
-			(drill oval 6.35 3.175)
+			(drill oval 6.3 3.175)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "9b81a88e-ae9c-4330-a93b-b26b43a39660")
@@ -5279,7 +5279,7 @@
 		(pad "1" thru_hole oval
 			(at -1 -4.3)
 			(size 7.366 4.191)
-			(drill oval 6.35 3.175)
+			(drill oval 6.3 3.175)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "8dd516a7-f50b-40dc-bfc3-8affe7db2ee1")
@@ -7595,7 +7595,7 @@
 		(pad "1" thru_hole oval
 			(at -0.2 -3)
 			(size 7.366 4.191)
-			(drill oval 6.35 3.175)
+			(drill oval 6.3 3.175)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "b524334e-aba9-4c85-8298-4a64b5757949")
